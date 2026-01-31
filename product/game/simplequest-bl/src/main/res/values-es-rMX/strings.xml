@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="simple_quest_code_answer_a">solo A es correcta</string>
+    <string name="simple_quest_code_answer_b">solo B es correcta</string>
+    <string name="simple_quest_code_answer_yes">ambos enunciados son correctos</string>
+    <string name="simple_quest_code_answer_yes_variant">ambas afirmaciones son correctas</string>
+    <string name="simple_quest_code_answer_no">ambos enunciados son incorrectos</string>
+    <string name="simple_quest_code_answer_no_variant">ambas afirmaciones son incorrectas</string>
+    <string name="simple_quest_code_quest_a">A.</string>
+    <string name="simple_quest_code_quest_a_variant">A)</string>
+    <string name="simple_quest_code_quest_b">B.</string>
+    <string name="simple_quest_code_quest_b_variant">B)</string>
+</resources>

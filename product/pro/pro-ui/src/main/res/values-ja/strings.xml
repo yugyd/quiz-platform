@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="pro_title_extended_content">拡張コンテンツ</string>
+    <string name="pro_title_extended_content_info">3,000問以上の問題</string>
+    <string name="pro_title_work_error">間違いを克服</string>
+    <string name="pro_title_work_error_info">自分の間違いを復習しましょう</string>
+    <string name="pro_title_ad_off">広告なし</string>
+    <string name="pro_title_ad_off_info">広告に邪魔されずに学習</string>
+    <string name="pro_action_attempt">試してみる</string>
+</resources>

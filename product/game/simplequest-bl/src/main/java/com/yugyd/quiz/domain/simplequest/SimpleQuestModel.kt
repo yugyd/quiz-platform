@@ -25,3 +25,4 @@ data class SimpleQuestModel(
     override val trueAnswers: Set<String> = emptySet(),
     val answers: List<String> = emptyList(),
 ) : BaseQuestDomainModel
+

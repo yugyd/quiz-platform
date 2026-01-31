@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="theme_dialog_title_rewarded">Modo de treino</string>
+    <string name="theme_dialog_msg_rewarded">Disponível após assistir a um anúncio em vídeo</string>
+    <string name="theme_dialog_action_rewarded">Assistir</string>
+    <string name="theme_dialog_action_no_thanks">Não, obrigado</string>
+    <string name="theme_error_rewarded_ad">Não foi possível carregar o anúncio</string>
+    <string name="theme_title_theme_completed">Categoria concluída</string>
+    <string name="theme_dialog_action_info">Informações</string>
+    <string name="theme_action_close">Fechar</string>
+</resources>

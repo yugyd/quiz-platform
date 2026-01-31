@@ -57,6 +57,10 @@ class AbQuestParser @Inject constructor(@ApplicationContext private val context:
         }
     }
 
+    override fun parse(model: LatexSimpleQuestModel): LatexSimpleQuestModel {
+        return model
+    }
+
     private fun isAb(model: SimpleQuestModel) = model.answers.all(answerVariables::contains) &&
             questVariables.all(model.quest::contains)
 

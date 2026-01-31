@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="game_title_add_life">Dodatkowe życie</string>
+    <string name="game_msg_add_life">Zdobądź dodatkowe życie, oglądając reklamę</string>
+    <string name="game_action_watch">Obejrzyj</string>
+    <string name="game_action_next">Dalej</string>
+    <string name="game_error_reward_not_loaded">Nie udało się załadować reklamy</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="tasks_title_tasks_list">과제 목록</string>
+    <string name="tasks_filters">필터</string>
+    <string name="tasks_errors">오답</string>
+    <string name="tasks_favorites">즐겨찾기</string>
+    <string name="tasks_empty_state_title">검색 결과가 없습니다</string>
+    <string name="tasks_empty_state_message">필터를 변경해 보세요</string>
+</resources>

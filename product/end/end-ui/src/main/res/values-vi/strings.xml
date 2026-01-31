@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="end_title_well">Tuyệt vời!</string>
+    <string name="end_msg_new_record">Bạn đã lập kỷ lục mới! Bạn có thích không?</string>
+    <string name="end_action_leave_rate">Để lại đánh giá</string>
+    <string name="end_action_skip">Bỏ qua</string>
+    <string name="end_action_show_error">Xem lỗi</string>
+    <string name="end_action_new_game">Ván chơi mới</string>
+    <string name="end_action_watch">Xem</string>
+    <string name="end_error_reward_not_loaded">Không tải được quảng cáo</string>
+    <string name="end_title_work_favorites">Luyện các câu đã đánh dấu ưa thích</string>
+    <string name="end_title_work_error">Luyện các câu bạn làm sai</string>
+</resources>

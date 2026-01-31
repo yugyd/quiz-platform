@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="progress_title_level_schoolboy">Estudiante de escuela</string>
+    <string name="progress_title_level_amateur">Aficionado</string>
+    <string name="progress_title_level_student">Estudiante</string>
+    <string name="progress_title_level_master">Maestría</string>
+    <string name="progress_title_level_postgraduate">Posgrado</string>
+    <string name="progress_title_level_candidate">Candidato en ciencias</string>
+    <string name="progress_title_level_doctor">Doctor en ciencias</string>
+    <string name="progress_title_level_professor">Profesor</string>
+    <string name="progress_title_level_academic">Académico</string>
+    <string name="progress_title_reset_dialog_progress">Restablecer progreso</string>
+    <string name="progress_title_reset_dialog_progress_info">Se restablecerá todo el progreso. Esta acción no se puede deshacer.</string>
+    <string name="progress_format_percent">%1$d%%</string>
+    <string name="progress_action_reset_dialog_yes">Sí</string>
+    <string name="progress_action_reset_dialog_no">No</string>
+    <string name="progress_content_description_progress_icon">Ícono de progreso %1$s</string>
+</resources>

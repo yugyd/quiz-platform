@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="transition_title_show_answer">Mostrar respuesta</string>
+    <string name="transition_format_time_second">%1$.1f s</string>
+    <string name="transition_format_round_time_second">%1$d s</string>
+</resources>

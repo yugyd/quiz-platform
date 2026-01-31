@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="tasks_title_tasks_list">課題一覧</string>
+    <string name="tasks_filters">フィルター</string>
+    <string name="tasks_errors">誤答</string>
+    <string name="tasks_favorites">お気に入り</string>
+    <string name="tasks_empty_state_title">何も見つかりませんでした</string>
+    <string name="tasks_empty_state_message">フィルターを変更してみてください</string>
+</resources>

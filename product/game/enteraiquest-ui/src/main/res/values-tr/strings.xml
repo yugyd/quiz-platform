@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="enter_ai_quest_title_enter_answer">Cevabınız</string>
+    <string name="enter_ai_quest_title_supporting">En fazla 400 karakter</string>
+    <string name="enter_ai_quest_title_true_answer_description_from_ai">Yapay zekâdan gelen doğru cevap</string>
+    <string name="enter_ai_quest_continue">Devam et</string>
+    <string name="enter_ai_quest_check_error">Bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.</string>
+</resources>

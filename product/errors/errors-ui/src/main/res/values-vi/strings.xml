@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="errors_title_quest">Câu hỏi</string>
+    <string name="errors_title_true_answer">Câu trả lời đúng</string>
+    <string name="errors_title_error_list">Danh sách lỗi</string>
+</resources>

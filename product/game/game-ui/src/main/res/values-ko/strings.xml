@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="game_title_add_life">추가 생명</string>
+    <string name="game_msg_add_life">광고 영상을 시청하고 추가 생명을 받으세요</string>
+    <string name="game_action_watch">보기</string>
+    <string name="game_action_next">다음</string>
+    <string name="game_error_reward_not_loaded">광고를 불러오지 못했습니다</string>
+</resources>

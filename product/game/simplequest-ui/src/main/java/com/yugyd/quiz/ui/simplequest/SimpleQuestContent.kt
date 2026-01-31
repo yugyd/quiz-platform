@@ -37,8 +37,6 @@ import com.yugyd.quiz.uikit.theme.QuizApplicationTheme
 import com.yugyd.quiz.uikit.theme.app_color_negative
 import com.yugyd.quiz.uikit.theme.app_color_positive
 
-private const val THEME_IMAGER_RATIO = 1.77F
-
 @Composable
 fun SimpleQuestContent(
     quest: SimpleQuestUiModel,

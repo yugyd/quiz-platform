@@ -37,6 +37,7 @@ android {
         applicationId "com.yugyd.quiz"
         versionCode 45
         versionName "1.1.0"
+        buildToolsVersion "36.1.0"
 
         // Replace with your resource
         buildConfigField 'String', 'DEV_ID', '\"6210589965533125989\"'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="progress_title_level_schoolboy">Học sinh</string>
+    <string name="progress_title_level_amateur">Người nghiệp dư</string>
+    <string name="progress_title_level_student">Sinh viên</string>
+    <string name="progress_title_level_master">Thạc sĩ</string>
+    <string name="progress_title_level_postgraduate">Nghiên cứu sinh</string>
+    <string name="progress_title_level_candidate">Ứng viên khoa học</string>
+    <string name="progress_title_level_doctor">Tiến sĩ khoa học</string>
+    <string name="progress_title_level_professor">Giáo sư</string>
+    <string name="progress_title_level_academic">Viện sĩ</string>
+    <string name="progress_title_reset_dialog_progress">Đặt lại tiến độ</string>
+    <string name="progress_title_reset_dialog_progress_info">Toàn bộ tiến độ sẽ được đặt lại. Hành động này không thể hoàn tác.</string>
+    <string name="progress_format_percent">%1$d%%</string>
+    <string name="progress_action_reset_dialog_yes">Có</string>
+    <string name="progress_action_reset_dialog_no">Không</string>
+    <string name="progress_content_description_progress_icon">Biểu tượng tiến độ %1$s</string>
+</resources>

@@ -20,29 +20,35 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object ContentDatabaseModule {
 
-    private const val CONTENT_DB_NAME = "content-encode-pro.db"
-
     @Singleton
     @Provides
-    internal fun provideContentDatabase(@ApplicationContext appContext: Context) = Room
-        .databaseBuilder(
-            appContext,
-            ContentDatabase::class.java,
-            CONTENT_DB_NAME,
-        )
-        .let {
-            if (GlobalConfig.IS_BASED_ON_PLATFORM_APP) {
-                it.createFromAsset(CONTENT_DB_NAME)
-            } else {
-                it
-                    .addMigrations(
-                        MIGRATION_5_6,
-                        MIGRATION_6_7,
-                    )
+    internal fun provideContentDatabase(
+        @ApplicationContext appContext: Context,
+        contentDbNameProvider: ContentDatabaseNameProvider,
+    ): ContentDatabase {
+        val contentDbName = contentDbNameProvider.getName(appContext)
+
+        val room = Room
+            .databaseBuilder(
+                appContext,
+                ContentDatabase::class.java,
+                contentDbName,
+            )
+            .let {
+                if (GlobalConfig.IS_BASED_ON_PLATFORM_APP) {
+                    it.createFromAsset(contentDbName)
+                } else {
+                    it
+                        .addMigrations(
+                            MIGRATION_5_6,
+                            MIGRATION_6_7,
+                        )
+                }
             }
-        }
-        .fallbackToDestructiveMigration()
-        .build()
+            .fallbackToDestructiveMigration()
+            .build()
+        return room
+    }
 
     @Provides
     internal fun provideThemeDao(db: ContentDatabase): ThemeDao = db.themeDao()

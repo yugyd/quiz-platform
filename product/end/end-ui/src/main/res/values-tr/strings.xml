@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="end_title_well">Harika!</string>
+    <string name="end_msg_new_record">Yeni rekor kırdınız! Hoşunuza gitti mi?</string>
+    <string name="end_action_leave_rate">Yorum bırakın</string>
+    <string name="end_action_skip">Atla</string>
+    <string name="end_action_show_error">Hataları gör</string>
+    <string name="end_action_new_game">Yeni oyun</string>
+    <string name="end_action_watch">İzle</string>
+    <string name="end_error_reward_not_loaded">Reklam yüklenemedi</string>
+    <string name="end_title_work_favorites">Favoriler üzerinde çalışma</string>
+    <string name="end_title_work_error">Hatalar üzerinde çalışma</string>
+</resources>

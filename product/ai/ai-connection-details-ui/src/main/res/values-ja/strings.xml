@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="ai_connection_details_title">キー作成手順</string>
+    <string name="ai_connection_details_description">AIプロバイダーの公式ドキュメントに従ってキーを作成してください</string>
+    <string name="ai_connection_details_open">作成</string>
+    <string name="ai_connection_details_title_add">新しいAI接続</string>
+    <string name="ai_connection_details_title_edit">AI接続の編集</string>
+    <string name="ai_connection_details_name">名前</string>
+    <string name="ai_connection_details_provider">AIプロバイダー</string>
+    <string name="ai_connection_details_api_key">APIキー</string>
+    <string name="ai_connection_details_project_folder">プロジェクト</string>
+    <string name="ai_connection_details_action_save">保存</string>
+    <string name="ai_connection_details_action_delete">削除</string>
+</resources>

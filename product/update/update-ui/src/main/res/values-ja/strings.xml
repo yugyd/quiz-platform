@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="update_title_update">新しいアップデートがあります</string>
+    <string name="update_title_update_description">新機能とコンテンツをご利用いただけます</string>
+    <string name="update_action_update">アップデート</string>
+</resources>

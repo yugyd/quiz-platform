@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="theme_dialog_title_rewarded">Antrenman modu</string>
+    <string name="theme_dialog_msg_rewarded">Reklam videosu izledikten sonra kullanılabilir</string>
+    <string name="theme_dialog_action_rewarded">İzle</string>
+    <string name="theme_dialog_action_no_thanks">Hayır, teşekkürler</string>
+    <string name="theme_error_rewarded_ad">Reklam yüklenemedi</string>
+    <string name="theme_title_theme_completed">Kategori tamamlandı</string>
+    <string name="theme_dialog_action_info">Bilgi</string>
+    <string name="theme_action_close">Kapat</string>
+</resources>

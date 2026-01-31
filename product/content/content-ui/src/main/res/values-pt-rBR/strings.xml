@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">Conteúdo</string>
+    <string name="content_empty_state_new_file">Novo arquivo</string>
+    <string name="content_empty_state_title">Introdução</string>
+    <string name="content_empty_state_message">Selecione um novo arquivo com conteúdo e depois aproveite o aplicativo com o seu conteúdo.</string>
+    <string name="content_empty_state_button">Selecionar arquivo</string>
+    <string name="content_empty_state_note">O conteúdo deve estar no formato de dados correto.</string>
+    <string name="content_error_not_added_content_is_exists">O conteúdo já foi adicionado</string>
+    <string name="content_error_invalid_uri">Não foi possível obter acesso ao arquivo de conteúdo</string>
+    <string name="content_error_add_is_failed">Não foi possível adicionar o conteúdo</string>
+    <string name="content_error_delete_is_failed">Não foi possível excluir o conteúdo</string>
+    <string name="content_error_not_select_and_delete">O conteúdo selecionado é inválido e foi excluído</string>
+    <string name="content_error_select_is_failed">Não foi possível selecionar o conteúdo</string>
+    <string name="content_error_one_item_not_delete">O único conteúdo não pode ser excluído</string>
+    <string name="content_error_selected_item_not_delete">O conteúdo selecionado não pode ser excluído</string>
+    <string name="content_format_error_content_quest_duplicate_id">Foram encontrados IDs duplicados; defina IDs exclusivos para as perguntas: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Foram encontrados IDs duplicados; defina IDs exclusivos para os tópicos: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Foram encontradas perguntas mal estruturadas: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Foram encontrados tópicos mal estruturados: %s</string>
+    <string name="content_error_content_format_url_not_loaded">O link para o recurso de formato de conteúdo não foi carregado</string>
+</resources>

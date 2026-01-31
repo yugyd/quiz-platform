@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="progress_title_level_schoolboy">Оқушы</string>
+    <string name="progress_title_level_amateur">Әуесқой</string>
+    <string name="progress_title_level_student">Студент</string>
+    <string name="progress_title_level_master">Магистр</string>
+    <string name="progress_title_level_postgraduate">Аспирант</string>
+    <string name="progress_title_level_candidate">Ғылым кандидаты</string>
+    <string name="progress_title_level_doctor">Ғылым докторы</string>
+    <string name="progress_title_level_professor">Профессор</string>
+    <string name="progress_title_level_academic">Академик</string>
+    <string name="progress_title_reset_dialog_progress">Прогресті қалпына келтіру</string>
+    <string name="progress_title_reset_dialog_progress_info">Барлық прогресс өшіріледі. Бұл әрекетті болдырмау мүмкін емес.</string>
+    <string name="progress_format_percent">%1$d%%</string>
+    <string name="progress_action_reset_dialog_yes">Иә</string>
+    <string name="progress_action_reset_dialog_no">Жоқ</string>
+    <string name="progress_content_description_progress_icon">%1$s прогресс иконкасы</string>
+</resources>

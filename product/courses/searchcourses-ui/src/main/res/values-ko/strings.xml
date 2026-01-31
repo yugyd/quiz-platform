@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="search_course_title_search_theme">코스 검색</string>
+    <string name="search_course_title_themes">주제</string>
+    <string name="search_course_empty_state_message">\&quot;%s\&quot;에 대한 결과가 없습니다</string>
+</resources>

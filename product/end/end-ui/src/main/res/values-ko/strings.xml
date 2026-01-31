@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="end_title_well">훌륭해요!</string>
+    <string name="end_msg_new_record">새 기록을 세웠어요! 마음에 드셨나요?</string>
+    <string name="end_action_leave_rate">리뷰 남기기</string>
+    <string name="end_action_skip">건너뛰기</string>
+    <string name="end_action_show_error">오답 보기</string>
+    <string name="end_action_new_game">새 게임</string>
+    <string name="end_action_watch">보기</string>
+    <string name="end_error_reward_not_loaded">광고를 불러오지 못했습니다</string>
+    <string name="end_title_work_favorites">즐겨찾기 학습</string>
+    <string name="end_title_work_error">오답 학습</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="game_title_add_life">Mạng phụ</string>
+    <string name="game_msg_add_life">Nhận thêm một mạng bằng cách xem video quảng cáo</string>
+    <string name="game_action_watch">Xem</string>
+    <string name="game_action_next">Tiếp</string>
+    <string name="game_error_reward_not_loaded">Không tải được quảng cáo</string>
+</resources>

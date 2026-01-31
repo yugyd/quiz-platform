@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="profile_title_content">İçerik</string>
+    <string name="profile_title_content_not_selected">İçerik seçilmedi</string>
+    <string name="profile_title_social">Sosyal ağlar</string>
+    <string name="profile_title_settings">Ayarlar</string>
+    <string name="profile_title_show_answer">Cevabı göster</string>
+    <string name="profile_title_sorting_quest">Soruları sıralama</string>
+    <string name="profile_title_vibration">Titreşim</string>
+    <string name="profile_tasks">Görevler</string>
+    <string name="profile_content_banner_title">Quiz-Platform</string>
+    <string name="profile_content_banner_subtitle">Uygulama, açık kaynaklı Quiz-Platform çözümü temel alınarak oluşturulmuştur. Platformu GitHub’da değerlendirmeniz bizi mutlu eder.</string>
+    <string name="profile_content_banner_rate">Puanla</string>
+    <string name="profile_content_banner_report_error">Sorun bildir</string>
+    <string name="profile_title_purchases">Satın almalar</string>
+    <string name="profile_title_pro_version">Pro sürüm</string>
+    <string name="profile_title_please_us">Bizi sevindir</string>
+    <string name="profile_title_rate_app">Uygulamayı değerlendir</string>
+    <string name="profile_title_share_app">Bir arkadaşına anlat</string>
+    <string name="profile_title_other_apps">Diğer uygulamalarımız</string>
+    <string name="profile_title_feedback">Geri bildirim</string>
+    <string name="profile_title_report_error">Hata bildir</string>
+    <string name="profile_title_privacy_policy">Gizlilik politikası</string>
+    <string name="profile_title_telegram">Telegram kanalı</string>
+    <string name="profile_title_telegram_promo">Günlük sorular ve geri bildirim</string>
+    <string name="profile_format_version">Sürüm %1$s</string>
+    <string name="profile_format_time_second">%1$.1f sn</string>
+    <string name="profile_format_round_time_second">%1$d sn</string>
+    <string name="profile_title_section_ai">Yapay zeka</string>
+    <string name="profile_title_ai">YZ Beta</string>
+    <string name="profile_title_ai_not_connected">Kullanılabilir bağlantılar</string>
+    <string name="profile_title_ai_off">Kapalı</string>
+</resources>

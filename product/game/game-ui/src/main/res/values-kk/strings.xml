@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="game_title_add_life">Қосымша өмір</string>
+    <string name="game_msg_add_life">Жарнамалық бейнероликті көріп, қосымша өмір алыңыз</string>
+    <string name="game_action_watch">Көру</string>
+    <string name="game_action_next">Әрі қарай</string>
+    <string name="game_error_reward_not_loaded">Жарнаманы жүктеу мүмкін болмады</string>
+</resources>

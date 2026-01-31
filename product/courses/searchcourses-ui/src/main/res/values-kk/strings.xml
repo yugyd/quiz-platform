@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="search_course_title_search_theme">Курсты іздеу</string>
+    <string name="search_course_title_themes">Тақырыптар</string>
+    <string name="search_course_empty_state_message">\&quot;%s\&quot; сұрауы бойынша ештеңе табылмады</string>
+</resources>

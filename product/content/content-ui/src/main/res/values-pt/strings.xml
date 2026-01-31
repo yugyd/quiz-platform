@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">Conteúdo</string>
+    <string name="content_empty_state_new_file">Novo ficheiro</string>
+    <string name="content_empty_state_title">Introdução</string>
+    <string name="content_empty_state_message">Selecione um novo ficheiro com conteúdo e depois desfrute da aplicação com o seu conteúdo.</string>
+    <string name="content_empty_state_button">Selecionar ficheiro</string>
+    <string name="content_empty_state_note">O conteúdo deve corresponder ao formato de dados.</string>
+    <string name="content_error_not_added_content_is_exists">O conteúdo já foi adicionado</string>
+    <string name="content_error_invalid_uri">Não foi possível obter acesso ao ficheiro de conteúdo</string>
+    <string name="content_error_add_is_failed">Não foi possível adicionar o conteúdo</string>
+    <string name="content_error_delete_is_failed">Não foi possível eliminar o conteúdo</string>
+    <string name="content_error_not_select_and_delete">O conteúdo selecionado é inválido e foi eliminado</string>
+    <string name="content_error_select_is_failed">Não foi possível selecionar o conteúdo</string>
+    <string name="content_error_one_item_not_delete">O único conteúdo não pode ser eliminado</string>
+    <string name="content_error_selected_item_not_delete">O conteúdo selecionado não pode ser eliminado</string>
+    <string name="content_format_error_content_quest_duplicate_id">Foram encontrados IDs duplicados, defina IDs únicos para as perguntas: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Foram encontrados IDs duplicados, defina IDs únicos para os temas: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Foram encontradas perguntas mal definidas: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Foram encontrados temas mal definidos: %s</string>
+    <string name="content_error_content_format_url_not_loaded">A ligação para o recurso de formato de conteúdo não foi carregada</string>
+</resources>

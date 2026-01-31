@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="enter_ai_quest_title_enter_answer">あなたの回答</string>
+    <string name="enter_ai_quest_title_supporting">400文字以内</string>
+    <string name="enter_ai_quest_title_true_answer_description_from_ai">AIによる正解</string>
+    <string name="enter_ai_quest_continue">続行</string>
+    <string name="enter_ai_quest_check_error">問題が発生しました。しばらくしてからもう一度お試しください。</string>
+</resources>

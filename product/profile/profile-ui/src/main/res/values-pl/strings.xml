@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="profile_title_content">Treści</string>
+    <string name="profile_title_content_not_selected">Treści nie wybrano</string>
+    <string name="profile_title_social">Media społecznościowe</string>
+    <string name="profile_title_settings">Ustawienia</string>
+    <string name="profile_title_show_answer">Podgląd odpowiedzi</string>
+    <string name="profile_title_sorting_quest">Sortowanie pytań</string>
+    <string name="profile_title_vibration">Wibracje</string>
+    <string name="profile_tasks">Zadania</string>
+    <string name="profile_content_banner_title">Quiz-Platform</string>
+    <string name="profile_content_banner_subtitle">Aplikacja oparta jest na open‑source’owym rozwiązaniu Quiz-Platform. Będziemy wdzięczni za Twoją ocenę platformy na GitHubie.</string>
+    <string name="profile_content_banner_rate">Oceń</string>
+    <string name="profile_content_banner_report_error">Zgłoś problem</string>
+    <string name="profile_title_purchases">Zakupy</string>
+    <string name="profile_title_pro_version">Wersja Pro</string>
+    <string name="profile_title_please_us">Spraw nam przyjemność</string>
+    <string name="profile_title_rate_app">Oceń aplikację</string>
+    <string name="profile_title_share_app">Poleć znajomemu</string>
+    <string name="profile_title_other_apps">Nasze aplikacje</string>
+    <string name="profile_title_feedback">Opinie</string>
+    <string name="profile_title_report_error">Zgłoś błąd</string>
+    <string name="profile_title_privacy_policy">Polityka prywatności</string>
+    <string name="profile_title_telegram">Kanał Telegram</string>
+    <string name="profile_title_telegram_promo">Codzienne pytania i kontakt zwrotny</string>
+    <string name="profile_format_version">wersja %1$s</string>
+    <string name="profile_format_time_second">%1$.1f s</string>
+    <string name="profile_format_round_time_second">%1$d s</string>
+    <string name="profile_title_section_ai">Sztuczna inteligencja</string>
+    <string name="profile_title_ai">SI Beta</string>
+    <string name="profile_title_ai_not_connected">Dostępne połączenia</string>
+    <string name="profile_title_ai_off">Wyłączone</string>
+</resources>

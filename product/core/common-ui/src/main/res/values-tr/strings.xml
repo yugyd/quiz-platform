@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="common_title_select_messenger">E-posta mesajlaşma uygulamasını seçin</string>
+    <string name="common_title_message_error">Hata mesajı</string>
+    <string name="common_message_describe_error">Hatanın ayrıntılarını yazın</string>
+    <string name="common_format_message_subject">%1$s. %2$s</string>
+</resources>

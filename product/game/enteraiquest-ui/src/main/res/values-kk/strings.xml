@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="enter_ai_quest_title_enter_answer">Сіздің жауабыңыз</string>
+    <string name="enter_ai_quest_title_supporting">400 таңбадан артық емес</string>
+    <string name="enter_ai_quest_title_true_answer_description_from_ai">ЖИ-ден алынған дұрыс жауап</string>
+    <string name="enter_ai_quest_continue">Жалғастыру</string>
+    <string name="enter_ai_quest_check_error">Бірдеңе дұрыс болмады. Кейінірек қайталап көріңіз.</string>
+</resources>

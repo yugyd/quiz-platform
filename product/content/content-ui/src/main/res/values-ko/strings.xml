@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">콘텐츠</string>
+    <string name="content_empty_state_new_file">새 파일</string>
+    <string name="content_empty_state_title">시작하기</string>
+    <string name="content_empty_state_message">콘텐츠가 포함된 새 파일을 선택한 다음, 앱에서 나만의 콘텐츠를 즐겨 보세요.</string>
+    <string name="content_empty_state_button">파일 선택</string>
+    <string name="content_empty_state_note">콘텐츠는 데이터 형식을 준수해야 합니다.</string>
+    <string name="content_error_not_added_content_is_exists">콘텐츠가 이미 추가되어 있습니다</string>
+    <string name="content_error_invalid_uri">콘텐츠 파일에 접근할 수 없습니다</string>
+    <string name="content_error_add_is_failed">콘텐츠를 추가하지 못했습니다</string>
+    <string name="content_error_delete_is_failed">콘텐츠를 삭제하지 못했습니다</string>
+    <string name="content_error_not_select_and_delete">선택한 콘텐츠가 유효하지 않아 삭제되었습니다</string>
+    <string name="content_error_select_is_failed">콘텐츠를 선택하지 못했습니다</string>
+    <string name="content_error_one_item_not_delete">유일한 콘텐츠는 삭제할 수 없습니다</string>
+    <string name="content_error_selected_item_not_delete">선택한 콘텐츠는 삭제할 수 없습니다</string>
+    <string name="content_format_error_content_quest_duplicate_id">중복된 ID가 발견되었습니다. 다음 질문에 고유한 ID를 지정해 주세요: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">중복된 ID가 발견되었습니다. 다음 주제에 고유한 ID를 지정해 주세요: %s</string>
+    <string name="content_format_error_content_quest_not_valid">다음 질문에 형식 오류가 있습니다: %s</string>
+    <string name="content_format_error_content_theme_not_valid">다음 주제에 형식 오류가 있습니다: %s</string>
+    <string name="content_error_content_format_url_not_loaded">콘텐츠 형식 리소스에 대한 링크를 불러오지 못했습니다</string>
+</resources>

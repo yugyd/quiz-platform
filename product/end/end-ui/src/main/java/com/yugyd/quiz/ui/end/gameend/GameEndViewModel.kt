@@ -143,6 +143,7 @@ internal class GameEndViewModel @Inject constructor(
         }
 
         Mode.AI_TASKS -> {
+            // Bad
             payload.themeId?.let { themeId ->
                 aiQuestInteractor.getThemeDetail(themeId).name
             }.orEmpty()

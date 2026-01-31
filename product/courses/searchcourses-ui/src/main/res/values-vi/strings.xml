@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="search_course_title_search_theme">Tìm kiếm khóa học</string>
+    <string name="search_course_title_themes">Chủ đề</string>
+    <string name="search_course_empty_state_message">Không tìm thấy kết quả nào cho yêu cầu \&quot;%s\&quot;</string>
+</resources>

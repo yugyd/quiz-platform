@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">Nội dung</string>
+    <string name="content_empty_state_new_file">Tệp mới</string>
+    <string name="content_empty_state_title">Bắt đầu</string>
+    <string name="content_empty_state_message">Chọn một tệp nội dung mới, sau đó hãy tận hưởng ứng dụng với nội dung của bạn.</string>
+    <string name="content_empty_state_button">Chọn tệp</string>
+    <string name="content_empty_state_note">Nội dung phải tuân theo định dạng dữ liệu.</string>
+    <string name="content_error_not_added_content_is_exists">Nội dung đã được thêm</string>
+    <string name="content_error_invalid_uri">Không thể truy cập tệp nội dung</string>
+    <string name="content_error_add_is_failed">Không thể thêm nội dung</string>
+    <string name="content_error_delete_is_failed">Không thể xóa nội dung</string>
+    <string name="content_error_not_select_and_delete">Nội dung đã chọn không hợp lệ và đã bị xóa</string>
+    <string name="content_error_select_is_failed">Không thể chọn nội dung</string>
+    <string name="content_error_one_item_not_delete">Không thể xóa nội dung duy nhất</string>
+    <string name="content_error_selected_item_not_delete">Không thể xóa nội dung đã chọn</string>
+    <string name="content_format_error_content_quest_duplicate_id">Phát hiện trùng ID, hãy đặt ID duy nhất cho các câu hỏi: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Phát hiện trùng ID, hãy đặt ID duy nhất cho các chủ đề: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Phát hiện các câu hỏi được soạn không đúng: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Phát hiện các chủ đề được soạn không đúng: %s</string>
+    <string name="content_error_content_format_url_not_loaded">Không tải được liên kết đến tài nguyên định dạng nội dung</string>
+</resources>

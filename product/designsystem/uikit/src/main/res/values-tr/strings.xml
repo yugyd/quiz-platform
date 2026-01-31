@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="app_name">Quiz Platform</string>
+    <string name="ds_navbar_title_theme">Temalar</string>
+    <string name="ds_navbar_title_courses">Kurslar</string>
+    <string name="ds_navbar_title_correct">Düzeltme</string>
+    <string name="ds_navbar_title_progress">İlerleme</string>
+    <string name="ds_navbar_title_profile">Profil</string>
+    <string name="ds_game_mode_title_arcade">Arcade</string>
+    <string name="ds_game_mode_title_train">Antrenman</string>
+    <string name="ds_game_mode_title_unknown">Bilinmiyor</string>
+    <string name="ds_game_mode_title_favorites">Favoriler</string>
+    <string name="ds_app_version_title_content_lite">Lite</string>
+    <string name="ds_app_version_title_content_pro">Pro</string>
+    <string name="ds_format_record_progress">%1$d / %2$d</string>
+    <string name="ds_action_game">Oyna</string>
+    <string name="ds_error_base">Bir şeyler yanlış gitti</string>
+    <string name="ds_error_fields">Tüm alanları doldurun</string>
+    <string name="ds_empty_state_title">Eyvah, veri yok</string>
+    <string name="ds_empty_state_description">Lütfen ekranı yeniden yüklemeyi deneyin</string>
+    <string name="ds_empty_state_retry">Tekrar dene</string>
+    <string name="ds_game_mode_title_ai_tasks">Yapay Zekâ Görevleri</string>
+</resources>

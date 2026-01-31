@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="simple_quest_code_answer_a">yalnızca A doğru</string>
+    <string name="simple_quest_code_answer_b">yalnızca B doğru</string>
+    <string name="simple_quest_code_answer_yes">her iki yargı da doğru</string>
+    <string name="simple_quest_code_answer_yes_variant">her iki ifade de doğru</string>
+    <string name="simple_quest_code_answer_no">her iki yargı da yanlış</string>
+    <string name="simple_quest_code_answer_no_variant">her iki ifade de yanlış</string>
+    <string name="simple_quest_code_quest_a">A.</string>
+    <string name="simple_quest_code_quest_a_variant">A)</string>
+    <string name="simple_quest_code_quest_b">B.</string>
+    <string name="simple_quest_code_quest_b_variant">B)</string>
+</resources>

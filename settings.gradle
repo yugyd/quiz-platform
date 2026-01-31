@@ -6,6 +6,14 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id.contains("com.yugyd.buildlogic")) {
+                useModule("com.yugyd.buildlogic:convention:${requested.version}")
+            }
+        }
+    }
 }
 
 dependencyResolutionManagement {

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">Контент</string>
+    <string name="content_empty_state_new_file">Жаңа файл</string>
+    <string name="content_empty_state_title">Жұмысты бастау</string>
+    <string name="content_empty_state_message">Контенті бар жаңа файлды таңдаңыз, содан кейін өз контентіңізбен қолданбаны пайдаланыңыз.</string>
+    <string name="content_empty_state_button">Файл таңдау</string>
+    <string name="content_empty_state_note">Контент деректер форматына сәйкес болуы тиіс.</string>
+    <string name="content_error_not_added_content_is_exists">Контент бұрыннан қосылған</string>
+    <string name="content_error_invalid_uri">Контент файлына қол жеткізу мүмкін болмады</string>
+    <string name="content_error_add_is_failed">Контентті қосу мүмкін болмады</string>
+    <string name="content_error_delete_is_failed">Контентті жою мүмкін болмады</string>
+    <string name="content_error_not_select_and_delete">Таңдалған контент жарамсыз және жойылды</string>
+    <string name="content_error_select_is_failed">Контентті таңдау мүмкін болмады</string>
+    <string name="content_error_one_item_not_delete">Жалғыз контентті жоюға болмайды</string>
+    <string name="content_error_selected_item_not_delete">Таңдалған контентті жоюға болмайды</string>
+    <string name="content_format_error_content_quest_duplicate_id">Қайталанатын ID-лер табылды, сұрақтар үшін бірегей ID-лер орнатыңыз: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Қайталанатын ID-лер табылды, тақырыптар үшін бірегей ID-лер орнатыңыз: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Дұрыс құрастырылмаған сұрақтар табылды: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Дұрыс құрастырылмаған тақырыптар табылды: %s</string>
+    <string name="content_error_content_format_url_not_loaded">Контент форматы ресурсына сілтеме жүктелмеді</string>
+</resources>

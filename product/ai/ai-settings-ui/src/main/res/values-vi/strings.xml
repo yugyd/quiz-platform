@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_settings_storage_term">
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+
+    <!--Generated Translator AI-->
+    <string name="ai_settings_title_ai">AI Beta</string>
+    <string name="ai_settings_title_enable_ai">Bật AI Beta</string>
+    <string name="ai_settings_title_ai_connected">Đã kết nối</string>
+    <string name="ai_settings_add_ai_connection">Thêm kết nối AI</string>
+    <string name="ai_settings_term_of_cache">Chu kỳ làm mới nội dung</string>
+    <string name="ai_settings_direct_connection">Kết nối trực tiếp</string>
+    <string name="ai_settings_privacy_policy">Chính sách sử dụng AI</string>
+    <string name="ai_settings_ai_test_info">Tính năng này đang trong chế độ thử nghiệm</string>
+</resources>

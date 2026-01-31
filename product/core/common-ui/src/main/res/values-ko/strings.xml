@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="common_title_select_messenger">메일 메신저를 선택하세요</string>
+    <string name="common_title_message_error">오류 메시지</string>
+    <string name="common_message_describe_error">오류를 설명하세요</string>
+    <string name="common_format_message_subject">%1$s. %2$s</string>
+</resources>

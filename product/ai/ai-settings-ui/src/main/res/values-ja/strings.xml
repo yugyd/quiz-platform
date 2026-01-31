@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_settings_storage_term">
+        <item quantity="other">%1$d 日</item>
+    </plurals>
+
+    <!--Generated Translator AI-->
+    <string name="ai_settings_title_ai">AI ベータ</string>
+    <string name="ai_settings_title_enable_ai">AI ベータを有効にする</string>
+    <string name="ai_settings_title_ai_connected">接続済み</string>
+    <string name="ai_settings_add_ai_connection">AI 接続を追加</string>
+    <string name="ai_settings_term_of_cache">コンテンツ更新間隔</string>
+    <string name="ai_settings_direct_connection">ダイレクト接続</string>
+    <string name="ai_settings_privacy_policy">AI 利用ポリシー</string>
+    <string name="ai_settings_ai_test_info">この機能はテストモード中です</string>
+</resources>

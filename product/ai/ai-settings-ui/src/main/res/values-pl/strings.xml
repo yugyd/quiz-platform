@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_settings_storage_term">
+        <item quantity="one">%1$d dzień</item>
+        <item quantity="few">%1$d dni</item>
+        <item quantity="many">%1$d dni</item>
+        <item quantity="other">%1$d dni</item>
+    </plurals>
+
+    <!--Generated Translator AI-->
+    <string name="ai_settings_title_ai">AI Beta</string>
+    <string name="ai_settings_title_enable_ai">Włącz AI Beta</string>
+    <string name="ai_settings_title_ai_connected">Połączono</string>
+    <string name="ai_settings_add_ai_connection">Dodaj połączenie AI</string>
+    <string name="ai_settings_term_of_cache">Okres odświeżania treści</string>
+    <string name="ai_settings_direct_connection">Połączenie bezpośrednie</string>
+    <string name="ai_settings_privacy_policy">Zasady korzystania z AI</string>
+    <string name="ai_settings_ai_test_info">Ta funkcja jest w trybie testowym</string>
+</resources>

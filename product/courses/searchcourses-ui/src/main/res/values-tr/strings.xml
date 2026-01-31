@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="search_course_title_search_theme">Kurs ara</string>
+    <string name="search_course_title_themes">Konular</string>
+    <string name="search_course_empty_state_message">\&quot;%s\&quot; için sonuç bulunamadı</string>
+</resources>

@@ -20,11 +20,13 @@
     <string name="end_msg_new_record">New record set! Did you enjoy it?</string>
     <string name="end_action_leave_rate">Leave feedback</string>
     <string name="end_action_skip">Skip</string>
+
     <string name="end_action_show_error">View mistakes</string>
     <string name="end_action_new_game">New game</string>
+
     <string name="end_action_watch">Watch</string>
-    <string name="end_action_next">Next</string>
     <string name="end_error_reward_not_loaded">Failed to load ad</string>
     <string name="end_title_work_favorites">Working on favorites</string>
+
     <string name="end_title_work_error">Working on mistakes</string>
 </resources>

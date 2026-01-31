@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="theme_dialog_title_rewarded">훈련 모드</string>
+    <string name="theme_dialog_msg_rewarded">광고 영상을 시청한 후에 이용할 수 있습니다</string>
+    <string name="theme_dialog_action_rewarded">시청하기</string>
+    <string name="theme_dialog_action_no_thanks">아니요, 괜찮아요</string>
+    <string name="theme_error_rewarded_ad">광고를 불러오지 못했습니다</string>
+    <string name="theme_title_theme_completed">카테고리를 완료했습니다</string>
+    <string name="theme_dialog_action_info">정보</string>
+    <string name="theme_action_close">닫기</string>
+</resources>

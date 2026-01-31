@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="search_course_title_search_theme">コースを検索</string>
+    <string name="search_course_title_themes">テーマ</string>
+    <string name="search_course_empty_state_message">「%s」に一致するコースは見つかりませんでした</string>
+</resources>

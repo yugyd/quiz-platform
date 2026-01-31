@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="pro_title_extended_content">Genişletilmiş içerik</string>
+    <string name="pro_title_extended_content_info">Üç binden fazla soru</string>
+    <string name="pro_title_work_error">Hatalar üzerinde çalışma</string>
+    <string name="pro_title_work_error_info">Hatalarınızı tekrar gözden geçirin</string>
+    <string name="pro_title_ad_off">Reklamsız</string>
+    <string name="pro_title_ad_off_info">Reklamlarla dikkatiniz dağılmasın</string>
+    <string name="pro_action_attempt">Dene</string>
+</resources>

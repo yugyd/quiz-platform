@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="correct_title_remember_quest">Bây giờ các câu hỏi sẽ được ghi nhớ!</string>
+    <string name="correct_msg_correct_quest">Sửa lỗi để củng cố kiến thức. Ở đây tập hợp tất cả các lỗi của bạn.</string>
+    <string name="correct_msg_correct_pro_available">Chỉ khả dụng trong bản Pro.</string>
+</resources>

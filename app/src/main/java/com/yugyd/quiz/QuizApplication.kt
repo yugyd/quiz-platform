@@ -40,7 +40,9 @@ class QuizApplication : Application() {
     @Inject
     lateinit var adClient: AdClient
 
-    init {
+    override fun onCreate() {
+        super.onCreate()
+
         with(GlobalConfig) {
             AD_PROVIDER = AdProviderType.from(BuildConfig.AD_PROVIDER)
             DEBUG = BuildConfig.DEBUG
@@ -49,11 +51,8 @@ class QuizApplication : Application() {
             DEV_ID = BuildConfig.DEV_ID
             VERSION_CODE = BuildConfig.VERSION_CODE
             IS_BASED_ON_PLATFORM_APP = BuildConfig.IS_BASED_ON_PLATFORM_APP
+            LOCALE_CODE = getString(R.string.locale_code)
         }
-    }
-
-    override fun onCreate() {
-        super.onCreate()
 
         if (GlobalConfig.DEBUG) {
             Timber.plant(DebugTree())

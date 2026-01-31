@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="simple_quest_code_answer_a">chỉ A đúng</string>
+    <string name="simple_quest_code_answer_b">chỉ B đúng</string>
+    <string name="simple_quest_code_answer_yes">cả hai mệnh đề đều đúng</string>
+    <string name="simple_quest_code_answer_yes_variant">cả hai khẳng định đều đúng</string>
+    <string name="simple_quest_code_answer_no">cả hai mệnh đề đều sai</string>
+    <string name="simple_quest_code_answer_no_variant">cả hai khẳng định đều sai</string>
+    <string name="simple_quest_code_quest_a">A.</string>
+    <string name="simple_quest_code_quest_a_variant">A)</string>
+    <string name="simple_quest_code_quest_b">B.</string>
+    <string name="simple_quest_code_quest_b_variant">B)</string>
+</resources>

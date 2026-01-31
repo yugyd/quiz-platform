@@ -309,6 +309,65 @@ internal fun TelegramProfileItem(
 
 @ThemePreviews
 @Composable
+private fun SectionProfileItemPreview(
+    @PreviewParameter(ProfilePreviewParameterProvider::class) items: List<ProfileUiModel>,
+) {
+    QuizApplicationTheme {
+        Surface {
+            SectionProfileItem(
+                sectionTitle = items.filterIsInstance<SectionProfileUiModel>().first().title
+            )
+        }
+    }
+}
+
+@ThemePreviews
+@Composable
+private fun SelectProfileItemPreview(
+    @PreviewParameter(ProfilePreviewParameterProvider::class) items: List<ProfileUiModel>,
+) {
+    QuizApplicationTheme {
+        Surface {
+            SelectProfileItem(
+                model = items.filterIsInstance<SelectItemProfileUiModel>().first(),
+                onItemClicked = {},
+            )
+        }
+    }
+}
+
+@ThemePreviews
+@Composable
+private fun ValueProfileItemPreview(
+    @PreviewParameter(ProfilePreviewParameterProvider::class) items: List<ProfileUiModel>,
+) {
+    QuizApplicationTheme {
+        Surface {
+            ValueProfileItem(
+                model = items.filterIsInstance<ValueItemProfileUiModel>().first(),
+                onItemClicked = {},
+            )
+        }
+    }
+}
+
+@ThemePreviews
+@Composable
+private fun SwitchProfileItemPreview(
+    @PreviewParameter(ProfilePreviewParameterProvider::class) items: List<ProfileUiModel>,
+) {
+    QuizApplicationTheme {
+        Surface {
+            SwitchProfileItem(
+                model = items.filterIsInstance<SwitchItemProfileUiModel>().first(),
+                onItemChecked = { _, _ -> },
+            )
+        }
+    }
+}
+
+@ThemePreviews
+@Composable
 private fun HeaderProfileItemPreview(
     @PreviewParameter(ProfilePreviewParameterProvider::class) items: List<ProfileUiModel>,
 ) {

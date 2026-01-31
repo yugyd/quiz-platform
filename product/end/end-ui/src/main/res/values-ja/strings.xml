@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="end_title_well">素晴らしい！</string>
+    <string name="end_msg_new_record">新記録を達成しました！気に入りましたか？</string>
+    <string name="end_action_leave_rate">レビューを書く</string>
+    <string name="end_action_skip">スキップ</string>
+    <string name="end_action_show_error">間違いを見る</string>
+    <string name="end_action_new_game">新しいゲーム</string>
+    <string name="end_action_watch">見る</string>
+    <string name="end_error_reward_not_loaded">広告を読み込めませんでした</string>
+    <string name="end_title_work_favorites">お気に入りの問題に取り組む</string>
+    <string name="end_title_work_error">間違いに取り組む</string>
+</resources>

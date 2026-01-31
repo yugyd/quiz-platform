@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="ai_connection_details_title">Anahtar oluşturma talimatı</string>
+    <string name="ai_connection_details_description">Yapay zeka sağlayıcısının resmi dokümantasyonunu kullanarak bir anahtar oluşturun</string>
+    <string name="ai_connection_details_open">Oluştur</string>
+    <string name="ai_connection_details_title_add">Yeni yapay zeka bağlantısı</string>
+    <string name="ai_connection_details_title_edit">Yapay zeka bağlantısını düzenle</string>
+    <string name="ai_connection_details_name">Ad</string>
+    <string name="ai_connection_details_provider">Yapay zeka sağlayıcısı</string>
+    <string name="ai_connection_details_api_key">API anahtarı</string>
+    <string name="ai_connection_details_project_folder">Proje</string>
+    <string name="ai_connection_details_action_save">Kaydet</string>
+    <string name="ai_connection_details_action_delete">Sil</string>
+</resources>

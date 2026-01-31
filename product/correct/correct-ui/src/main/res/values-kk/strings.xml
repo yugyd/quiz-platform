@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="correct_title_remember_quest">Енді сұрақтар есте сақталады!</string>
+    <string name="correct_msg_correct_quest">Материалды бекіту үшін қателерді түзетіңіз. Мұнда сіздің барлық қателеріңіз жиналған.</string>
+    <string name="correct_msg_correct_pro_available">Тек Pro-нұсқада қолжетімді.</string>
+</resources>

@@ -22,6 +22,7 @@ object QuestTypeEntityConstants {
 
 enum class QuestTypeEntity(val databaseValue: String) {
     SIMPLE(databaseValue = QuestTypeEntityConstants.SIMPLE_TYPE_DATABASE_VALUE),
+    SIMPLE_LATEX(databaseValue = "simple_latex"),
     ENTER(databaseValue = "enter"),
     ENTER_WITH_HINT(databaseValue = "enter_with_hint"),
     SELECT_MANUAL(databaseValue = "select_manual"),

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="tasks_title_tasks_list">Lista de tarefas</string>
+    <string name="tasks_filters">Filtros</string>
+    <string name="tasks_errors">Erros</string>
+    <string name="tasks_favorites">Favoritos</string>
+    <string name="tasks_empty_state_title">Nada encontrado</string>
+    <string name="tasks_empty_state_message">Tente alterar os filtros</string>
+</resources>

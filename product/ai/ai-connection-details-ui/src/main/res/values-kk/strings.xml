@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="ai_connection_details_title">Кілт жасау жөніндегі нұсқаулық</string>
+    <string name="ai_connection_details_description">ЖИ провайдерінің ресми құжаттамасын пайдаланып, кілт жасаңыз</string>
+    <string name="ai_connection_details_open">Жасау</string>
+    <string name="ai_connection_details_title_add">Жаңа ЖИ қосылымы</string>
+    <string name="ai_connection_details_title_edit">ЖИ қосылымын өңдеу</string>
+    <string name="ai_connection_details_name">Атауы</string>
+    <string name="ai_connection_details_provider">ЖИ провайдері</string>
+    <string name="ai_connection_details_api_key">API кілті</string>
+    <string name="ai_connection_details_project_folder">Жоба</string>
+    <string name="ai_connection_details_action_save">Сақтау</string>
+    <string name="ai_connection_details_action_delete">Жою</string>
+</resources>

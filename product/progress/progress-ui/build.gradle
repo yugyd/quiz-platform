@@ -26,6 +26,7 @@ dependencies {
 
     // UI - Compose
     implementation libs.compose.material3
+    implementation libs.compose.material.icons
     implementation libs.compose.viewmodel
     implementation libs.compose.lifecycle
     // Navigation

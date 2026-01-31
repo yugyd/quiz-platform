@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="theme_dialog_title_rewarded">トレーニングモード</string>
+    <string name="theme_dialog_msg_rewarded">広告動画の視聴後に利用できます</string>
+    <string name="theme_dialog_action_rewarded">視聴する</string>
+    <string name="theme_dialog_action_no_thanks">結構です</string>
+    <string name="theme_error_rewarded_ad">広告を読み込めませんでした</string>
+    <string name="theme_title_theme_completed">カテゴリをクリアしました</string>
+    <string name="theme_dialog_action_info">情報</string>
+    <string name="theme_action_close">閉じる</string>
+</resources>

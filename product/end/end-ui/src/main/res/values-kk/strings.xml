@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="end_title_well">Керемет!</string>
+    <string name="end_msg_new_record">Жаңа рекорд орнаттыңыз! Ұнады ма?</string>
+    <string name="end_action_leave_rate">Пікір қалдыру</string>
+    <string name="end_action_skip">Өткізіп жіберу</string>
+    <string name="end_action_show_error">Қателерді көру</string>
+    <string name="end_action_new_game">Жаңа ойын</string>
+    <string name="end_action_watch">Қарау</string>
+    <string name="end_error_reward_not_loaded">Жарнаманы жүктеу мүмкін болмады</string>
+    <string name="end_title_work_favorites">Таңдаулылармен жұмыс</string>
+    <string name="end_title_work_error">Қателермен жұмыс</string>
+</resources>

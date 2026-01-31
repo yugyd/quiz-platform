@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="update_title_update">Yeni güncelleme mevcut</string>
+    <string name="update_title_update_description">Sizin için yeni özellikler ve içerikler hazır</string>
+    <string name="update_action_update">Güncelle</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_settings_storage_term">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+
+    <!--Generated Translator AI-->
+    <string name="ai_settings_title_ai">YZ Beta</string>
+    <string name="ai_settings_title_enable_ai">YZ Beta’yı etkinleştir</string>
+    <string name="ai_settings_title_ai_connected">Bağlandı</string>
+    <string name="ai_settings_add_ai_connection">YZ bağlantısı ekle</string>
+    <string name="ai_settings_term_of_cache">İçerik yenileme aralığı</string>
+    <string name="ai_settings_direct_connection">Doğrudan bağlantı</string>
+    <string name="ai_settings_privacy_policy">YZ kullanım politikası</string>
+    <string name="ai_settings_ai_test_info">Bu özellik test modunda çalışmaktadır</string>
+</resources>

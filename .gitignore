@@ -63,7 +63,9 @@ captures/
 
 # Keystore files
 upload.jks
+*upload*.jks
 upload.properties
+*upload*.properties
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
@@ -101,3 +103,11 @@ lint/tmp/
 /.idea/deploymentTargetSelector.xml
 /.idea/appInsightsSettings.xml
 /.kotlin/
+/.idea/AndroidProjectSystem.xml
+/.idea/copilot.data.migration.agent.xml
+/.idea/copilot.data.migration.ask.xml
+/.idea/copilot.data.migration.ask2agent.xml
+/.idea/copilot.data.migration.edit.xml
+/.idea/detekt.xml
+/.idea/deviceManager.xml
+/.idea/runConfigurations.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="simple_quest_code_answer_a">正しいのはAだけ</string>
+    <string name="simple_quest_code_answer_b">正しいのはBだけ</string>
+    <string name="simple_quest_code_answer_yes">両方の判断は正しい</string>
+    <string name="simple_quest_code_answer_yes_variant">両方の断定は正しい</string>
+    <string name="simple_quest_code_answer_no">両方の判断は誤っている</string>
+    <string name="simple_quest_code_answer_no_variant">両方の断定は誤っている</string>
+    <string name="simple_quest_code_quest_a">A.</string>
+    <string name="simple_quest_code_quest_a_variant">A)</string>
+    <string name="simple_quest_code_quest_b">B.</string>
+    <string name="simple_quest_code_quest_b_variant">B)</string>
+</resources>

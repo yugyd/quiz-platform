@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="progress_title_level_schoolboy">학생</string>
+    <string name="progress_title_level_amateur">아마추어</string>
+    <string name="progress_title_level_student">대학생</string>
+    <string name="progress_title_level_master">석사</string>
+    <string name="progress_title_level_postgraduate">박사과정생</string>
+    <string name="progress_title_level_candidate">박사 학위 후보</string>
+    <string name="progress_title_level_doctor">박사</string>
+    <string name="progress_title_level_professor">교수</string>
+    <string name="progress_title_level_academic">아카데미 회원</string>
+    <string name="progress_title_reset_dialog_progress">진행 상황 초기화</string>
+    <string name="progress_title_reset_dialog_progress_info">모든 진행 상황이 초기화됩니다. 이 작업은 취소할 수 없습니다.</string>
+    <string name="progress_format_percent">%1$d%%</string>
+    <string name="progress_action_reset_dialog_yes">예</string>
+    <string name="progress_action_reset_dialog_no">아니요</string>
+    <string name="progress_content_description_progress_icon">진행 상황 아이콘 %1$s</string>
+</resources>

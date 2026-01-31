@@ -32,6 +32,7 @@ import com.yugyd.quiz.ui.selectboolquest.SelectBoolQuestUiModel
 import com.yugyd.quiz.ui.selectmanualquest.SelectManualQuestAnswerUiModel
 import com.yugyd.quiz.ui.selectmanualquest.SelectManualQuestUiModel
 import com.yugyd.quiz.ui.selectquest.SelectQuestUiModel
+import com.yugyd.quiz.ui.simplequest.LatexSimpleQuestUiModel
 import com.yugyd.quiz.ui.simplequest.SimpleQuestUiModel
 import com.yugyd.quiz.uikit.theme.app_color_negative
 
@@ -69,6 +70,18 @@ internal class GamePreviewParameterProvider :
                 selectedAnswer = null,
                 answerButtonIsEnabled = false,
                 highlight = HighlightUiModel.Default,
+            )
+        }
+
+        QuestUiType.SIMPLE_LATEX -> {
+            LatexSimpleQuestUiModel(
+                questModel = QuestValueUiModel("Quest"),
+                answers = listOf("One answer", "Two answer", "Three answer", "Four answer"),
+                selectedAnswer = null,
+                answerButtonIsEnabled = false,
+                highlight = HighlightUiModel.Default,
+                isLatexQuest = true,
+                isLatexAnswer = true,
             )
         }
 

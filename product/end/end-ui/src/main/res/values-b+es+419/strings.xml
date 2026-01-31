@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="end_title_well">¡Excelente!</string>
+    <string name="end_msg_new_record">¡Se logró un nuevo récord! ¿Te gustó?</string>
+    <string name="end_action_leave_rate">Dejar un comentario</string>
+    <string name="end_action_skip">Omitir</string>
+    <string name="end_action_show_error">Ver errores</string>
+    <string name="end_action_new_game">Nueva partida</string>
+    <string name="end_action_watch">Ver</string>
+    <string name="end_error_reward_not_loaded">No se pudo cargar el anuncio</string>
+    <string name="end_title_work_favorites">Trabajo con favoritos</string>
+    <string name="end_title_work_error">Trabajo con errores</string>
+</resources>

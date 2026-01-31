@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="tasks_title_tasks_list">Тапсырмалар тізімі</string>
+    <string name="tasks_filters">Сүзгілер</string>
+    <string name="tasks_errors">Қателер</string>
+    <string name="tasks_favorites">Таңдаулылар</string>
+    <string name="tasks_empty_state_title">Ештеңе табылмады</string>
+    <string name="tasks_empty_state_message">Сүзгілерді өзгертуді көріңіз</string>
+</resources>

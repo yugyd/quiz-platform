@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="pro_title_extended_content">Rozszerzona zawartość</string>
+    <string name="pro_title_extended_content_info">Ponad trzy tysiące pytań</string>
+    <string name="pro_title_work_error">Praca nad błędami</string>
+    <string name="pro_title_work_error_info">Pracuj nad swoimi błędami</string>
+    <string name="pro_title_ad_off">Bez reklam</string>
+    <string name="pro_title_ad_off_info">Nie daj się rozpraszać reklamom</string>
+    <string name="pro_action_attempt">Wypróbuj</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="enter_ai_quest_title_enter_answer">Câu trả lời của bạn</string>
+    <string name="enter_ai_quest_title_supporting">Không quá 400 ký tự</string>
+    <string name="enter_ai_quest_title_true_answer_description_from_ai">Câu trả lời đúng từ AI</string>
+    <string name="enter_ai_quest_continue">Tiếp tục</string>
+    <string name="enter_ai_quest_check_error">Đã xảy ra lỗi. Vui lòng thử lại sau.</string>
+</resources>

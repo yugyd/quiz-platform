@@ -45,6 +45,8 @@ dependencies {
     implementation libs.compose.viewmodel
     implementation libs.compose.lifecycle
     implementation libs.compose.material3.adaptive
+    implementation libs.compose.material.icons
+
     // Navigation
     implementation libs.compose.hilt.navigation
 }

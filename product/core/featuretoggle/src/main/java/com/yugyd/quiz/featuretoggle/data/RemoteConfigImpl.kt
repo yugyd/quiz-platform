@@ -18,10 +18,10 @@ package com.yugyd.quiz.featuretoggle.data
 
 import android.content.Context
 import com.google.firebase.FirebaseApp
-import com.google.firebase.ktx.Firebase
+import com.google.firebase.Firebase
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
-import com.google.firebase.remoteconfig.ktx.remoteConfig
-import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
+import com.google.firebase.remoteconfig.remoteConfig
+import com.google.firebase.remoteconfig.remoteConfigSettings
 import com.yugyd.quiz.featuretoggle.R
 import com.yugyd.quiz.remoteconfig.api.RemoteConfig
 import dagger.hilt.android.qualifiers.ApplicationContext

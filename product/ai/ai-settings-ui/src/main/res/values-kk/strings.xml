@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ai_settings_storage_term">
+        <item quantity="one">%1$d күн</item>
+        <item quantity="other">%1$d күн</item>
+    </plurals>
+
+    <!--Generated Translator AI-->
+    <string name="ai_settings_title_ai">ЖИ Бета</string>
+    <string name="ai_settings_title_enable_ai">ЖИ Бета мүмкіндігін қосу</string>
+    <string name="ai_settings_title_ai_connected">Қосылған</string>
+    <string name="ai_settings_add_ai_connection">ЖИ қосылымын қосу</string>
+    <string name="ai_settings_term_of_cache">Контентті жаңарту аралығы</string>
+    <string name="ai_settings_direct_connection">Тікелей қосылым</string>
+    <string name="ai_settings_privacy_policy">ЖИ қолдану саясаты</string>
+    <string name="ai_settings_ai_test_info">Бұл функция сынақ режимінде жұмыс істейді</string>
+</resources>

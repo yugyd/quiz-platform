@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="game_title_add_life">追加ライフ</string>
+    <string name="game_msg_add_life">広告動画を視聴して追加ライフを獲得しましょう</string>
+    <string name="game_action_watch">視聴する</string>
+    <string name="game_action_next">次へ</string>
+    <string name="game_error_reward_not_loaded">広告を読み込めませんでした</string>
+</resources>

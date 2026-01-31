@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">Zawartość</string>
+    <string name="content_empty_state_new_file">Nowy plik</string>
+    <string name="content_empty_state_title">Pierwsze kroki</string>
+    <string name="content_empty_state_message">Wybierz nowy plik z zawartością, a następnie korzystaj z aplikacji z własną treścią.</string>
+    <string name="content_empty_state_button">Wybierz plik</string>
+    <string name="content_empty_state_note">Zawartość musi być zgodna z wymaganym formatem danych.</string>
+    <string name="content_error_not_added_content_is_exists">Ta zawartość została już dodana</string>
+    <string name="content_error_invalid_uri">Nie udało się uzyskać dostępu do pliku z zawartością</string>
+    <string name="content_error_add_is_failed">Nie udało się dodać zawartości</string>
+    <string name="content_error_delete_is_failed">Nie udało się usunąć zawartości</string>
+    <string name="content_error_not_select_and_delete">Wybrana zawartość jest nieprawidłowa i została usunięta</string>
+    <string name="content_error_select_is_failed">Nie udało się wybrać zawartości</string>
+    <string name="content_error_one_item_not_delete">Jedyna dostępna zawartość nie może zostać usunięta</string>
+    <string name="content_error_selected_item_not_delete">Wybrana zawartość nie może zostać usunięta</string>
+    <string name="content_format_error_content_quest_duplicate_id">Wykryto zduplikowane identyfikatory, ustaw unikalne identyfikatory dla pytań: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Wykryto zduplikowane identyfikatory, ustaw unikalne identyfikatory dla tematów: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Wykryto nieprawidłowo utworzone pytania: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Wykryto nieprawidłowo utworzone tematy: %s</string>
+    <string name="content_error_content_format_url_not_loaded">Nie udało się załadować linku do zasobu z opisem formatu zawartości</string>
+</resources>

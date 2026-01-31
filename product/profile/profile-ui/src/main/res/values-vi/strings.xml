@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="profile_title_content">Nội dung</string>
+    <string name="profile_title_content_not_selected">Chưa chọn nội dung</string>
+    <string name="profile_title_social">Mạng xã hội</string>
+    <string name="profile_title_settings">Cài đặt</string>
+    <string name="profile_title_show_answer">Hiển thị đáp án</string>
+    <string name="profile_title_sorting_quest">Sắp xếp câu hỏi</string>
+    <string name="profile_title_vibration">Rung</string>
+    <string name="profile_tasks">Nhiệm vụ</string>
+    <string name="profile_content_banner_title">Quiz-Platform</string>
+    <string name="profile_content_banner_subtitle">Ứng dụng được xây dựng dựa trên giải pháp mã nguồn mở Quiz-Platform. Rất mong bạn đánh giá nền tảng này trên GitHub.</string>
+    <string name="profile_content_banner_rate">Đánh giá</string>
+    <string name="profile_content_banner_report_error">Báo cáo sự cố</string>
+    <string name="profile_title_purchases">Mua hàng</string>
+    <string name="profile_title_pro_version">Phiên bản Pro</string>
+    <string name="profile_title_please_us">Ủng hộ chúng tôi</string>
+    <string name="profile_title_rate_app">Đánh giá ứng dụng</string>
+    <string name="profile_title_share_app">Giới thiệu cho bạn bè</string>
+    <string name="profile_title_other_apps">Ứng dụng khác của chúng tôi</string>
+    <string name="profile_title_feedback">Phản hồi</string>
+    <string name="profile_title_report_error">Báo lỗi</string>
+    <string name="profile_title_privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="profile_title_telegram">Kênh Telegram</string>
+    <string name="profile_title_telegram_promo">Câu hỏi hằng ngày và phản hồi</string>
+    <string name="profile_format_version">Phiên bản %1$s</string>
+    <string name="profile_format_time_second">%1$.1f giây</string>
+    <string name="profile_format_round_time_second">%1$d giây</string>
+    <string name="profile_title_section_ai">Trí tuệ nhân tạo</string>
+    <string name="profile_title_ai">AI Beta</string>
+    <string name="profile_title_ai_not_connected">Kết nối khả dụng</string>
+    <string name="profile_title_ai_off">Đã tắt</string>
+</resources>

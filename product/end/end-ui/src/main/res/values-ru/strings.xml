@@ -19,10 +19,11 @@
     <string name="end_msg_new_record">Установлен новый рекорд! Вам понравилось?</string>
     <string name="end_action_leave_rate">Оставьте отзыв</string>
     <string name="end_action_skip">Пропустить</string>
+
     <string name="end_action_show_error">Смотреть ошибки</string>
     <string name="end_action_new_game">Новая игра</string>
+
     <string name="end_action_watch">Посмотреть</string>
-    <string name="end_action_next">Далее</string>
     <string name="end_error_reward_not_loaded">Не удалось загрузить рекламу</string>
     <string name="end_title_work_favorites">Работа над избранным</string>
     <string name="end_title_work_error">Работа над ошибками</string>

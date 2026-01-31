@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="app_name">Quiz Platform</string>
+    <string name="ds_navbar_title_theme">Tematy</string>
+    <string name="ds_navbar_title_courses">Kursy</string>
+    <string name="ds_navbar_title_correct">Korekta</string>
+    <string name="ds_navbar_title_progress">Postępy</string>
+    <string name="ds_navbar_title_profile">Profil</string>
+    <string name="ds_game_mode_title_arcade">Arcade</string>
+    <string name="ds_game_mode_title_train">Trening</string>
+    <string name="ds_game_mode_title_unknown">Nieznany</string>
+    <string name="ds_game_mode_title_favorites">Ulubione</string>
+    <string name="ds_app_version_title_content_lite">Lite</string>
+    <string name="ds_app_version_title_content_pro">Pro</string>
+    <string name="ds_format_record_progress">%1$d z %2$d</string>
+    <string name="ds_action_game">Graj</string>
+    <string name="ds_error_base">Coś poszło nie tak</string>
+    <string name="ds_error_fields">Wypełnij wszystkie pola</string>
+    <string name="ds_empty_state_title">Ups, brak danych</string>
+    <string name="ds_empty_state_description">Spróbuj przeładować ekran</string>
+    <string name="ds_empty_state_retry">Ponów próbę</string>
+    <string name="ds_game_mode_title_ai_tasks">Zadania AI</string>
+</resources>

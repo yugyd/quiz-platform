@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="simple_quest_code_answer_a">тек А ғана дұрыс</string>
+    <string name="simple_quest_code_answer_b">тек Б ғана дұрыс</string>
+    <string name="simple_quest_code_answer_yes">екі тұжырым да дұрыс</string>
+    <string name="simple_quest_code_answer_yes_variant">екі мәлімдеме де дұрыс</string>
+    <string name="simple_quest_code_answer_no">екі тұжырым да қате</string>
+    <string name="simple_quest_code_answer_no_variant">екі мәлімдеме де қате</string>
+    <string name="simple_quest_code_quest_a">А.</string>
+    <string name="simple_quest_code_quest_a_variant">А)</string>
+    <string name="simple_quest_code_quest_b">Б.</string>
+    <string name="simple_quest_code_quest_b_variant">Б)</string>
+</resources>

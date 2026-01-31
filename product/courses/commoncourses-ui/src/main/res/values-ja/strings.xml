@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="common_course_banner_title">開始したコースの学習を続ける</string>
+    <string name="common_course_banner_continue">続ける</string>
+    <string name="common_course_banner_hide">非表示にする</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="update_title_update">Hay una actualización disponible</string>
+    <string name="update_title_update_description">Nuevas funciones y contenido disponibles para ti</string>
+    <string name="update_action_update">Actualizar</string>
+</resources>

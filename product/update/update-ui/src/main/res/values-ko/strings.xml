@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="update_title_update">새 업데이트가 나왔어요</string>
+    <string name="update_title_update_description">새로운 기능과 콘텐츠를 이용해 보세요</string>
+    <string name="update_action_update">업데이트</string>
+</resources>

@@ -74,6 +74,7 @@ class QuestEntityMapper @Inject constructor(private val cryptoHelper: CryptoHelp
         QuestTypeEntity.SELECT -> QuestType.SELECT
         QuestTypeEntity.ENTER_AI -> QuestType.ENTER_AI
         QuestTypeEntity.SELECT_BOOL -> QuestType.SELECT_BOOL
+        QuestTypeEntity.SIMPLE_LATEX -> QuestType.SIMPLE_LATEX
         QuestTypeEntity.NONE -> throw QuestTypeException("Unknown quest type: $value")
     }
 
@@ -85,5 +86,6 @@ class QuestEntityMapper @Inject constructor(private val cryptoHelper: CryptoHelp
         QuestType.SELECT -> QuestTypeEntity.SELECT
         QuestType.ENTER_AI -> QuestTypeEntity.ENTER_AI
         QuestType.SELECT_BOOL -> QuestTypeEntity.SELECT_BOOL
+        QuestType.SIMPLE_LATEX -> QuestTypeEntity.SIMPLE_LATEX
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">コンテンツ</string>
+    <string name="content_empty_state_new_file">新しいファイル</string>
+    <string name="content_empty_state_title">はじめに</string>
+    <string name="content_empty_state_message">コンテンツの入った新しいファイルを選択してから、このアプリでご自身のコンテンツをお楽しみください。</string>
+    <string name="content_empty_state_button">ファイルを選択</string>
+    <string name="content_empty_state_note">コンテンツはデータ形式の仕様に従っている必要があります。</string>
+    <string name="content_error_not_added_content_is_exists">コンテンツはすでに追加されています</string>
+    <string name="content_error_invalid_uri">コンテンツファイルにアクセスできませんでした</string>
+    <string name="content_error_add_is_failed">コンテンツを追加できませんでした</string>
+    <string name="content_error_delete_is_failed">コンテンツを削除できませんでした</string>
+    <string name="content_error_not_select_and_delete">選択したコンテンツは無効なため削除されました</string>
+    <string name="content_error_select_is_failed">コンテンツを選択できませんでした</string>
+    <string name="content_error_one_item_not_delete">唯一のコンテンツは削除できません</string>
+    <string name="content_error_selected_item_not_delete">選択したコンテンツは削除できません</string>
+    <string name="content_format_error_content_quest_duplicate_id">重複したIDが見つかりました。問題には一意のIDを設定してください: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">重複したIDが見つかりました。テーマには一意のIDを設定してください: %s</string>
+    <string name="content_format_error_content_quest_not_valid">不正な形式の問題が見つかりました: %s</string>
+    <string name="content_format_error_content_theme_not_valid">不正な形式のテーマが見つかりました: %s</string>
+    <string name="content_error_content_format_url_not_loaded">コンテンツ形式リソースへのリンクを読み込めませんでした</string>
+</resources>

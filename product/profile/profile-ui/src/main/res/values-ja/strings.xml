@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="profile_title_content">コンテンツ</string>
+    <string name="profile_title_content_not_selected">コンテンツが選択されていません</string>
+    <string name="profile_title_social">ソーシャルネットワーク</string>
+    <string name="profile_title_settings">設定</string>
+    <string name="profile_title_show_answer">解答の表示</string>
+    <string name="profile_title_sorting_quest">問題の並び替え</string>
+    <string name="profile_title_vibration">バイブレーション</string>
+    <string name="profile_tasks">タスク</string>
+    <string name="profile_content_banner_title">Quiz-Platform</string>
+    <string name="profile_content_banner_subtitle">このアプリは、オープンソースの Quiz-Platform を基に作成されています。GitHub でプラットフォームの評価をしていただけると嬉しいです。</string>
+    <string name="profile_content_banner_rate">評価する</string>
+    <string name="profile_content_banner_report_error">問題を報告する</string>
+    <string name="profile_title_purchases">購入履歴</string>
+    <string name="profile_title_pro_version">プロ版</string>
+    <string name="profile_title_please_us">私たちを応援する</string>
+    <string name="profile_title_rate_app">アプリを評価する</string>
+    <string name="profile_title_share_app">友だちに教える</string>
+    <string name="profile_title_other_apps">他のアプリ</string>
+    <string name="profile_title_feedback">フィードバック</string>
+    <string name="profile_title_report_error">不具合を報告する</string>
+    <string name="profile_title_privacy_policy">プライバシーポリシー</string>
+    <string name="profile_title_telegram">Telegram チャンネル</string>
+    <string name="profile_title_telegram_promo">毎日の問題とフィードバック</string>
+    <string name="profile_format_version">バージョン %1$s</string>
+    <string name="profile_format_time_second">%1$.1f 秒</string>
+    <string name="profile_format_round_time_second">%1$d 秒</string>
+    <string name="profile_title_section_ai">人工知能</string>
+    <string name="profile_title_ai">AI ベータ版</string>
+    <string name="profile_title_ai_not_connected">利用可能な接続</string>
+    <string name="profile_title_ai_off">オフ</string>
+</resources>

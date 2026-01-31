@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="push_default_channel_name">Mặc định</string>
+    <string name="push_default_channel_description">Tất cả thông báo của ứng dụng</string>
+</resources>

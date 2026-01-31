@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="errors_title_quest">질문</string>
+    <string name="errors_title_true_answer">정답</string>
+    <string name="errors_title_error_list">오답 목록</string>
+</resources>

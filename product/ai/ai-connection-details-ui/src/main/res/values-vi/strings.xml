@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="ai_connection_details_title">Hướng dẫn tạo khóa</string>
+    <string name="ai_connection_details_description">Tạo khóa bằng cách sử dụng tài liệu hướng dẫn chính thức của nhà cung cấp AI</string>
+    <string name="ai_connection_details_open">Tạo</string>
+    <string name="ai_connection_details_title_add">Kết nối AI mới</string>
+    <string name="ai_connection_details_title_edit">Chỉnh sửa kết nối AI</string>
+    <string name="ai_connection_details_name">Tên</string>
+    <string name="ai_connection_details_provider">Nhà cung cấp AI</string>
+    <string name="ai_connection_details_api_key">Khóa API</string>
+    <string name="ai_connection_details_project_folder">Dự án</string>
+    <string name="ai_connection_details_action_save">Lưu</string>
+    <string name="ai_connection_details_action_delete">Xóa</string>
+</resources>

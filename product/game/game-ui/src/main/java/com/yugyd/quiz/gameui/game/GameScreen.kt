@@ -65,6 +65,8 @@ import com.yugyd.quiz.ui.selectmanualquest.SelectManualQuestContent
 import com.yugyd.quiz.ui.selectmanualquest.SelectManualQuestUiModel
 import com.yugyd.quiz.ui.selectquest.SelectQuestContent
 import com.yugyd.quiz.ui.selectquest.SelectQuestUiModel
+import com.yugyd.quiz.ui.simplequest.LatexSimpleQuestContent
+import com.yugyd.quiz.ui.simplequest.LatexSimpleQuestUiModel
 import com.yugyd.quiz.ui.simplequest.SimpleQuestContent
 import com.yugyd.quiz.ui.simplequest.SimpleQuestUiModel
 import com.yugyd.quiz.uikit.LoadingContent
@@ -350,6 +352,19 @@ internal fun GameContent(
                         quest as SimpleQuestUiModel
                     }
                     SimpleQuestContent(
+                        quest = uiModel,
+                        onAnswerClicked = {
+                            onAnswerSelected(it, true)
+                            onAnswerClicked()
+                        },
+                    )
+                }
+
+                QuestUiType.SIMPLE_LATEX -> {
+                    val uiModel = remember(quest) {
+                        quest as LatexSimpleQuestUiModel
+                    }
+                    LatexSimpleQuestContent(
                         quest = uiModel,
                         onAnswerClicked = {
                             onAnswerSelected(it, true)

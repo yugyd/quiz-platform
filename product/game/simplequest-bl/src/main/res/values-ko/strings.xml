@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="simple_quest_code_answer_a">A만 맞다</string>
+    <string name="simple_quest_code_answer_b">B만 맞다</string>
+    <string name="simple_quest_code_answer_yes">두 명제 모두 맞다</string>
+    <string name="simple_quest_code_answer_yes_variant">두 진술 모두 맞다</string>
+    <string name="simple_quest_code_answer_no">두 명제 모두 틀리다</string>
+    <string name="simple_quest_code_answer_no_variant">두 진술 모두 틀리다</string>
+    <string name="simple_quest_code_quest_a">A.</string>
+    <string name="simple_quest_code_quest_a_variant">A)</string>
+    <string name="simple_quest_code_quest_b">B.</string>
+    <string name="simple_quest_code_quest_b_variant">B)</string>
+</resources>

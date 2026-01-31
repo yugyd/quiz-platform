@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">Contenido</string>
+    <string name="content_empty_state_new_file">Archivo nuevo</string>
+    <string name="content_empty_state_title">Primeros pasos</string>
+    <string name="content_empty_state_message">Elige un archivo nuevo con contenido y luego disfruta de la app con tu contenido.</string>
+    <string name="content_empty_state_button">Elegir archivo</string>
+    <string name="content_empty_state_note">El contenido debe cumplir con el formato de datos.</string>
+    <string name="content_error_not_added_content_is_exists">El contenido ya fue agregado</string>
+    <string name="content_error_invalid_uri">No se pudo obtener acceso al archivo de contenido</string>
+    <string name="content_error_add_is_failed">No se pudo agregar el contenido</string>
+    <string name="content_error_delete_is_failed">No se pudo eliminar el contenido</string>
+    <string name="content_error_not_select_and_delete">El contenido seleccionado no es válido y fue eliminado</string>
+    <string name="content_error_select_is_failed">No se pudo seleccionar el contenido</string>
+    <string name="content_error_one_item_not_delete">El único contenido no se puede eliminar</string>
+    <string name="content_error_selected_item_not_delete">El contenido seleccionado no se puede eliminar</string>
+    <string name="content_format_error_content_quest_duplicate_id">Se encontraron IDs duplicados, asigna IDs únicos a las preguntas: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Se encontraron IDs duplicados, asigna IDs únicos a los temas: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Se encontraron preguntas mal formadas: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Se encontraron temas mal formados: %s</string>
+    <string name="content_error_content_format_url_not_loaded">No se cargó el enlace al recurso del formato de contenido</string>
+</resources>

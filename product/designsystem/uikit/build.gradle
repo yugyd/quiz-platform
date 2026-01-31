@@ -16,5 +16,8 @@ dependencies {
 
     // UI - Compose
     implementation libs.compose.material3
+    implementation libs.compose.material.icons
     implementation libs.compose.lifecycle
+
+    implementation(libs.accompanist.webview)
 }

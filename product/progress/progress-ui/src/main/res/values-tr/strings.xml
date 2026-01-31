@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="progress_title_level_schoolboy">Öğrenci</string>
+    <string name="progress_title_level_amateur">Amatör</string>
+    <string name="progress_title_level_student">Üniversite öğrencisi</string>
+    <string name="progress_title_level_master">Yüksek lisans öğrencisi</string>
+    <string name="progress_title_level_postgraduate">Doktora öğrencisi</string>
+    <string name="progress_title_level_candidate">Bilim adayı</string>
+    <string name="progress_title_level_doctor">Bilim doktoru</string>
+    <string name="progress_title_level_professor">Profesör</string>
+    <string name="progress_title_level_academic">Akademik üye</string>
+    <string name="progress_title_reset_dialog_progress">İlerlemeni sıfırla</string>
+    <string name="progress_title_reset_dialog_progress_info">Tüm ilerlemen sıfırlanacak. Bu işlem geri alınamaz.</string>
+    <string name="progress_format_percent">%1$d%%</string>
+    <string name="progress_action_reset_dialog_yes">Evet</string>
+    <string name="progress_action_reset_dialog_no">Hayır</string>
+    <string name="progress_content_description_progress_icon">%1$s ilerleme simgesi</string>
+</resources>

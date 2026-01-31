@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="game_title_add_life">Ek can</string>
+    <string name="game_msg_add_life">Reklam videosu izleyerek ek bir can kazan</string>
+    <string name="game_action_watch">İzle</string>
+    <string name="game_action_next">İleri</string>
+    <string name="game_error_reward_not_loaded">Reklam yüklenemedi</string>
+</resources>

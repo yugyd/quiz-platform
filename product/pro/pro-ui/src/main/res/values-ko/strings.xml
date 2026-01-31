@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="pro_title_extended_content">확장된 콘텐츠</string>
+    <string name="pro_title_extended_content_info">3천 개가 넘는 문제</string>
+    <string name="pro_title_work_error">오답 복습</string>
+    <string name="pro_title_work_error_info">틀린 문제를 다시 학습하세요</string>
+    <string name="pro_title_ad_off">광고 없이</string>
+    <string name="pro_title_ad_off_info">광고에 방해받지 마세요</string>
+    <string name="pro_action_attempt">체험하기</string>
+</resources>

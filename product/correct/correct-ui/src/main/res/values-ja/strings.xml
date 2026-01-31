@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="correct_title_remember_quest">これで問題が記憶されます！</string>
+    <string name="correct_msg_correct_quest">間違いを修正して内容を定着させましょう。ここにはあなたのすべてのミスが集められています。</string>
+    <string name="correct_msg_correct_pro_available">Pro版でのみ利用できます。</string>
+</resources>

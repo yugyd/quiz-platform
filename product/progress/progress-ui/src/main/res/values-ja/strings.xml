@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="progress_title_level_schoolboy">生徒</string>
+    <string name="progress_title_level_amateur">アマチュア</string>
+    <string name="progress_title_level_student">学生</string>
+    <string name="progress_title_level_master">修士</string>
+    <string name="progress_title_level_postgraduate">大学院生</string>
+    <string name="progress_title_level_candidate">準博士</string>
+    <string name="progress_title_level_doctor">博士</string>
+    <string name="progress_title_level_professor">教授</string>
+    <string name="progress_title_level_academic">アカデミー会員</string>
+    <string name="progress_title_reset_dialog_progress">進捗をリセット</string>
+    <string name="progress_title_reset_dialog_progress_info">すべての進捗がリセットされます。この操作は取り消せません。</string>
+    <string name="progress_format_percent">%1$d%%</string>
+    <string name="progress_action_reset_dialog_yes">はい</string>
+    <string name="progress_action_reset_dialog_no">いいえ</string>
+    <string name="progress_content_description_progress_icon">進捗アイコン %1$s</string>
+</resources>

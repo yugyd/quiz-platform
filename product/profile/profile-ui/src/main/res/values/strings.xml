@@ -18,6 +18,7 @@
     <!--Generated Translator AI-->
     <string name="profile_title_content">Content</string>
     <string name="profile_title_content_not_selected">Content not selected</string>
+
     <string name="profile_title_social">Social networks</string>
     <string name="profile_title_settings">Settings</string>
     <string name="profile_title_show_answer">Show answer</string>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="common_course_banner_title">시작한 코스 계속 학습하기</string>
+    <string name="common_course_banner_continue">계속하기</string>
+    <string name="common_course_banner_hide">숨기기</string>
+</resources>

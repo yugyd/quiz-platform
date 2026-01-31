@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="ai_connection_details_title">Instrucciones para crear una clave</string>
+    <string name="ai_connection_details_description">Crea una clave usando la documentación oficial del proveedor de IA</string>
+    <string name="ai_connection_details_open">Crear</string>
+    <string name="ai_connection_details_title_add">Nueva conexión de IA</string>
+    <string name="ai_connection_details_title_edit">Editar conexión de IA</string>
+    <string name="ai_connection_details_name">Nombre</string>
+    <string name="ai_connection_details_provider">Proveedor de IA</string>
+    <string name="ai_connection_details_api_key">Clave de API</string>
+    <string name="ai_connection_details_project_folder">Proyecto</string>
+    <string name="ai_connection_details_action_save">Guardar</string>
+    <string name="ai_connection_details_action_delete">Eliminar</string>
+</resources>

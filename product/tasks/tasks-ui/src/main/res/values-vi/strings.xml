@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="tasks_title_tasks_list">Danh sách nhiệm vụ</string>
+    <string name="tasks_filters">Bộ lọc</string>
+    <string name="tasks_errors">Lỗi</string>
+    <string name="tasks_favorites">Mục yêu thích</string>
+    <string name="tasks_empty_state_title">Không tìm thấy gì</string>
+    <string name="tasks_empty_state_message">Hãy thử thay đổi bộ lọc</string>
+</resources>

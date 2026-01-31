@@ -35,7 +35,6 @@ import javax.inject.Inject
 @HiltViewModel
 internal class CourseListViewModel @Inject constructor(
     private val courseInteractor: CourseInteractor,
-    private val searchCourseInteractor: SearchCourseInteractor,
     logger: Logger,
     dispatchersProvider: DispatchersProvider,
 ) :

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="profile_title_content">Contenido</string>
+    <string name="profile_title_content_not_selected">Contenido no seleccionado</string>
+    <string name="profile_title_social">Redes sociales</string>
+    <string name="profile_title_settings">Configuración</string>
+    <string name="profile_title_show_answer">Mostrar respuesta</string>
+    <string name="profile_title_sorting_quest">Ordenar preguntas</string>
+    <string name="profile_title_vibration">Vibración</string>
+    <string name="profile_tasks">Tareas</string>
+    <string name="profile_content_banner_title">Quiz-Platform</string>
+    <string name="profile_content_banner_subtitle">La aplicación está basada en la solución open source Quiz-Platform. Nos encantará que califiques la plataforma en GitHub.</string>
+    <string name="profile_content_banner_rate">Calificar</string>
+    <string name="profile_content_banner_report_error">Reportar un problema</string>
+    <string name="profile_title_purchases">Compras</string>
+    <string name="profile_title_pro_version">Versión Pro</string>
+    <string name="profile_title_please_us">Haznos felices</string>
+    <string name="profile_title_rate_app">Califica la app</string>
+    <string name="profile_title_share_app">Cuéntaselo a un amigo</string>
+    <string name="profile_title_other_apps">Nuestras apps</string>
+    <string name="profile_title_feedback">Comentarios</string>
+    <string name="profile_title_report_error">Reportar un error</string>
+    <string name="profile_title_privacy_policy">Política de privacidad</string>
+    <string name="profile_title_telegram">Canal de Telegram</string>
+    <string name="profile_title_telegram_promo">Preguntas diarias y comentarios</string>
+    <string name="profile_format_version">versión %1$s</string>
+    <string name="profile_format_time_second">%1$.1f s</string>
+    <string name="profile_format_round_time_second">%1$d s</string>
+    <string name="profile_title_section_ai">Inteligencia artificial</string>
+    <string name="profile_title_ai">IA Beta</string>
+    <string name="profile_title_ai_not_connected">Conexiones disponibles</string>
+    <string name="profile_title_ai_off">Desactivado</string>
+</resources>

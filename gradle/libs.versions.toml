@@ -1,14 +1,14 @@
 [versions]
 # Gradle
-android-gradle-plugin = '8.6.1'
+android-gradle-plugin = "8.10.1"
 # Kotlin
 kotlin = '2.0.21'
 # UI
-appcompat = '1.7.0'
-material = '1.12.0'
-compose-bom = '2024.11.00'
+appcompat = '1.7.1'
+material = '1.13.0'
+compose-bom = '2024.12.01'
 # DI
-hilt = '2.52'
+hilt = '2.57.2'
 # Network
 retrofit = '2.11.0'
 # Annotation processor
@@ -16,37 +16,36 @@ ksp = '2.0.21-1.0.27'
 # Test
 jacoco = "0.8.7"
 # Other
-crashlyticsVersion = '3.0.2'
-coroutinesVersion = '1.9.0'
-lifecycleVersion = '2.8.7'
+crashlyticsVersion = '3.0.6'
+coroutinesVersion = '1.10.2'
+lifecycleVersion = '2.10.0'
 androidxTest = '1.6.1'
-core-ktx = '1.15.0'
-roomVersion = '2.6.1'
-workManagerVersion = '2.10.0'
-firebaseVersion = '33.6.0'
+core-ktx = '1.17.0'
+roomVersion = '2.7.2'
+workManagerVersion = '2.11.0'
+firebaseVersion = '34.6.0'
 accompanistVersion = '0.36.0'
 versionsUpdates = '0.51.0'
 # Third-Party
-markdown-compose = '0.27.0'
+markdown-compose = '0.35.0'
 # Build logic
-compile-sdk = '35'
-target-sdk = '35'
+compile-sdk = '36'
+target-sdk = '36'
 min-sdk = '26'
-convention = "1.0.0"
 
 [libraries]
 # Gradle
 android-gradle-plugin = { group = "com.android.tools.build", name = "gradle", version.ref = "android-gradle-plugin" }
 kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
-google-services-plugin = { group = "com.google.gms", name = "google-services", version = '4.4.2' }
+google-services-plugin = { group = "com.google.gms", name = "google-services", version = '4.4.4' }
 firebase-crashlytics-gradle-plugin = { group = "com.google.firebase", name = "firebase-crashlytics-gradle", version.ref = "crashlyticsVersion" }
-firebase-appdistribution-gradle-plugin = { group = "com.google.firebase", name = "firebase-appdistribution-gradle", version = '5.0.0' }
+firebase-appdistribution-gradle-plugin = { group = "com.google.firebase", name = "firebase-appdistribution-gradle", version = '5.2.0' }
 hilt-gradle-plugin = { group = "com.google.dagger", name = "hilt-android-gradle-plugin", version.ref = 'hilt' }
 update-versions-gradle-plugin = { group = "com.github.ben-manes", name = "gradle-versions-plugin", version.ref = 'versionsUpdates' }
 ksp-gradle-plugin = { group = "com.google.devtools.ksp", name = "symbol-processing-gradle-plugin", version.ref = 'ksp' }
 # Kotlin
 kotlin-stdlib-core = { module = 'org.jetbrains.kotlin:kotlin-stdlib', version.ref = 'kotlin' }
-kotlinx-serialization = { module = 'org.jetbrains.kotlinx:kotlinx-serialization-json', version = '1.7.3' }
+kotlinx-serialization = { module = 'org.jetbrains.kotlinx:kotlinx-serialization-json', version = '1.8.0' }
 # Coroutines
 kotlinx-coroutines-core = { module = 'org.jetbrains.kotlinx:kotlinx-coroutines-core', version.ref = 'coroutinesVersion' }
 kotlinx-coroutines-android = { module = 'org.jetbrains.kotlinx:kotlinx-coroutines-android', version.ref = 'coroutinesVersion' }
@@ -59,13 +58,13 @@ appcompat = { module = 'androidx.appcompat:appcompat', version.ref = 'appcompat'
 lifecycle-viewmodel-ktx = { module = 'androidx.lifecycle:lifecycle-viewmodel-ktx', version.ref = 'lifecycleVersion' }
 lifecycle-runtime-ktx = { module = 'androidx.lifecycle:lifecycle-runtime-ktx', version.ref = 'lifecycleVersion' }
 lifecycle-process = { module = 'androidx.lifecycle:lifecycle-process', version.ref = 'lifecycleVersion' }
-splashscreen = { module = 'androidx.core:core-splashscreen', version = '1.0.1' }
-datastore = { module = 'androidx.datastore:datastore-preferences', version = '1.1.1' }
+splashscreen = { module = 'androidx.core:core-splashscreen', version = '1.2.0' }
+datastore = { module = 'androidx.datastore:datastore-preferences', version = '1.2.0' }
 # Compose
 compose-bom = { module = 'androidx.compose:compose-bom', version.ref = 'compose-bom' }
 # Material Design 3
-compose-material3 = { module = 'androidx.compose.material3:material3', version = '1.3.1' }
-compose-material3-adaptive = { module = "androidx.compose.material3.adaptive:adaptive-android", version = "1.0.0" }
+compose-material3 = { module = 'androidx.compose.material3:material3', version = '1.4.0' }
+compose-material3-adaptive = { module = "androidx.compose.material3.adaptive:adaptive-android", version = "1.2.0" }
 # Android Studio Preview support
 compose-ui-tooling-preview = { module = 'androidx.compose.ui:ui-tooling-preview' }
 compose-ui-tooling = { module = 'androidx.compose.ui:ui-tooling' }
@@ -74,17 +73,18 @@ compose-material-icons = { module = 'androidx.compose.material:material-icons-ex
 # UI Foundation
 compose-ui-graphics = { module = 'androidx.compose.ui:ui-graphics' }
 # Optional - Integration with activities and ViewModels
-compose-activity = { module = 'androidx.activity:activity-compose', version = '1.9.3' }
-compose-viewmodel = { module = 'androidx.lifecycle:lifecycle-viewmodel-compose', version = '2.8.7' }
-compose-lifecycle = { module = 'androidx.lifecycle:lifecycle-runtime-compose', version = '2.8.7' }
+compose-activity = { module = 'androidx.activity:activity-compose', version = '1.12.0' }
+compose-viewmodel = { module = 'androidx.lifecycle:lifecycle-viewmodel-compose', version = '2.10.0' }
+compose-lifecycle = { module = 'androidx.lifecycle:lifecycle-runtime-compose', version = '2.10.0' }
 # Navigation
-navigation-runtime = { module = 'androidx.navigation:navigation-runtime-ktx', version = '2.8.4' }
-compose-navigation = { module = 'androidx.navigation:navigation-compose', version = '2.8.4' }
-compose-hilt-navigation = { module = 'androidx.hilt:hilt-navigation-compose', version = '1.2.0' }
+navigation-runtime = { module = 'androidx.navigation:navigation-runtime-ktx', version = '2.9.6' }
+compose-navigation = { module = 'androidx.navigation:navigation-compose', version = '2.9.6' }
+compose-hilt-navigation = { module = 'androidx.hilt:hilt-navigation-compose', version = '1.3.0' }
 # Accompanist
 accompanist-drawablepainter = { module = 'com.google.accompanist:accompanist-drawablepainter', version.ref = 'accompanistVersion' }
 accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanistVersion" }
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanistVersion" }
+accompanist-webview = { module = "com.google.accompanist:accompanist-webview", version.ref = "accompanistVersion" }
 # Material
 material = { module = 'com.google.android.material:material', version.ref = 'material' }
 # Network
@@ -108,15 +108,15 @@ room-testing = { module = 'androidx.room:room-testing', version.ref = 'roomVersi
 # WorkManager
 work-manager-ktx = { module = 'androidx.work:work-runtime-ktx', version.ref = 'workManagerVersion' }
 # Ad
-yandex-ads = { module = 'com.yandex.android:mobileads', version = '7.5.0' }
+yandex-ads = { module = 'com.yandex.android:mobileads', version = '7.17.0' }
 # Google
-play-ads = { module = 'com.google.android.gms:play-services-ads', version = '23.5.0' }
+play-ads = { module = 'com.google.android.gms:play-services-ads', version = '24.8.0' }
 # Firebase
 firebase-bom = { module = 'com.google.firebase:firebase-bom', version.ref = 'firebaseVersion' }
-firebase-analytics = { module = 'com.google.firebase:firebase-analytics-ktx' }
-firebase-crashlytics = { module = 'com.google.firebase:firebase-crashlytics-ktx' }
-firebase-messages = { module = 'com.google.firebase:firebase-messaging-ktx' }
-firebase-config = { module = 'com.google.firebase:firebase-config-ktx' }
+firebase-analytics = { module = 'com.google.firebase:firebase-analytics' }
+firebase-crashlytics = { module = 'com.google.firebase:firebase-crashlytics' }
+firebase-messages = { module = 'com.google.firebase:firebase-messaging' }
+firebase-config = { module = 'com.google.firebase:firebase-config' }
 # Coil
 coil-compose = { module = 'io.coil-kt:coil-compose', version = '2.7.0' }
 # Third-Party - Replace after MVP release
@@ -138,9 +138,9 @@ android-library = { id = "com.android.library", version.ref = "android-gradle-pl
 android-test = { id = "com.android.test", version.ref = "android-gradle-plugin" }
 
 # Google services
-firebase-appdistribution = { id = "com.google.firebase.appdistribution", version = "5.0.0" }
+firebase-appdistribution = { id = "com.google.firebase.appdistribution", version = "5.2.0" }
 firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "crashlyticsVersion" }
-gms = { id = "com.google.gms.google-services", version = '4.4.2' }
+gms = { id = "com.google.gms.google-services", version = '4.4.4' }
 
 # Compose
 compose-compiler-plugin = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
@@ -163,45 +163,45 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 jacoco = { id = "org.gradle.jacoco", version.ref = "jacoco" }
 
 # Other
-android-cache-fix = { id = "org.gradle.android.cache-fix", version = "3.0.1" }
+android-cache-fix = { id = "org.gradle.android.cache-fix", version = "3.0.3" }
 update-versions = { id = "com.github.ben-manes.versions", version.ref = "versionsUpdates" }
 
 # Build-Logic
 # Android
-convention-application = { id = "com.yugyd.buildlogic.convention.android.application", version.ref = "convention" }
-convention-library = { id = "com.yugyd.buildlogic.convention.android.library", version.ref = "convention" }
+convention-application = { id = "com.yugyd.buildlogic.convention.android.application" }
+convention-library = { id = "com.yugyd.buildlogic.convention.android.library" }
 
 # Build type
-convention-application-buildtype = { id = "com.yugyd.buildlogic.convention.application.buildtype", version.ref = "convention" }
-convention-library-buildtype = { id = "com.yugyd.buildlogic.convention.library.buildtype", version.ref = "convention" }
+convention-application-buildtype = { id = "com.yugyd.buildlogic.convention.application.buildtype" }
+convention-library-buildtype = { id = "com.yugyd.buildlogic.convention.library.buildtype" }
 
 # Compose
-convention-application-compose = { id = "com.yugyd.buildlogic.convention.application.compose", version.ref = "convention" }
-convention-library-compose = { id = "com.yugyd.buildlogic.convention.library.compose", version.ref = "convention" }
+convention-application-compose = { id = "com.yugyd.buildlogic.convention.application.compose" }
+convention-library-compose = { id = "com.yugyd.buildlogic.convention.library.compose" }
 
 # Jacoco
-convention-application-jacoco = { id = "com.yugyd.buildlogic.convention.application.jacoco", version.ref = "convention" }
-convention-library-jacoco = { id = "com.yugyd.buildlogic.convention.library.jacoco", version.ref = "convention" }
+convention-application-jacoco = { id = "com.yugyd.buildlogic.convention.application.jacoco" }
+convention-library-jacoco = { id = "com.yugyd.buildlogic.convention.library.jacoco" }
 
 # Kotlin
-convention-kotlin-jvm = { id = "com.yugyd.buildlogic.convention.kotlin.jvm", version.ref = "convention" }
+convention-kotlin-jvm = { id = "com.yugyd.buildlogic.convention.kotlin.jvm" }
 
 # Lint
-convention-application-lint = { id = "com.yugyd.buildlogic.convention.application.lint", version.ref = "convention" }
-convention-library-lint = { id = "com.yugyd.buildlogic.convention.library.lint", version.ref = "convention" }
+convention-application-lint = { id = "com.yugyd.buildlogic.convention.application.lint" }
+convention-library-lint = { id = "com.yugyd.buildlogic.convention.library.lint" }
 
 # Publish
-convention-library-publish = { id = "com.yugyd.buildlogic.convention.library.publish", version.ref = "convention" }
-convention-kotlin-jvm-publish = { id = "com.yugyd.buildlogic.convention.kotlin.jvm.publish", version.ref = "convention" }
-convention-platform-publish = { id = "com.yugyd.buildlogic.convention.platform.publish", version.ref = "convention" }
+convention-library-publish = { id = "com.yugyd.buildlogic.convention.library.publish" }
+convention-kotlin-jvm-publish = { id = "com.yugyd.buildlogic.convention.kotlin.jvm.publish" }
+convention-platform-publish = { id = "com.yugyd.buildlogic.convention.platform.publish" }
 
 # Test
-convention-application-test = { id = "com.yugyd.buildlogic.convention.application.test", version.ref = "convention" }
-convention-library-test = { id = "com.yugyd.buildlogic.convention.library.test", version.ref = "convention" }
+convention-application-test = { id = "com.yugyd.buildlogic.convention.application.test" }
+convention-library-test = { id = "com.yugyd.buildlogic.convention.library.test" }
 
 # Tools
-convention-dependency-updates = { id = "com.yugyd.buildlogic.convention.dependency.updates", version.ref = "convention" }
-convention-hilt = { id = "com.yugyd.buildlogic.convention.hilt", version.ref = "convention" }
+convention-dependency-updates = { id = "com.yugyd.buildlogic.convention.dependency.updates" }
+convention-hilt = { id = "com.yugyd.buildlogic.convention.hilt" }
 
 # Custom logic
-convention-buildtype-apk-version = { id = "com.yugyd.buildlogic.convention.buildtype.apk.version", version.ref = "convention" }
+convention-buildtype-apk-version = { id = "com.yugyd.buildlogic.convention.buildtype.apk.version" }

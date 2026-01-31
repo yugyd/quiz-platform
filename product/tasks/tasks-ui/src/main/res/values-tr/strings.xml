@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="tasks_title_tasks_list">Görev listesi</string>
+    <string name="tasks_filters">Filtreler</string>
+    <string name="tasks_errors">Hatalar</string>
+    <string name="tasks_favorites">Favoriler</string>
+    <string name="tasks_empty_state_title">Hiçbir şey bulunamadı</string>
+    <string name="tasks_empty_state_message">Filtreleri değiştirmeyi deneyin</string>
+</resources>

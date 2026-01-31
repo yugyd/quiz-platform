@@ -3,6 +3,7 @@ package com.yugyd.quiz.domain.simplequest.di
 import com.yugyd.quiz.domain.game.api.QuestInteractor
 import com.yugyd.quiz.domain.simplequest.AbQuestParser
 import com.yugyd.quiz.domain.simplequest.IAbQuestParser
+import com.yugyd.quiz.domain.simplequest.LatexSimpleQuestInteractor
 import com.yugyd.quiz.domain.simplequest.SimpleQuestInteractor
 import dagger.Binds
 import dagger.Module
@@ -20,4 +21,8 @@ interface SimpleBlModule {
     @Binds
     @IntoSet
     fun bindsQuestInteractor(impl: SimpleQuestInteractor): QuestInteractor
+
+    @Binds
+    @IntoSet
+    fun bindsLatexSimpleQuestInteractor(impl: LatexSimpleQuestInteractor): QuestInteractor
 }

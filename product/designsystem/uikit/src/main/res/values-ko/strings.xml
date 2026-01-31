@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="app_name">Quiz Platform</string>
+    <string name="ds_navbar_title_theme">테마</string>
+    <string name="ds_navbar_title_courses">코스</string>
+    <string name="ds_navbar_title_correct">수정</string>
+    <string name="ds_navbar_title_progress">진행 상황</string>
+    <string name="ds_navbar_title_profile">프로필</string>
+    <string name="ds_game_mode_title_arcade">아케이드</string>
+    <string name="ds_game_mode_title_train">훈련</string>
+    <string name="ds_game_mode_title_unknown">알 수 없음</string>
+    <string name="ds_game_mode_title_favorites">즐겨찾기</string>
+    <string name="ds_app_version_title_content_lite">라이트</string>
+    <string name="ds_app_version_title_content_pro">프로</string>
+    <string name="ds_format_record_progress">%1$d / %2$d</string>
+    <string name="ds_action_game">플레이</string>
+    <string name="ds_error_base">문제가 발생했어요</string>
+    <string name="ds_error_fields">모든 필드를 입력해 주세요</string>
+    <string name="ds_empty_state_title">이런, 데이터가 없어요</string>
+    <string name="ds_empty_state_description">화면을 다시 불러와 보세요</string>
+    <string name="ds_empty_state_retry">다시 시도</string>
+    <string name="ds_game_mode_title_ai_tasks">AI 과제</string>
+</resources>

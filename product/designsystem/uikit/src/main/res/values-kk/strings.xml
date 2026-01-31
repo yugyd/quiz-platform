@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="app_name">Quiz Platform</string>
+    <string name="ds_navbar_title_theme">Тақырыптар</string>
+    <string name="ds_navbar_title_courses">Курстар</string>
+    <string name="ds_navbar_title_correct">Түзету</string>
+    <string name="ds_navbar_title_progress">Прогресс</string>
+    <string name="ds_navbar_title_profile">Профиль</string>
+    <string name="ds_game_mode_title_arcade">Аркада</string>
+    <string name="ds_game_mode_title_train">Жаттығу</string>
+    <string name="ds_game_mode_title_unknown">Белгісіз</string>
+    <string name="ds_game_mode_title_favorites">Таңдаулылар</string>
+    <string name="ds_app_version_title_content_lite">Lite</string>
+    <string name="ds_app_version_title_content_pro">Pro</string>
+    <string name="ds_format_record_progress">%1$d / %2$d</string>
+    <string name="ds_action_game">Ойнау</string>
+    <string name="ds_error_base">Бірдеңе дұрыс болмады</string>
+    <string name="ds_error_fields">Барлық өрістерді толтырыңыз</string>
+    <string name="ds_empty_state_title">Қап, деректер жоқ</string>
+    <string name="ds_empty_state_description">Экранды қайта жүктеп көріңіз</string>
+    <string name="ds_empty_state_retry">Қайтадан көру</string>
+    <string name="ds_game_mode_title_ai_tasks">ЖИ тапсырмалары</string>
+</resources>

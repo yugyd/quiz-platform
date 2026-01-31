@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="content_title">İçerik</string>
+    <string name="content_empty_state_new_file">Yeni dosya</string>
+    <string name="content_empty_state_title">Başlarken</string>
+    <string name="content_empty_state_message">İçerik bulunan yeni bir dosya seçin ve ardından uygulamanın içeriğinizle keyfini çıkarın.</string>
+    <string name="content_empty_state_button">Dosya seç</string>
+    <string name="content_empty_state_note">İçerik, veri biçimine uygun olmalıdır.</string>
+    <string name="content_error_not_added_content_is_exists">İçerik zaten eklendi</string>
+    <string name="content_error_invalid_uri">İçerik dosyasına erişim sağlanamadı</string>
+    <string name="content_error_add_is_failed">İçerik eklenemedi</string>
+    <string name="content_error_delete_is_failed">İçerik silinemedi</string>
+    <string name="content_error_not_select_and_delete">Seçilen içerik geçersiz ve silindi</string>
+    <string name="content_error_select_is_failed">İçerik seçilemedi</string>
+    <string name="content_error_one_item_not_delete">Tek içerik silinemez</string>
+    <string name="content_error_selected_item_not_delete">Seçilen içerik silinemez</string>
+    <string name="content_format_error_content_quest_duplicate_id">Yinelenen kimlikler bulundu, sorular için benzersiz kimlikler belirleyin: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Yinelenen kimlikler bulundu, konular için benzersiz kimlikler belirleyin: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Hatalı oluşturulmuş sorular bulundu: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Hatalı oluşturulmuş konular bulundu: %s</string>
+    <string name="content_error_content_format_url_not_loaded">İçerik biçimi kaynağının bağlantısı yüklenemedi</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="correct_title_remember_quest">Artık sorular akılda kalacak!</string>
+    <string name="correct_msg_correct_quest">Konuyu pekiştirmek için hataları düzeltin. Burada yaptığınız tüm hatalar toplanır.</string>
+    <string name="correct_msg_correct_pro_available">Yalnızca Pro sürümünde kullanılabilir.</string>
+</resources>

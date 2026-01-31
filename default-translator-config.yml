@@ -3,8 +3,8 @@ config:
   sourceLanguage: "en"
   targetLanguages: [ "de", "fr", "es", "it" ]
   aiProvider: "openai"
-  aiKey: "REPLACE_ME"
-  aiModel: "gpt-4.1"
+  aiKey: REPLACE_ME
+  aiModel: "gpt-5.2"
   excludeTranslated: true
 
 excludes:

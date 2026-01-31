@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generated Translator AI-->
+    <string name="correct_title_remember_quest">이제 문제가 기억돼요!</string>
+    <string name="correct_msg_correct_quest">오답을 바로잡으며 내용을 확실히 익히세요. 여기에는 그동안의 모든 오답이 모여 있어요.</string>
+    <string name="correct_msg_correct_pro_available">Pro에서만 이용할 수 있습니다.</string>
+</resources>

@@ -18,4 +18,5 @@ package com.yugyd.quiz.domain.simplequest
 
 interface IAbQuestParser {
     fun parse(model: SimpleQuestModel): SimpleQuestModel
+    fun parse(model: LatexSimpleQuestModel): LatexSimpleQuestModel
 }
