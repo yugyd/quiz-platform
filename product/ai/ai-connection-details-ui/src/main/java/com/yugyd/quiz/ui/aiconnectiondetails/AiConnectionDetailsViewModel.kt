@@ -75,6 +75,10 @@ internal class AiConnectionDetailsViewModel @Inject constructor(
                 screenState = screenState.copy(apiKey = action.apiKey)
             }
 
+            is Action.OnApiModelChanged -> {
+                screenState = screenState.copy(apiModel = action.apiModel)
+            }
+
             is Action.OnCloudProjectFolderChanged -> {
                 screenState = screenState.copy(cloudProjectFolder = action.cloudProjectFolder)
             }
@@ -171,6 +175,7 @@ internal class AiConnectionDetailsViewModel @Inject constructor(
                 name = dataResult.aiConnection.name,
                 allProviders = dataResult.providers.map { it.name },
                 apiKey = dataResult.aiConnection.apiKey,
+                apiModel = dataResult.aiConnection.apiModel.orEmpty(),
                 cloudProjectFolder = dataResult.aiConnection.apiCloudFolder.orEmpty(),
                 isCloudProjectFolderVisible = dataResult.aiConnection.apiProvider.isNeedFolder,
             )
@@ -257,6 +262,7 @@ internal class AiConnectionDetailsViewModel @Inject constructor(
                         name = screenState.name,
                         apiKey = screenState.apiKey,
                         apiCloudFolder = screenState.cloudProjectFolder,
+                        apiModel = screenState.apiModel.ifBlank { null },
                     )
                     aiConnectionInteractor.updateAiConnection(updateAiConnection)
                 } else {
@@ -265,6 +271,7 @@ internal class AiConnectionDetailsViewModel @Inject constructor(
                         apiProvider = AiConnectionProviderTypeModel.fromQualifier(screenState.provider),
                         apiKey = screenState.apiKey,
                         apiCloudFolder = screenState.cloudProjectFolder,
+                        apiModel = screenState.apiModel.ifBlank { null },
                     )
                     aiConnectionInteractor.addAiConnection(addAiConnection)
                 }

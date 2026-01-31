@@ -32,6 +32,7 @@ class AiConnectionMapper @Inject internal constructor() {
             apiProvider = AiConnectionProviderTypeModel.fromQualifier(entity.apiProvider),
             isValid = entity.isValid,
             isActive = entity.isActive,
+            apiModel = entity.apiModel,
         )
     }
 
@@ -44,6 +45,7 @@ class AiConnectionMapper @Inject internal constructor() {
             apiProvider = model.apiProvider.qualifier,
             isValid = model.isValid,
             isActive = model.isActive,
+            apiModel = model.apiModel,
         )
     }
 }

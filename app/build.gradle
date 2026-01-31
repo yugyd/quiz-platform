@@ -147,6 +147,7 @@ dependencies {
     implementation project(':product:core:coroutines-utils')
     implementation project(':product:services:ad-impl')
     implementation project(':product:core:ad')
+    implementation project(':product:core:network')
 
     // Kotlin
     implementation libs.kotlinx.coroutines.android

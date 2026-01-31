@@ -73,6 +73,7 @@ internal class AiConnectionClientImpl @Inject constructor(
                 apiKey = model.apiKey,
                 apiCloudFolder = model.apiCloudFolder,
                 isValid = null,
+                apiModel = model.apiModel,
             )
 
             val newConnections = currentConnections.plus(newConnection)
@@ -124,6 +125,7 @@ internal class AiConnectionClientImpl @Inject constructor(
                     name = model.name,
                     apiKey = model.apiKey,
                     apiCloudFolder = model.apiCloudFolder,
+                    apiModel = model.apiModel,
                 )
                 val newConnections = currentConnections.map {
                     if (it.id == model.id) {

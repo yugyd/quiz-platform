@@ -103,6 +103,9 @@ internal fun AiConnectionDetailsRoute(
         onCloudProjectFolderChanged = {
             viewModel.onAction(Action.OnCloudProjectFolderChanged(it))
         },
+        onApiModelChanged = {
+            viewModel.onAction(Action.OnApiModelChanged(it))
+        },
         onBackPressed = {
             viewModel.onAction(Action.OnBackPressed)
         },
@@ -128,6 +131,7 @@ internal fun AiConnectionDetailsScreen(
     onProviderSelected: (String) -> Unit,
     onApiKeyChanged: (String) -> Unit,
     onCloudProjectFolderChanged: (String) -> Unit,
+    onApiModelChanged: (String) -> Unit,
     onErrorDismissState: () -> Unit,
     onBackPressed: () -> Unit,
     onBack: () -> Unit,
@@ -141,9 +145,11 @@ internal fun AiConnectionDetailsScreen(
             SnackbarMessage.ERROR -> {
                 snackbarHostState.showSnackbar(message = errorMessage)
             }
+
             SnackbarMessage.FILL_FIELDS -> {
                 snackbarHostState.showSnackbar(message = errorFieldsMessage)
             }
+
             null -> Unit
         }
 
@@ -189,6 +195,7 @@ internal fun AiConnectionDetailsScreen(
                     isApiKeyValid = uiState.isApiKeyValid,
                     cloudProjectFolder = uiState.cloudProjectFolder,
                     isCloudProjectFolderVisible = uiState.isCloudProjectFolderVisible,
+                    apiModel = uiState.apiModel,
                     isSaveButtonEnabled = uiState.isSaveButtonEnabled,
                     onKeyInstructionClicked = onKeyInstructionClicked,
                     onSaveClicked = onSaveClicked,
@@ -196,6 +203,7 @@ internal fun AiConnectionDetailsScreen(
                     onProviderSelected = onProviderSelected,
                     onApiKeyChanged = onApiKeyChanged,
                     onCloudProjectFolderChanged = onCloudProjectFolderChanged,
+                    onApiModelChanged = onApiModelChanged,
                 )
             }
         }
@@ -220,6 +228,7 @@ internal fun AiConnectionDetailsContent(
     isApiKeyValid: Boolean?,
     cloudProjectFolder: String,
     isCloudProjectFolderVisible: Boolean,
+    apiModel: String,
     isSaveButtonEnabled: Boolean,
     onKeyInstructionClicked: () -> Unit,
     onSaveClicked: () -> Unit,
@@ -227,6 +236,7 @@ internal fun AiConnectionDetailsContent(
     onProviderSelected: (String) -> Unit,
     onApiKeyChanged: (String) -> Unit,
     onCloudProjectFolderChanged: (String) -> Unit,
+    onApiModelChanged: (String) -> Unit,
 ) {
     Column(
         modifier = Modifier
@@ -377,7 +387,7 @@ internal fun AiConnectionDetailsContent(
                 },
                 keyboardOptions = KeyboardOptions(
                     keyboardType = KeyboardType.Text,
-                    imeAction = ImeAction.Done,
+                    imeAction = ImeAction.Next,
                 ),
                 singleLine = true,
                 trailingIcon = {
@@ -400,6 +410,38 @@ internal fun AiConnectionDetailsContent(
                 },
             )
         }
+
+        Spacer(
+            modifier = Modifier.height(height = 16.dp),
+        )
+
+        OutlinedTextField(
+            modifier = Modifier.fillMaxWidth(),
+            value = apiModel,
+            onValueChange = onApiModelChanged,
+            label = {
+                Text(
+                    text = stringResource(id = R.string.ai_connection_details_api_model),
+                )
+            },
+            keyboardOptions = KeyboardOptions(
+                keyboardType = KeyboardType.Text,
+                imeAction = ImeAction.Done,
+            ),
+            singleLine = true,
+            trailingIcon = {
+                IconButton(
+                    onClick = {
+                        onApiModelChanged("")
+                    }
+                ) {
+                    Icon(
+                        imageVector = Icons.Rounded.Clear,
+                        contentDescription = null,
+                    )
+                }
+            },
+        )
 
         Spacer(
             modifier = Modifier.height(height = 16.dp),
@@ -468,6 +510,7 @@ private fun ContentPreview() {
                 isApiKeyValid = true,
                 cloudProjectFolder = "CloudProjectFolder",
                 isCloudProjectFolderVisible = true,
+                apiModel = "ApiModel",
                 isSaveButtonEnabled = true,
                 onKeyInstructionClicked = {},
                 onSaveClicked = {},
@@ -475,6 +518,7 @@ private fun ContentPreview() {
                 onProviderSelected = {},
                 onApiKeyChanged = {},
                 onCloudProjectFolderChanged = {},
+                onApiModelChanged = {},
             )
         }
     }

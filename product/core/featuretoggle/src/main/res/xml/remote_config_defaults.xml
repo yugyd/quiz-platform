@@ -72,4 +72,20 @@
         <key>ai_privacy_url</key>
         <value>https://www.replaceme.com/ai-terms-conditions</value>
     </entry>
+    <entry>
+        <key>feature_ai</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>feature_ai_courses</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>base_api_url</key>
+        <value>https://www.replaceme.com/api/</value>
+    </entry>
+    <entry>
+        <key>feature_ai_tasks</key>
+        <value>true</value>
+    </entry>
 </defaults>

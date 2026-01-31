@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Roman Likhachev
+ * Copyright 2025 Roman Likhachev
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,23 @@
  * limitations under the License.
  */
 
-package com.yugyd.quiz.ai.connection.api.model
+package com.yugyd.quiz.core.network
 
-data class UpdateAiConnectionModel(
-    val id: String,
-    val name: String,
-    val apiKey: String,
-    val apiCloudFolder: String?,
-    val apiModel: String?,
-)
+import dagger.Binds
+import dagger.Module
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
+
+@Module
+@InstallIn(SingletonComponent::class)
+interface ApiUrlProviderModule {
+
+    @Binds
+    @Singleton
+    fun provideApiUrlProvider(impl: ApiUrlProviderImpl): ApiUrlProvider
+
+    @Binds
+    @Singleton
+    fun provideApiUrlInitializer(impl: ApiUrlProviderImpl): ApiUrlInitializer
+}

@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace 'com.yugyd.quiz.domain.tasks'
+    namespace 'com.yugyd.quiz.domain.aitasks'
 }
 
 dependencies {

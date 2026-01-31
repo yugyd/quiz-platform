@@ -49,7 +49,6 @@ annotation class YandexRetrofit
 @InstallIn(SingletonComponent::class)
 object NetworkBlModule {
 
-    private const val URL = "https://www.replaceme.com/api/"
     private const val TIMEOUT = 45L
 
     private const val OPENAI_BASE_URL = "https://api.openai.com/v1/"
@@ -60,9 +59,10 @@ object NetworkBlModule {
     internal fun provideRetrofit(
         json: Json,
         client: OkHttpClient,
+        apiUrlProvider: ApiUrlProvider,
     ): Retrofit {
         return Retrofit.Builder()
-            .baseUrl(URL)
+            .baseUrl(apiUrlProvider.getBaseUrl())
             .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
             .client(client)
             .build()

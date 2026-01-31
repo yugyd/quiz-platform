@@ -24,6 +24,7 @@
     <string name="ai_connection_details_name">Name</string>
     <string name="ai_connection_details_provider">AI Provider</string>
     <string name="ai_connection_details_api_key">API Key</string>
+    <string name="ai_connection_details_api_model">API Model</string>
     <string name="ai_connection_details_project_folder">Project Folder</string>
     <string name="ai_connection_details_action_save">Save</string>
     <string name="ai_connection_details_action_delete">Delete</string>

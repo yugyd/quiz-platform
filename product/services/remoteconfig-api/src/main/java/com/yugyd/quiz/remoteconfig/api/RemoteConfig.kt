@@ -20,4 +20,5 @@ interface RemoteConfig {
     suspend fun fetchStringValue(key: String): String
     suspend fun fetchLongValue(key: String): Long
     suspend fun fetchBooleanValue(key: String): Boolean
+    fun getStringValue(key: String): String
 }

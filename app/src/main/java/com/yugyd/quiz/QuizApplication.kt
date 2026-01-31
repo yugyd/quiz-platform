@@ -22,6 +22,7 @@ import com.yugyd.quiz.core.AdProviderType
 import com.yugyd.quiz.core.GlobalConfig
 import com.yugyd.quiz.core.Logger
 import com.yugyd.quiz.core.coroutinesutils.AppScopeProvider
+import com.yugyd.quiz.core.network.ApiUrlInitializer
 import com.yugyd.quiz.ext.isMainProcess
 import com.yugyd.quiz.featuretoggle.domain.FeatureManager
 import com.yugyd.quiz.featuretoggle.domain.model.FeatureToggle
@@ -54,6 +55,9 @@ class QuizApplication : Application() {
     @Inject
     lateinit var appScopeProvider: AppScopeProvider
 
+    @Inject
+    lateinit var apiUrlInitializer: ApiUrlInitializer
+
     override fun onCreate() {
         super.onCreate()
 
@@ -82,6 +86,8 @@ class QuizApplication : Application() {
                     gameServicesInitializer.initialize()
                 }
             }
+
+            apiUrlInitializer.fetchBaseUrl()
         }
 
         pushManager.createChannels()

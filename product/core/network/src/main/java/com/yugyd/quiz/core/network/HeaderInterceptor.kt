@@ -17,6 +17,7 @@
 package com.yugyd.quiz.core.network
 
 import com.yugyd.quiz.ai.connection.api.model.AiConnectionModel
+import com.yugyd.quiz.ai.connection.api.model.AiConnectionProviderTypeModel
 import com.yugyd.quiz.domain.aiconnection.AiConnectionInteractor
 import kotlinx.coroutines.runBlocking
 import okhttp3.Interceptor
@@ -35,6 +36,15 @@ class HeaderInterceptor @Inject constructor(
         if (aiConnection != null) {
             request.header("X-Ai-Key", aiConnection.apiKey)
             request.header("X-Ai-Provider", aiConnection.apiProvider.qualifier)
+
+            val apiModel = when (aiConnection.apiProvider) {
+                AiConnectionProviderTypeModel.YANDEX -> aiConnection.apiModel ?: "yandexgpt"
+                AiConnectionProviderTypeModel.CHAT_GPT -> aiConnection.apiModel ?: "gpt-4.1-mini"
+                AiConnectionProviderTypeModel.NONE -> null
+            }
+            apiModel?.let {
+                request.header("X-Ai-Model", it)
+            }
 
             aiConnection.apiCloudFolder?.let { apiCloudFolder ->
                 request.header("X-Ai-Folder", apiCloudFolder)

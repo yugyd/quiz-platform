@@ -13,6 +13,8 @@ android {
 
 dependencies {
     implementation project(':product:ai:ai-connection-quiz')
+    implementation project(':product:services:remoteconfig-api')
+    implementation project(':product:core')
 
     // Logging
     implementation libs.timber

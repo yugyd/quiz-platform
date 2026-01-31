@@ -21,4 +21,5 @@ data class NewAiConnectionModel(
     val apiProvider: AiConnectionProviderTypeModel,
     val apiKey: String,
     val apiCloudFolder: String?,
+    val apiModel: String?,
 )

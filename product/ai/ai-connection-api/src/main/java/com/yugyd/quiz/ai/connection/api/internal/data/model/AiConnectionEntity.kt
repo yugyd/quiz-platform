@@ -28,4 +28,5 @@ data class AiConnectionEntity(
     @SerialName("apiKey") val apiKey: String,
     @SerialName("apiCloudFolder") val apiCloudFolder: String?,
     @SerialName("isValid") val isValid: Boolean?,
+    @SerialName("apiModel") val apiModel: String?,
 )

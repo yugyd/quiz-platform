@@ -28,7 +28,6 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.tasks.await
 import timber.log.Timber
 import javax.inject.Inject
-import javax.inject.Singleton
 
 internal class RemoteConfigImpl @Inject internal constructor(
     @ApplicationContext private val context: Context,
@@ -65,6 +64,12 @@ internal class RemoteConfigImpl @Inject internal constructor(
         return getBooleanValue(key)
     }
 
+    override fun getStringValue(key: String): String {
+        val rawValue = remoteConfig?.getString(key).orEmpty()
+        Timber.tag(TAG).d("New config value %s", rawValue)
+        return rawValue
+    }
+
     private suspend fun fetchConfig() {
         if (remoteConfig == null) {
             return
@@ -80,12 +85,6 @@ internal class RemoteConfigImpl @Inject internal constructor(
                 Timber.tag(TAG).e(error, "msg")
             }
             .await()
-    }
-
-    private fun getStringValue(key: String): String {
-        val rawValue = remoteConfig?.getString(key).orEmpty()
-        Timber.tag(TAG).d("New config value %s", rawValue)
-        return rawValue
     }
 
     private fun getLongValue(key: String): Long {

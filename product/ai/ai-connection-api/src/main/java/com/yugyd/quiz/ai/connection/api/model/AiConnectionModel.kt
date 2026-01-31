@@ -23,5 +23,6 @@ data class AiConnectionModel(
     val apiProvider: AiConnectionProviderTypeModel,
     val apiKey: String,
     val apiCloudFolder: String?,
+    val apiModel: String?,
     val isValid: Boolean?,
 )

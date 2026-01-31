@@ -35,6 +35,7 @@ internal interface AiConnectionDetailsView {
         val isApiKeyValid: Boolean? = null,
         val cloudProjectFolder: String = "",
         val isCloudProjectFolderVisible: Boolean = false,
+        val apiModel: String = "",
         val isSaveButtonEnabled: Boolean = true,
         val isDeleteVisible: Boolean = false,
         val isWarning: Boolean = false,
@@ -71,6 +72,7 @@ internal interface AiConnectionDetailsView {
         data class OnNameChanged(val name: String) : Action
         data class OnProviderSelected(val provider: String) : Action
         data class OnApiKeyChanged(val apiKey: String) : Action
+        data class OnApiModelChanged(val apiModel: String) : Action
         data class OnCloudProjectFolderChanged(val cloudProjectFolder: String) : Action
         data object OnSnackbarDismissed : Action
         data object OnNavigationHandled : Action
