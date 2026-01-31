@@ -42,4 +42,3 @@ abstract class AiQuestBlModule {
     @Binds
     internal abstract fun bindAiClientInteractor(impl: AiClientInteractorImpl): AiClientInteractor
 }
-
