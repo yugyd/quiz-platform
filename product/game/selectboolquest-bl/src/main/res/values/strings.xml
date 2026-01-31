@@ -13,8 +13,8 @@
   ~    See the License for the specific language governing permissions and
   ~    limitations under the License.
   -->
+
 <resources>
-    <!--Generated Translator AI-->
-    <string name="select_bool_quest_answer_true">True</string>
-    <string name="select_bool_quest_answer_false">False</string>
+    <string name="select_bool_quest_answer_true">Истина</string>
+    <string name="select_bool_quest_answer_false">Ложь</string>
 </resources>

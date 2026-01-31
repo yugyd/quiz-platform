@@ -15,8 +15,7 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="correct_title_remember_quest">Now questions will be remembered!</string>
-    <string name="correct_msg_correct_quest">Correct mistakes to reinforce the material. All your mistakes are collected here.</string>
-    <string name="correct_msg_correct_pro_available">Available only in Pro.</string>
+    <string name="correct_title_remember_quest">Теперь вопросы запомнятся!</string>
+    <string name="correct_msg_correct_quest">Исправляйте ошибки для закрепления материала. Здесь собраны все ошибки.</string>
+    <string name="correct_msg_correct_pro_available">Доступно только в Про.</string>
 </resources>

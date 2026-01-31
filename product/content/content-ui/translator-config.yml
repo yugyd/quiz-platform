@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Content screen. Allows you to select a question database or upload a new one from a file. The screen consists of the following components: 1. A basic toolbar. 2. A banner to add a new file. 3. A list of already uploaded databases, from which you can select the desired one."
+  uiSemantics: "Content management screen that displays a toolbar and a list of user content files, supports opening and importing plain text files via system file picker, shows empty-state guidance with file format help and add-file action, allows selecting content items with visual indicators, handles loading and warning states, displays detailed validation and operation errors via snackbars, and navigates back or to an external browser for content format documentation."
   excludeTranslated: true

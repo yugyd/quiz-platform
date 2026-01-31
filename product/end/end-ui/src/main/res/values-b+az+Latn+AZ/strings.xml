@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    end_title_well = 973696e02f0d688fdcd18895a394b95a6505db34c9e87be96613aacf229e7eba
+    end_msg_new_record = c15a3bf140e989bfb3a8127686d27e484aa03bed654d22681b84cc049cc89caa
+    end_action_leave_rate = 7d2e37a0331f773ced599d3c81d8eef6b47fdf4cd17afafd3a9de909ec887610
+    end_action_skip = 675b0be0d37d699046d61a64f6b29f5ab52001858bdd5f1002633f4bae17fee8
+    end_action_show_error = 2b78eb8cbddb83c7b32af3c9f1c0cd4054cc76dd2d911e82cd79704fba2a71da
+    end_action_new_game = 92ff178175e464e7e298b724c6a09aafa144d2fffbcb3fa8fe5b2f6dd7e448c7
+    end_action_watch = 754283744681d0938f5b970f116b98e5c48857985c639e075ae3b38f2bc46e78
+    end_error_reward_not_loaded = d3362efa5280552b57a3211d2ed1883e15f823f4f8cde4bb033e8685a6444c7f
+    end_title_work_favorites = e0947be3ff56cb13e32bc6220db26e2e42ad37b833b52c2b366f85e68942833b
+    end_title_work_error = 5edacf16e412db84aecc2da261a48c5836b3d0ae3cc60e0fd5918ac506ffe397
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="end_title_well">Əla!</string>
+    <string name="end_msg_new_record">Yeni rekord qoyuldu! Bəyəndiniz?</string>
+    <string name="end_action_leave_rate">Rəy yazın</string>
+    <string name="end_action_skip">Keç</string>
+    <string name="end_action_show_error">Səhvlərə baxın</string>
+    <string name="end_action_new_game">Yeni oyun</string>
+    <string name="end_action_watch">Bax</string>
+    <string name="end_error_reward_not_loaded">Reklamı yükləmək alınmadı</string>
+    <string name="end_title_work_favorites">Seçilmişlər üzərində iş</string>
+    <string name="end_title_work_error">Səhvlər üzərində iş</string>
+</resources>

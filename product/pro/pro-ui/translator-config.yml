@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Subscription screen. The screen contains several pages that encourage users to purchase the app's pro subscription. The screen consists of the following components: 1. Basic close button. 2. Motivational page content, including an icon, title, and subtitle. 3. 'Try/Buy Subscription' button."
+  uiSemantics: "This screen is a 'Pro Onboarding' module showing a full-screen vertical layout with a top close toolbar, a horizontal swipeable pager of onboarding cards each with an icon (with optional background), title, and subtitle, page indicators below the pager, and a bottom full-width continue button; it supports loading and navigation states, allows back navigation and continuing to Pro features, and all text elements are concise for mobile UI translation context."
   excludeTranslated: true

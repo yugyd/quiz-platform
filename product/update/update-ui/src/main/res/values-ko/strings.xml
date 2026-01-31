@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="update_title_update">새 업데이트가 나왔어요</string>
-    <string name="update_title_update_description">새로운 기능과 콘텐츠를 이용해 보세요</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    update_title_update = dd50aa1be676b6a7f9d91f154e3bef7a0fa97c50d48d8973042bf0b9a5840e1f
+    update_title_update_description = 1f9a9cd4725d883ee574ea6bf3d27bce9f954024bb0b6e4f215326b54e692575
+    update_action_update = 8362fe71daa662023337a4473f0ab270cd3cbe5c0c91a84e0182605805e841ba
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="update_title_update">업데이트가 출시되었습니다</string>
+    <string name="update_title_update_description">새로운 기능과 콘텐츠를 이용하실 수 있습니다</string>
     <string name="update_action_update">업데이트</string>
 </resources>

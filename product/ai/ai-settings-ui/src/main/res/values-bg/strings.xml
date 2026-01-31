@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    ai_settings_title_ai = 5515558dafbf18d95b99722fcb5e6228e5afd899a2c06274bd6b69d4a9cd126b
+    ai_settings_title_enable_ai = cb7945342488781633013ca1add6d0baa6e903de9c3db5ae39b5b3e9cc8afbcb
+    ai_settings_title_ai_connected = 98594ccfc42964d13f9268878c5e1adf7308e795d1323d6f78bb131aa22827cd
+    ai_settings_add_ai_connection = 28dcdf13af6c2b0bfac3d47dc7a55cb0a043fca853d9b6d57c39cdcdcdb71b17
+    ai_settings_term_of_cache = ce1327725427c240629531cb75f0c9456f466792f34fd8e3f110299c65ac4324
+    ai_settings_direct_connection = ee1d16b9db2db484a99f6f27272f450ab3bd07982be34f2cc80e3ab5022c8439
+    ai_settings_privacy_policy = 927c58a5f91cf6a91f180c7ae602af607bddaba35315e66e976171399e40764d
+    ai_settings_ai_test_info = 6a1bdfbc909d5b66060ad852f4d04c06def85a009427a992c334e8ad6282d68f
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="ai_settings_title_ai">ИИ Бета</string>
+    <string name="ai_settings_title_enable_ai">Включване на ИИ (бета)</string>
+    <string name="ai_settings_title_ai_connected">Свързан</string>
+    <string name="ai_settings_add_ai_connection">Добавяне на ИИ връзка</string>
+    <string name="ai_settings_term_of_cache">Интервал за обновяване на съдържанието</string>
+    <string name="ai_settings_direct_connection">Директна връзка</string>
+    <string name="ai_settings_privacy_policy">Политика за използване на ИИ</string>
+    <string name="ai_settings_ai_test_info">Тази функционалност е в тестов режим</string>
+</resources>

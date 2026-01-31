@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Game screen. This screen displays various tasks. The screen consists of the following components: 1. A basic toolbar. 2. Extra life dialog: title, subtitle, 'Watch Ad' button, 'Next' button, and a toast with an error if the ad fails to load. 3. Task: can vary greatly."
+  uiSemantics: "Composable game UI displaying dynamic quiz content with multiple question types (Simple, Latex, Enter, EnterWithHint, Select, SelectManual, EnterAI, SelectBool), progress bar, toolbar with condition icons, reward dialogs, banner ads (promo and ad units), error and debug snackbars, scrollable quest content, answer buttons with highlighting and selection, navigation handlers to game end, progress end, and pro onboarding screens, all wrapped in a responsive QuizBackground with loading and warning states."
   excludeTranslated: true

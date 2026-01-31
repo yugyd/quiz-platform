@@ -38,6 +38,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
@@ -186,30 +187,32 @@ internal fun SnackbarMessageEffect(
     onSnackbarDismissState: () -> Unit,
 ) {
     val context = LocalContext.current
+    val currentContext by rememberUpdatedState(context)
+
     LaunchedEffect(key1 = snackbarState) {
         val msg = when (snackbarState) {
             SnackbarState.NotAddedContentIsExists -> {
-                context.getString(R.string.content_error_not_added_content_is_exists)
+                currentContext.getString(R.string.content_error_not_added_content_is_exists)
             }
 
             SnackbarState.UriIsNull -> {
-                context.getString(R.string.content_error_invalid_uri)
+                currentContext.getString(R.string.content_error_invalid_uri)
             }
 
             SnackbarState.AddIsFailed -> {
-                context.getString(R.string.content_error_add_is_failed)
+                currentContext.getString(R.string.content_error_add_is_failed)
             }
 
             SnackbarState.DeleteIsFailed -> {
-                context.getString(R.string.content_error_delete_is_failed)
+                currentContext.getString(R.string.content_error_delete_is_failed)
             }
 
             SnackbarState.NotSelectAndDelete -> {
-                context.getString(R.string.content_error_not_select_and_delete)
+                currentContext.getString(R.string.content_error_not_select_and_delete)
             }
 
             SnackbarState.SelectIsFailed -> {
-                context.getString(R.string.content_error_select_is_failed)
+                currentContext.getString(R.string.content_error_select_is_failed)
             }
 
             is SnackbarState.VerifyError -> {
@@ -217,15 +220,15 @@ internal fun SnackbarMessageEffect(
             }
 
             SnackbarState.OneItemNotDelete -> {
-                context.getString(R.string.content_error_one_item_not_delete)
+                currentContext.getString(R.string.content_error_one_item_not_delete)
             }
 
             SnackbarState.SelectedItemNotDelete -> {
-                context.getString(R.string.content_error_selected_item_not_delete)
+                currentContext.getString(R.string.content_error_selected_item_not_delete)
             }
 
             SnackbarState.ContentFormatUrlNotLoaded -> {
-                context.getString(R.string.content_error_content_format_url_not_loaded)
+                currentContext.getString(R.string.content_error_content_format_url_not_loaded)
             }
 
             null -> null

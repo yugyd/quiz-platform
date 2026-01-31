@@ -15,24 +15,23 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="content_title">Content</string>
-    <string name="content_empty_state_new_file">New file</string>
-    <string name="content_empty_state_title">Getting started</string>
-    <string name="content_empty_state_message">Select a new content file, then enjoy the app with your content.</string>
-    <string name="content_empty_state_button">Choose file</string>
-    <string name="content_empty_state_note">The content must comply with the data format.</string>
-    <string name="content_error_not_added_content_is_exists">Content has already been added</string>
-    <string name="content_error_invalid_uri">Failed to access the content file</string>
-    <string name="content_error_add_is_failed">Failed to add content</string>
-    <string name="content_error_delete_is_failed">Failed to delete content</string>
-    <string name="content_error_not_select_and_delete">The selected content is invalid and has been deleted</string>
-    <string name="content_error_select_is_failed">Failed to select content</string>
-    <string name="content_error_one_item_not_delete">The only content cannot be deleted</string>
-    <string name="content_error_selected_item_not_delete">The selected content cannot be deleted</string>
-    <string name="content_format_error_content_quest_duplicate_id">Duplicate question IDs found, please assign unique IDs for questions: %s</string>
-    <string name="content_format_error_content_theme_duplicate_id">Duplicate theme IDs found, please assign unique IDs for themes: %s</string>
-    <string name="content_format_error_content_quest_not_valid">Invalidly composed questions found: %s</string>
-    <string name="content_format_error_content_theme_not_valid">Invalidly composed themes found: %s</string>
-    <string name="content_error_content_format_url_not_loaded">Content format resource link not loaded</string>
+    <string name="content_title">Контент</string>
+    <string name="content_empty_state_new_file">Новый файл</string>
+    <string name="content_empty_state_title">Начало работы</string>
+    <string name="content_empty_state_message">Выберите новый файл с контеном, а затем наслаждайтесь приложением с вашим контентом.</string>
+    <string name="content_empty_state_button">Выбрать файл</string>
+    <string name="content_empty_state_note">Контент, должен соответствовать формату данных.</string>
+    <string name="content_error_not_added_content_is_exists">Контент уже добавлен</string>
+    <string name="content_error_invalid_uri">Не удалось получить доступ к файлу контента</string>
+    <string name="content_error_add_is_failed">Не удалось добавить контент</string>
+    <string name="content_error_delete_is_failed">Не удалось удалить контент</string>
+    <string name="content_error_not_select_and_delete">Выбранный контент невалидный и был удален</string>
+    <string name="content_error_select_is_failed">Не удалось выбрать контент</string>
+    <string name="content_error_one_item_not_delete">Единственный контент не может быть удален</string>
+    <string name="content_error_selected_item_not_delete">Выбранный контент не может быть удален</string>
+    <string name="content_format_error_content_quest_duplicate_id">Обнаружены дубликаты ид, задайте уникальные ид для вопросов: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Обнаружены дубликаты ид, задайте уникальные ид для тем: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Обнаружены неправильно составленные вопросы: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Обнаружены неправильно составленные темы: %s</string>
+    <string name="content_error_content_format_url_not_loaded">Ссылка на ресурс формата контента не загружена</string>
 </resources>

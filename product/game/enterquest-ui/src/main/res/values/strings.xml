@@ -15,6 +15,5 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="enter_quest_correct_answer">Correct answer</string>
+    <string name="enter_quest_correct_answer">Правильный ответ</string>
 </resources>

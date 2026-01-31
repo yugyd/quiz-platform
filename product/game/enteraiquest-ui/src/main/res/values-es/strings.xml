@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!--Generated Translator AI-->
-    <string name="enter_ai_quest_continue">Continuar</string>
-    <string name="enter_ai_quest_title_enter_answer">Tu respuesta</string>
-    <string name="enter_ai_quest_title_supporting">No más de 400 caracteres</string>
-    <string name="enter_ai_quest_title_true_answer_description_from_ai">La respuesta correcta del IA</string>
-    <string name="enter_ai_quest_check_error">Ha ocurrido un error. Por favor, inténtelo de nuevo.</string>
-</resources>

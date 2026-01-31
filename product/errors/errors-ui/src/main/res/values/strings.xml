@@ -15,8 +15,7 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="errors_title_quest">Question</string>
-    <string name="errors_title_true_answer">Correct answer</string>
-    <string name="errors_title_error_list">Error list</string>
+    <string name="errors_title_quest">Вопрос</string>
+    <string name="errors_title_true_answer">Правильный ответ</string>
+    <string name="errors_title_error_list">Список ошибок</string>
 </resources>

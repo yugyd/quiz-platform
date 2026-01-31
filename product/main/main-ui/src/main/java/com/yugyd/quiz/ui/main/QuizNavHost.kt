@@ -66,6 +66,7 @@ import com.yugyd.quiz.ui.theme.themeScreen
 import com.yugyd.quiz.ui.transition.navigateToTransition
 import com.yugyd.quiz.ui.transition.transitionScreen
 import com.yugyd.quiz.update.updateScreen
+import androidx.compose.ui.res.stringResource
 
 @Composable
 internal fun QuizNavHost(
@@ -76,6 +77,7 @@ internal fun QuizNavHost(
 ) {
     val context = LocalContext.current
     val resIdProvider = LocalResIdProvider.current
+    val privacyPolicy = stringResource(resIdProvider.appPrivacyPolicyLink())
 
     NavHost(
         navController = navController,
@@ -142,7 +144,6 @@ internal fun QuizNavHost(
                 navigateToExternalScreen(GlobalScreens.otherApps())
             },
             onNavigateToPrivacyPolicy = {
-                val privacyPolicy = context.getString(resIdProvider.appPrivacyPolicyLink())
                 navigateToExternalScreen(GlobalScreens.privacyPolicy(privacyPolicy))
             },
             onNavigateToProOnboarding = navController::navigateToProOnboarding,

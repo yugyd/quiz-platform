@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Course List screen. This screen displays all available courses. The screen consists of the following components: 1. A basic toolbar. 2. A 'Continue Course' banner. 3. A list of courses from the API."
+  uiSemantics: "Course list screen with top search toolbar (search action only), optional “continue course” banner with confirm and hide actions, scrollable list of clickable course items with icon and title, loading and warning states, snackbar error feedback, and navigation to search screen, sub-course flow, or course details."
   excludeTranslated: true

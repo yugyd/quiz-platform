@@ -19,7 +19,7 @@ package com.yugyd.buildlogic.convention.lint
 import com.android.build.api.dsl.CommonExtension
 
 internal fun CommonExtension<*, *, *, *, *, *>.configureLint() = lint {
-    disable += mutableSetOf("VectorPath")
+    disable += mutableSetOf("VectorPath", "LocaleFolder", "AndroidGradlePluginVersion", "GradleDependency")
 
     // Disable lintVital, lint run in CI
     checkReleaseBuilds = false

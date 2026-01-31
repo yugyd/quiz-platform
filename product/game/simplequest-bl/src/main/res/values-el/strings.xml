@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    simple_quest_code_answer_a = 227f9fd45fd77c55bc9a3d23ef31d0b98b9685f382e7c085af8d71e4523aa023
+    simple_quest_code_answer_b = aaa63e0f84be35bbe135ab36563523a80db08f650f89ac63c52f9773c63af98b
+    simple_quest_code_answer_yes = 54b86b1d19e53d90b1b821782c5f3d26789135b1674c52785d542037d01bf284
+    simple_quest_code_answer_yes_variant = 4a8201ebef81b95b649ed7ab21f9cc845ee1825411ffd3d80bc222057200c594
+    simple_quest_code_answer_no = b1fa5abf0e0287e4993a243beec468d1b50582ce46f5fe8e2556eac6092479be
+    simple_quest_code_answer_no_variant = 3bcc2ae4652c50e1acf186ebe4fb5b3b5d75b5cf5725c556125193fd9d810ee1
+    simple_quest_code_quest_a = d69d69a3291c8ffea488f500f6035dfae70d72112d945588627d92bc54b44d8b
+    simple_quest_code_quest_a_variant = e601397ef86dc279467908f140dd44bd62bca8f43132dead2759c231e3267de2
+    simple_quest_code_quest_b = 09baf448bd4dbba46c83a0792dc745c03189a56ae86cb7b11046f223dbdfd8ff
+    simple_quest_code_quest_b_variant = 1b26604e49ff946b6e968df8af17dd4f7c4ffaad2844f545b894ae0f4485ae80
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="simple_quest_code_answer_a">σωστό μόνο το Α</string>
+    <string name="simple_quest_code_answer_b">σωστό μόνο το Β</string>
+    <string name="simple_quest_code_answer_yes">σωστές και οι δύο προτάσεις</string>
+    <string name="simple_quest_code_answer_yes_variant">σωστές και οι δύο δηλώσεις</string>
+    <string name="simple_quest_code_answer_no">και οι δύο προτάσεις είναι λανθασμένες</string>
+    <string name="simple_quest_code_answer_no_variant">και οι δύο δηλώσεις είναι λανθασμένες</string>
+    <string name="simple_quest_code_quest_a">Α.</string>
+    <string name="simple_quest_code_quest_a_variant">Α)</string>
+    <string name="simple_quest_code_quest_b">Β.</string>
+    <string name="simple_quest_code_quest_b_variant">Β)</string>
+</resources>

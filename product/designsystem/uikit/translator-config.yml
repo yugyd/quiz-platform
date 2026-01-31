@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Design System module. Reusable string resources used throughout the application. The screen consists of the following components: 1. App name. 2. Titles for the navbar and root features. 3. Names of game modes. 4. App version names. 5. Common actions. 6. Error state. 7. Empty state."
+  uiSemantics: "Design system strings for Quiz Platform Android app including app name, navigation bar titles (Themes, Courses, Correct, Progress, Profile), game mode titles (Arcade, Training, AI Tasks, Favorites, Unknown), app version labels (Lite, Pro), progress formatting, action buttons (Play), generic error messages (Something went wrong, Fill all fields), empty state messages (No data, retry), all used across UI components in com.yugyd.quiz.uikit."
   excludeTranslated: true

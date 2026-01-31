@@ -15,15 +15,14 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="simple_quest_code_answer_a">only A is correct</string>
-    <string name="simple_quest_code_answer_b">only B is correct</string>
-    <string name="simple_quest_code_answer_yes">both statements are correct</string>
-    <string name="simple_quest_code_answer_yes_variant">both assertions are correct</string>
-    <string name="simple_quest_code_answer_no">both statements are incorrect</string>
-    <string name="simple_quest_code_answer_no_variant">both assertions are incorrect</string>
-    <string name="simple_quest_code_quest_a">A.</string>
-    <string name="simple_quest_code_quest_a_variant">A)</string>
-    <string name="simple_quest_code_quest_b">B.</string>
-    <string name="simple_quest_code_quest_b_variant">B)</string>
+    <string name="simple_quest_code_answer_a">верно только А</string>
+    <string name="simple_quest_code_answer_b">верно только Б</string>
+    <string name="simple_quest_code_answer_yes">верны оба суждения</string>
+    <string name="simple_quest_code_answer_yes_variant">верны оба утверждения</string>
+    <string name="simple_quest_code_answer_no">оба суждения неверны</string>
+    <string name="simple_quest_code_answer_no_variant">оба утверждения неверны</string>
+    <string name="simple_quest_code_quest_a">А.</string>
+    <string name="simple_quest_code_quest_a_variant">А)</string>
+    <string name="simple_quest_code_quest_b">Б.</string>
+    <string name="simple_quest_code_quest_b_variant">Б)</string>
 </resources>

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="errors_title_quest">Quiz</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    errors_title_quest = 568836ec4fe0890d2b08d347291a604870e59a25512b7ae93828f824a98f90fc
+    errors_title_true_answer = 8e18096b509f5fb197d963f456bb4798153ce96b54485e75e0583e579c4d219d
+    errors_title_error_list = c8d9e576c302d30f6c4445a856f5137cd535615b6e9d675ae52c80ba4470894e
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="errors_title_quest">Frage</string>
     <string name="errors_title_true_answer">Richtige Antwort</string>
     <string name="errors_title_error_list">Fehlerliste</string>
 </resources>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    course_list_title_search_theme = 04a24b1fcf358fb304d7467225b1a358205a7c78e7d749f2f88d3e15c317aad2
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="course_list_title_search_theme">Kursy</string>
 </resources>

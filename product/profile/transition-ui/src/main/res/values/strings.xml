@@ -14,9 +14,8 @@
   ~    limitations under the License.
   -->
 
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!--Generated Translator AI-->
-    <string name="transition_title_show_answer">View Answer</string>
-    <string name="transition_format_time_second">%1$.1f sec.</string>
-    <string name="transition_format_round_time_second" tools:ignore="PluralsCandidate">%1$d sec.</string>
+<resources>
+    <string name="transition_title_show_answer">Просмотр ответа</string>
+    <string name="transition_format_time_second">%1$.1f сек.</string>
+    <string name="transition_format_round_time_second">%1$d сек.</string>
 </resources>

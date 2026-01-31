@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    app_name = 98e031f752493d4196331677a84ef52c97e59d328df758722579f16c0b8ec6de
+    ds_navbar_title_theme = 9df21eee12a870bbad9e8b283b6bb6fa9c062981252e36a43b4f36818df70fe1
+    ds_navbar_title_courses = 04a24b1fcf358fb304d7467225b1a358205a7c78e7d749f2f88d3e15c317aad2
+    ds_navbar_title_correct = b5d7bcb70bcd1fd490f58b94c7d7ade712a134d4e1004b52c999d3ec0bee1bd6
+    ds_navbar_title_progress = c2ccc79cc3db6250cef829e3f39fbd5ae33fe44b2b6467ecc71f8af2d8eddf1c
+    ds_navbar_title_profile = 3fa9a4e627e69c726057b984acac954d7442275906f8391fb52268968ff833b3
+    ds_game_mode_title_arcade = dc703e8d35ebc8bd6caef273c40410adaa6a75236798cdd4dadca016f8c04744
+    ds_game_mode_title_train = 43b9c3bad9b75fc3eb8c8300a5efb89eaa631ecd707fdf4b79c99c04c3d42bf2
+    ds_game_mode_title_unknown = 947f8b62e82b100aeced49db1d8111c453e2286cee4e9d9349fa7a33e9f7ec3c
+    ds_game_mode_title_favorites = 33b82ad2c759b6401d0802c0005e0570d898b908d1044954b793dbce0de5e20a
+    ds_app_version_title_content_lite = d1ab994a5985275519d685fcdfdb527204dfc7e60dc238a8ac7ee277ec7debd7
+    ds_app_version_title_content_pro = ee4a943b57fb0fc4d1e3a98194d89e11b5f5522fc2a116fd70f8c5313765733d
+    ds_format_record_progress = 27ccfebf2a0cbbb2a3bb6d74a8164f9485d692d6d431cd3768206d9aecbf2a15
+    ds_action_game = 2a64f99177e26a53540082be72d1671f98920ef78e11f362f0b806fdc8be7b7a
+    ds_error_base = bbd4c03f573328dc6c9bd269f25b6be95882da004b60cba513a36893a42cccfb
+    ds_error_fields = 750f5cbb8e9b66669825653f716f9f159aae8ba9c12bed85dbb28f32b885e2c4
+    ds_empty_state_title = a4e85425901adf408bb576b8d46502af576071491b866d62c3946052f68592d1
+    ds_empty_state_description = 48045d6785ef6f7fd2e59c0a5a0827b3b398cbc5bc06fe98db482014c3d56a7c
+    ds_empty_state_retry = 25cae588b5fb487069d1014dc48edb1c7ecf044f10b42a5b4aac94391d9ec1b7
+    ds_game_mode_title_ai_tasks = 76bc6a9a02aa1ee8efe8013a92968006d58d3964a264e2392f02b4e73ca621bf
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="app_name">Quiz Platform</string>
+    <string name="ds_navbar_title_theme">Tema</string>
+    <string name="ds_navbar_title_courses">Kursus</string>
+    <string name="ds_navbar_title_correct">Perbaikan</string>
+    <string name="ds_navbar_title_progress">Progres</string>
+    <string name="ds_navbar_title_profile">Profil</string>
+    <string name="ds_game_mode_title_arcade">Arkade</string>
+    <string name="ds_game_mode_title_train">Latihan</string>
+    <string name="ds_game_mode_title_unknown">Tidak diketahui</string>
+    <string name="ds_game_mode_title_favorites">Favorit</string>
+    <string name="ds_app_version_title_content_lite">Lite</string>
+    <string name="ds_app_version_title_content_pro">Pro</string>
+    <string name="ds_format_record_progress">%1$d dari %2$d</string>
+    <string name="ds_action_game">Main</string>
+    <string name="ds_error_base">Terjadi kesalahan</string>
+    <string name="ds_error_fields">Lengkapi semua kolom</string>
+    <string name="ds_empty_state_title">Ups, tidak ada data</string>
+    <string name="ds_empty_state_description">Coba muat ulang layar</string>
+    <string name="ds_empty_state_retry">Coba lagi</string>
+    <string name="ds_game_mode_title_ai_tasks">Tugas AI</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    common_title_select_messenger = 8171ce28832210ea23012d62c84b988966905c98abf3bb2125c7d69a2f0fa85e
+    common_title_message_error = b2c8d1dae2c57d94975d7a24b3d3ef76e430a2722bb3697382ef6807060ae9d4
+    common_message_describe_error = 532cc0f97ecd87afab0daa98b53b4e25dac0219eba862746793d6d5c17dca035
+    common_format_message_subject = 4f3e46dd4454d3a72fdf1ffe8e3f881e5c73ecd42e999b2d9120be13b8051775
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="common_title_select_messenger">ઇમેઇલ/મેસેન્જર પસંદ કરો</string>
+    <string name="common_title_message_error">ભૂલ વિશેનો સંદેશ</string>
+    <string name="common_message_describe_error">ભૂલનું વર્ણન કરો</string>
+    <string name="common_format_message_subject">%1$s. %2$s</string>
+</resources>

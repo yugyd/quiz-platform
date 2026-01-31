@@ -1,5 +1,6 @@
 config:
   moduleDescription: "Push notifications module. Contains data for notification channels. The module consists of the following components: 1. Text strings for channel data."
+  uiSemantics: "This function creates a push notification channel in the Android app with a user-visible channel name and channel description retrieved from resources, both texts intended to be concise and clear for mobile users in system settings, where the channel name identifies the notification type and the description explains its purpose; importance is default, and badges are shown, so translations should preserve clarity, brevity, and user guidance for notification management."
   excludeTranslated: true
 
 exclude:

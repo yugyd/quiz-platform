@@ -15,10 +15,9 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="enter_ai_quest_title_enter_answer">Your answer</string>
-    <string name="enter_ai_quest_title_supporting">No more than 400 characters</string>
-    <string name="enter_ai_quest_title_true_answer_description_from_ai">Correct answer from AI</string>
-    <string name="enter_ai_quest_continue">Continue</string>
-    <string name="enter_ai_quest_check_error">Something went wrong. Please try again later.</string>
+    <string name="enter_ai_quest_title_enter_answer">Ваш ответ</string>
+    <string name="enter_ai_quest_title_supporting">Не более 400 символов</string>
+    <string name="enter_ai_quest_title_true_answer_description_from_ai">Правильный ответ из ИИ</string>
+    <string name="enter_ai_quest_continue">Продолжить</string>
+    <string name="enter_ai_quest_check_error">Что-то пошло не так. Попробуйте позже.</string>
 </resources>

@@ -1,3 +1,4 @@
 config:
   moduleDescription: "AI Connection Detail screen. Allows you to add or modify AI connection data. The screen consists of the following components: 1. A banner with instructions for generating an API key. 2. A form for entering AI API connection details — name, provider, API key, and cloud project folder. 3. A button to save the connection. 4. A basic toolbar."
+  uiSemantics: "AI Connection Details screen with a toolbar including back and optional delete actions, handles loading, warning, and error states via snackbars, scrollable form with fields for connection name, provider selection dropdown, API key input with validation indicator, optional cloud project folder input, API model input, key instructions card, and a save button enabled based on form validation, supports navigation to external browser or back."
   excludeTranslated: true

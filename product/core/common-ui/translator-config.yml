@@ -1,5 +1,6 @@
 config:
   moduleDescription: "Module with common text strings for the entire application. The module consists of the following components: 1. Messenger selection. 2. Basic errors. 3. Basic formats."
+  uiSemantics: "Common UI text strings module. External error reporting flow that opens a system chooser to send an email to the app support address, prefilled with app name, error subject, descriptive message body, and a localized chooser title for selecting an email or messaging client."
   excludeTranslated: true
 
 exclude:

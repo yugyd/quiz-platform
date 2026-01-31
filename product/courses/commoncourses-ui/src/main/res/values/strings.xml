@@ -15,8 +15,7 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="common_course_banner_title">Continue studying the started course</string>
-    <string name="common_course_banner_continue">Continue</string>
-    <string name="common_course_banner_hide">Hide</string>
+    <string name="common_course_banner_title">Продолжить изучать начатый курс</string>
+    <string name="common_course_banner_continue">Продолжить</string>
+    <string name="common_course_banner_hide">Скрыть</string>
 </resources>

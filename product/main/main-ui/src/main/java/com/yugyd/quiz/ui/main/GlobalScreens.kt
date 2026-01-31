@@ -18,7 +18,7 @@ package com.yugyd.quiz.ui.main
 
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
+import androidx.core.net.toUri
 import com.yugyd.quiz.core.GlobalConfig
 import com.yugyd.quiz.commonui.R as CommonUiR
 import com.yugyd.quiz.uikit.R as UiKitR
@@ -48,7 +48,7 @@ internal object GlobalScreens {
     fun privacyPolicy(privacyPolicyLink: String) = externalBrowser(url = privacyPolicyLink)
 
     private fun externalStore(url: String) = Intent(Intent.ACTION_VIEW).apply {
-        data = Uri.parse(url)
+        data = url.toUri()
     }
 
     fun platformGitHubProject(context: Context) = externalBrowser(
@@ -59,7 +59,7 @@ internal object GlobalScreens {
         url = context.getString(R.string.main_link_quiz_platform_issues),
     )
 
-    fun externalBrowser(url: String) = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+    fun externalBrowser(url: String) = Intent(Intent.ACTION_VIEW, url.toUri())
 
     fun externalReportError(context: Context): Intent {
         val email = context.getString(CommonUiR.string.common_app_email)

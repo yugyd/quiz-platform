@@ -15,12 +15,11 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="pro_title_extended_content">Extended content</string>
-    <string name="pro_title_extended_content_info">Over three thousand questions</string>
-    <string name="pro_title_work_error">Work on mistakes</string>
-    <string name="pro_title_work_error_info">Review your mistakes</string>
-    <string name="pro_title_ad_off">No ads</string>
-    <string name="pro_title_ad_off_info">No distractions from ads</string>
-    <string name="pro_action_attempt">Try</string>
+    <string name="pro_title_extended_content">Расширенный контент</string>
+    <string name="pro_title_extended_content_info">Более трех тысяч вопросов</string>
+    <string name="pro_title_work_error">Работа над ошибками</string>
+    <string name="pro_title_work_error_info">Прорабатывайте ошибки</string>
+    <string name="pro_title_ad_off">Без рекламы</string>
+    <string name="pro_title_ad_off_info">Не отвлекайтесь на рекламу</string>
+    <string name="pro_action_attempt">Попробовать</string>
 </resources>

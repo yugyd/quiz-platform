@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    common_course_banner_title = 6fbd891ecdc963231b2f2e1f53f71e7cf0cf1702a349334261f578ef7390935f
+    common_course_banner_continue = acffdfbb13e65c41b3d507efbc7ff0573bfed5c94fefb06d9584fc77283f7658
+    common_course_banner_hide = d0aef8bf1deb82804b9c6e765a3fa7829abc7d78b7cff02e808d49ad05177506
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="common_course_banner_title">Continuar estudando o curso iniciado</string>
     <string name="common_course_banner_continue">Continuar</string>
     <string name="common_course_banner_hide">Ocultar</string>

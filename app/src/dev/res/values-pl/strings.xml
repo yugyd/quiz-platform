@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="app_name">Flexquiz: Platforma Quizów</string>
-    <string name="app_msg_pro_ad_banner">Ponad 3000 pytań i zero reklam!</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    app_name = 3a52c8ccf2d14cf9296cc7d4d429408a70ba50be0955196ee123615c6c3ecd46
+    app_msg_pro_ad_banner = 4a00249d6b54e13ed67517bd09f1710f77bd41346838194d5cb946f7595f7485
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="app_name">Flexquiz: platforma quizów</string>
+    <string name="app_msg_pro_ad_banner">Kilka razy więcej pytań i zero reklam!</string>
 </resources>

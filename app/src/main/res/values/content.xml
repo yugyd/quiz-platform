@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="locale_code" translatable="false" />
+    <string name="locale_code">en</string>
 </resources>

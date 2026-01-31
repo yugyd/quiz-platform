@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Domain module. Contains a parser for tasks with two statements, where there is statement A and B, and a limited set of answers. The module consists of the following components: 1. Text strings for answers in statement tasks."
+  uiSemantics: "This is a parser utility for simple A/B type quiz questions, handling mapping and sorting of predefined answer and question strings (A, B, Yes, No, and their variants), determining question type (default or variant), reorganizing answers according to AB type, constructing qualified multi-line question text, with no direct UI but heavily tied to localized string resources for quiz content, used to normalize and prepare SimpleQuestModel and LatexSimpleQuestModel data for presentation in quiz screens."
   excludeTranslated: true

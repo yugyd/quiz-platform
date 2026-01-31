@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    search_course_title_search_theme = a59f6615c8247635d60ad83ac4febab24543dcd41fb34fc7f79bdeda2478dffd
+    search_course_title_themes = 9df21eee12a870bbad9e8b283b6bb6fa9c062981252e36a43b4f36818df70fe1
+    search_course_empty_state_message = 1d09c5d7e7c9db05a424f0750ee812bada29a0753923aaaaf2140f714d97c578
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="search_course_title_search_theme">Wyszukiwanie kursu</string>
     <string name="search_course_title_themes">Tematy</string>
-    <string name="search_course_empty_state_message">Dla zapytania \&quot;%s\&quot; nic nie znaleziono</string>
+    <string name="search_course_empty_state_message">Nie znaleziono nic dla zapytania \\&quot;%s\\&quot;</string>
 </resources>

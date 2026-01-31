@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    progress_title_level_schoolboy = e1668b42df787fc15b56ccd2fdf12067794bb8af94c5de3c59f74010c109eadf
+    progress_title_level_amateur = 1bf5fc8b2286c962347da8e7aed46b7c4cc97f1e19beb9998dc62dcfe8c0a3b9
+    progress_title_level_student = 64218a5d53a625d589b49c627c57c13ae312ea8090cce8cca92c9ebd79f99de2
+    progress_title_level_master = f8cc2cc78b2d7a238622bab893e7e94e851c55e864ec66ea6bb6711d03811575
+    progress_title_level_postgraduate = fdbd3d4f7cdd616d2a4eb94d3f4f371f4d8e3ba9d85e10938c9f280c71899a73
+    progress_title_level_candidate = a7a6bcc88be91391514c3a2c21b29ec73dfba43d6daf8948ed713e55e7dd1aff
+    progress_title_level_doctor = 31c9584badad42c024a71a582dadb350951d2ac4043f35670c59ee1abc39ae5e
+    progress_title_level_professor = c15943324782bfc6f88018fb620347ad04650c9d65cb55f9e8255bde7a29c940
+    progress_title_level_academic = 728e2a87c15779dc8544c8acca841f53984b55c01428c4fd3d144a6e4a459013
+    progress_title_reset_dialog_progress = 48faafad5d303bb561a4f44a22624bbca99df404c9499d462049df0b59ce8010
+    progress_title_reset_dialog_progress_info = 0cbf32bc0db1e8bfa119faec9da60933b361fa901577c646c40646b7c141b0a4
+    progress_format_percent = 796233956406645f2cc65924f1c8151d39ee5d6ef6e4d21e0c2e2e10c7093f71
+    progress_action_reset_dialog_yes = bfea4e8bab99950ec1f51aeb31bd70d2501bd02142872f8d9f41e0ba7a180a6e
+    progress_action_reset_dialog_no = d97368c925d938f135cca4fa387131d2d5e60515bcc73025c9ecd92725ebc395
+    progress_content_description_progress_icon = c76bc2aa478e0e122fcdfa5522cda31c69d78031317fa968fa5a5c28293da04a
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="progress_title_level_schoolboy">قوتابی</string>
+    <string name="progress_title_level_amateur">هۆکارمەند</string>
+    <string name="progress_title_level_student">خوێندکار</string>
+    <string name="progress_title_level_master">ماستەر</string>
+    <string name="progress_title_level_postgraduate">پۆستگراد</string>
+    <string name="progress_title_level_candidate">کاندیدای زانست</string>
+    <string name="progress_title_level_doctor">دکتۆری زانست</string>
+    <string name="progress_title_level_professor">پڕۆفیسۆر</string>
+    <string name="progress_title_level_academic">ئەکادیمی</string>
+    <string name="progress_title_reset_dialog_progress">سڕینەوەی پێشکەوتن</string>
+    <string name="progress_title_reset_dialog_progress_info">هەموو پێشکەوتنەکەت دەسڕدرێتەوە. ئەم کردارە ناتوانرێت هەڵبوەشێندرێتەوە.</string>
+    <string name="progress_format_percent">%1$d%%</string>
+    <string name="progress_action_reset_dialog_yes">بەڵێ</string>
+    <string name="progress_action_reset_dialog_no">نەخێر</string>
+    <string name="progress_content_description_progress_icon">ئایکۆنی پێشکەوتن %1$s</string>
+</resources>

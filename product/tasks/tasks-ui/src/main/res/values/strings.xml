@@ -15,11 +15,10 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="tasks_title_tasks_list">Task List</string>
-    <string name="tasks_filters">Filters</string>
-    <string name="tasks_errors">Errors</string>
-    <string name="tasks_favorites">Favorites</string>
-    <string name="tasks_empty_state_title">Nothing found</string>
-    <string name="tasks_empty_state_message">Try changing the filters</string>
+    <string name="tasks_title_tasks_list">Список заданий</string>
+    <string name="tasks_filters">Фильтры</string>
+    <string name="tasks_errors">Ошибки</string>
+    <string name="tasks_favorites">Избранное</string>
+    <string name="tasks_empty_state_title">Ничего не найдено</string>
+    <string name="tasks_empty_state_message">Попробуйте сменить фильтры</string>
 </resources>

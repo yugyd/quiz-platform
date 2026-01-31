@@ -12,23 +12,22 @@
   ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~    See the License for the specific language governing permissions and
   ~    limitations under the License.
-  -->
+ -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="progress_title_level_schoolboy">Schoolboy</string>
-    <string name="progress_title_level_amateur">Amateur</string>
-    <string name="progress_title_level_student">Student</string>
-    <string name="progress_title_level_master">Master</string>
-    <string name="progress_title_level_postgraduate">Postgraduate</string>
-    <string name="progress_title_level_candidate">Candidate of Sciences</string>
-    <string name="progress_title_level_doctor">Doctor of Sciences</string>
-    <string name="progress_title_level_professor">Professor</string>
-    <string name="progress_title_level_academic">Academician</string>
-    <string name="progress_title_reset_dialog_progress">Reset progress</string>
-    <string name="progress_title_reset_dialog_progress_info">All progress will be reset. This action cannot be undone.</string>
+    <string name="progress_title_level_schoolboy">Ученик</string>
+    <string name="progress_title_level_amateur">Любитель</string>
+    <string name="progress_title_level_student">Студент</string>
+    <string name="progress_title_level_master">Магистр</string>
+    <string name="progress_title_level_postgraduate">Аспирант</string>
+    <string name="progress_title_level_candidate">Кандидат наук</string>
+    <string name="progress_title_level_doctor">Доктор наук</string>
+    <string name="progress_title_level_professor">Профессор</string>
+    <string name="progress_title_level_academic">Академик</string>
+    <string name="progress_title_reset_dialog_progress">Сбросить прогресс</string>
+    <string name="progress_title_reset_dialog_progress_info">Будет сброшен весь прогресс. Это действие нельзя отменить.</string>
     <string name="progress_format_percent">%1$d%%</string>
-    <string name="progress_action_reset_dialog_yes">Yes</string>
-    <string name="progress_action_reset_dialog_no">No</string>
-    <string name="progress_content_description_progress_icon">Progress icon %1$s</string>
+    <string name="progress_action_reset_dialog_yes">Да</string>
+    <string name="progress_action_reset_dialog_no">Нет</string>
+    <string name="progress_content_description_progress_icon">Иконка прогресса %1$s</string>
 </resources>

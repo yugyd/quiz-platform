@@ -15,17 +15,16 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="ai_connection_details_title">API Key Creation Guide</string>
-    <string name="ai_connection_details_description">Create a key using the official AI provider documentation</string>
-    <string name="ai_connection_details_open">Learn more</string>
-    <string name="ai_connection_details_title_add">New AI Connection</string>
-    <string name="ai_connection_details_title_edit">Edit AI Connection</string>
-    <string name="ai_connection_details_name">Name</string>
-    <string name="ai_connection_details_provider">AI Provider</string>
-    <string name="ai_connection_details_api_key">API Key</string>
-    <string name="ai_connection_details_api_model">API Model</string>
-    <string name="ai_connection_details_project_folder">Project Folder</string>
-    <string name="ai_connection_details_action_save">Save</string>
-    <string name="ai_connection_details_action_delete">Delete</string>
+    <string name="ai_connection_details_title">Инструкция по созданию ключа</string>
+    <string name="ai_connection_details_description">Создайте ключ используя официальную документацию провайдера ИИ</string>
+    <string name="ai_connection_details_open">Создать</string>
+    <string name="ai_connection_details_title_add">Новое ИИ подключение</string>
+    <string name="ai_connection_details_title_edit">Редактирование ИИ подключения</string>
+    <string name="ai_connection_details_name">Имя</string>
+    <string name="ai_connection_details_provider">Провайдер ИИ</string>
+    <string name="ai_connection_details_api_key">Ключ API</string>
+    <string name="ai_connection_details_project_folder">Проект</string>
+    <string name="ai_connection_details_api_model">Модель API</string>
+    <string name="ai_connection_details_action_save">Сохранить</string>
+    <string name="ai_connection_details_action_delete">Удалить</string>
 </resources>

@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Profile screen. A classic profile screen where various settings and useful links are stored. The screen consists of the following components: 1. A basic toolbar. 2. A list of various profile items. 3. An open-source project banner."
+  uiSemantics: "This screen is a 'Profile' module showing a vertical scrollable list of profile items including app header (app icon, name, version), sections, selectable items, key-value items, toggle switches, social items (Telegram), and open-source info with buttons for rating and reporting errors; it includes a toolbar with the screen title and back navigation, supports loading and warning states with placeholder content, and allows users to click, toggle, or navigate to various internal and external destinations; all text elements are concise, descriptive, and intended for mobile UI interactions."
   excludeTranslated: true

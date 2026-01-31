@@ -15,11 +15,9 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="game_title_add_life">Extra Life</string>
-    <string name="game_msg_add_life">Get an extra life by watching an ad</string>
-    <string name="game_action_watch">Watch</string>
-    <string name="game_action_next">Next</string>
-
-    <string name="game_error_reward_not_loaded">Failed to load ad</string>
+    <string name="game_title_add_life">Дополнительная жизнь</string>
+    <string name="game_msg_add_life">Получить дополнительную жизнь, посмотрев рекламный ролик</string>
+    <string name="game_action_watch">Посмотреть</string>
+    <string name="game_action_next">Далее</string>
+    <string name="game_error_reward_not_loaded">Не удалось загрузить рекламу</string>
 </resources>

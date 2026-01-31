@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="pro_title_extended_content">拡張コンテンツ</string>
-    <string name="pro_title_extended_content_info">3,000問以上の問題</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    pro_title_extended_content = 73de13fe0788a4d164b667570a8b21065735ff99b677d7048342e221e55b8401
+    pro_title_extended_content_info = 6885d7feb7a14a8832ada3d27e0f8064ca698cb6ebeefb69aefda2a15d7d10c8
+    pro_title_work_error = 5edacf16e412db84aecc2da261a48c5836b3d0ae3cc60e0fd5918ac506ffe397
+    pro_title_work_error_info = 7150c76d24b6c4adc997c26099f5d81136f393d99d920bdff888b95e38ca6a76
+    pro_title_ad_off = b004d8bf25c45fe651d949418e2049beb52a5238714e3b70887b85eb5f162a55
+    pro_title_ad_off_info = f941725b593b29bcb650efd28a2ec9ba3d82a6b0a54dfe8b732216d8786ed840
+    pro_action_attempt = 2b027430ba6134ce3ebc94f80a8aa440b97413d32c3cad3a1e9cdd93571ef632
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="pro_title_extended_content">豊富なコンテンツ</string>
+    <string name="pro_title_extended_content_info">3,000問以上</string>
     <string name="pro_title_work_error">間違いを克服</string>
-    <string name="pro_title_work_error_info">自分の間違いを復習しましょう</string>
+    <string name="pro_title_work_error_info">間違いを見直して学習</string>
     <string name="pro_title_ad_off">広告なし</string>
-    <string name="pro_title_ad_off_info">広告に邪魔されずに学習</string>
+    <string name="pro_title_ad_off_info">広告に邪魔されずに集中</string>
     <string name="pro_action_attempt">試してみる</string>
 </resources>

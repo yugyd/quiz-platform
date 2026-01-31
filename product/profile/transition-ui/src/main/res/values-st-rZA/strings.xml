@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    transition_title_show_answer = 7091fa0710b7f260174924a9969cd4906f34c5915ece69063174e21d13b8384a
+    transition_format_time_second = 432098b065eade6d9ab55fe43e42795fd5ed5a0a5e983867e78ed74f4fd08911
+    transition_format_round_time_second = f9588b033a5196c5dc3c914b84c7c0dc64c0bedc3b70b2e29d90d5cb97df14a6
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="transition_title_show_answer">Sheba karabo</string>
+    <string name="transition_format_time_second">%1$.1f sek.</string>
+    <string name="transition_format_round_time_second">%1$d sek.</string>
+</resources>

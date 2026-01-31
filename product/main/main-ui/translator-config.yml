@@ -1,5 +1,6 @@
 config:
   moduleDescription: "Main screen module. Contains useful links to resources. The screen consists of the following components: 1. Text strings with links to resources, such as the developer's website or privacy policy."
+  uiSemantics: "This is the main application shell with a full-screen layout, top-level scaffold with optional snackbar, dynamic bottom navigation bar with multiple top-level destinations (Theme, Correct, Progress, Profile, Courses), a NavHost controlling nested screens (content, update, section, theme, progress, specific progress, transition, profile, pro onboarding, error list, game, game end, progress end, correct, course list, subcourses, search courses, course details, tasks, AI settings, AI connection details, AI client), onboarding bottom sheet, push notification permission request, supports back navigation, external intents (Telegram, browser, Play Store, sharing, privacy policy, platform GitHub), and dynamic content loading states for all nested screens, with UI elements including icons, text labels, buttons, columns, rows, and full-width interactive elements."
   excludeTranslated: true
 
 exclude:

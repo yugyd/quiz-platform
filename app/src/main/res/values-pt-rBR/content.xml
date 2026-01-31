@@ -16,5 +16,5 @@
   -->
 
 <resources>
-    <string name="locale_code" translatable="false">pt-BR</string>
+    <string name="locale_code">pt-BR</string>
 </resources>

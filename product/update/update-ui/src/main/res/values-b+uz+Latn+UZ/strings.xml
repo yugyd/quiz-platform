@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    update_title_update = dd50aa1be676b6a7f9d91f154e3bef7a0fa97c50d48d8973042bf0b9a5840e1f
+    update_title_update_description = 1f9a9cd4725d883ee574ea6bf3d27bce9f954024bb0b6e4f215326b54e692575
+    update_action_update = 8362fe71daa662023337a4473f0ab270cd3cbe5c0c91a84e0182605805e841ba
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="update_title_update">Yangilanish chiqdi</string>
+    <string name="update_title_update_description">Siz uchun yangi funksiyalar va kontent mavjud</string>
+    <string name="update_action_update">Yangilash</string>
+</resources>

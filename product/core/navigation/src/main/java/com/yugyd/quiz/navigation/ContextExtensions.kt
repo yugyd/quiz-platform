@@ -19,12 +19,13 @@ package com.yugyd.quiz.navigation
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import androidx.core.net.toUri
 
 
 fun Context.getTelegramIntent(channelLink: String): Intent {
     val appIntent = Intent(
         Intent.ACTION_VIEW,
-        Uri.parse("tg://resolve?domain=${channelLink}")
+        "tg://resolve?domain=${channelLink}".toUri()
     )
 
     return if (appIntent.resolveActivity(packageManager) != null) {
@@ -32,7 +33,7 @@ fun Context.getTelegramIntent(channelLink: String): Intent {
     } else {
         val browseIntent = Intent(
             Intent.ACTION_VIEW,
-            Uri.parse("https://t.me/${channelLink}")
+            "https://t.me/${channelLink}".toUri()
         )
         browseIntent
     }

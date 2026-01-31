@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    select_bool_quest_answer_true = 7e8afa59962285f028dc33209286bdd373f08160bd3a8de5b51d4d87ac2ec6b8
+    select_bool_quest_answer_false = 29efc1e2129c3ba884afe7409302c014192f269242068f5b9421396267fd8140
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="select_bool_quest_answer_true">Verdadero</string>
     <string name="select_bool_quest_answer_false">Falso</string>
 </resources>

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="update_title_update">Đã có bản cập nhật</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    update_title_update = dd50aa1be676b6a7f9d91f154e3bef7a0fa97c50d48d8973042bf0b9a5840e1f
+    update_title_update_description = 1f9a9cd4725d883ee574ea6bf3d27bce9f954024bb0b6e4f215326b54e692575
+    update_action_update = 8362fe71daa662023337a4473f0ab270cd3cbe5c0c91a84e0182605805e841ba
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="update_title_update">Có bản cập nhật mới</string>
     <string name="update_title_update_description">Tính năng và nội dung mới đã sẵn sàng cho bạn</string>
     <string name="update_action_update">Cập nhật</string>
 </resources>

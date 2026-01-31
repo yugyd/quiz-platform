@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Task screen 'Choose the correct answers.' The user selects the correct answers using checkboxes, and the screen transitions to the next question after selecting a certain number of answers. The screen consists of the following components: 1. Question. 2. List of answers to choose from."
+  uiSemantics: "Composable screen displaying a single quiz question with question text at the top, a horizontal divider, and multiple answer buttons below, supporting answer selection callbacks and highlighting, with no complex navigation, designed for use in manual or select-style quiz interactions, fully composable and previewable within the app theme."
   excludeTranslated: true

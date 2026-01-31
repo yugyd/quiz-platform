@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Error List screen. Displays the mistakes made by the user during the game. The screen consists of the following components: 1. A basic toolbar. 2. A list of errors, each item containing the question, correct answer, and a favorite icon."
+  uiSemantics: "Composable UI for displaying a list of quiz errors with a toolbar, loading and warning states, scrollable LazyColumn of error items showing question text, correct answer, optional favorite icon, clickable rows for navigation, Divider between items, Snackbar for error messages, and dynamic navigation handling to back, external browser, or AI screen, all wrapped in QuizBackground with theme support."
   excludeTranslated: true

@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Task screen 'Enter the correct answer.' The user enters an answer into the form, and the app displays the correct answer in the form. The screen consists of the following components: 1. Question. 2. Answer input form."
+  uiSemantics: "Composable UI for entering quiz answers displaying a question text, optional number/text keyboard input, trailing status icon (success, error, none), outlined text field with hint, supporting text showing correct answer on error, editable input with focus management, clear text button, error highlighting, vertical layout with padding and divider, all wrapped in QuizBackground with theme support."
   excludeTranslated: true

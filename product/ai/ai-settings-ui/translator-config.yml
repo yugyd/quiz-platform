@@ -1,3 +1,4 @@
 config:
   moduleDescription: "AI Settings screen. A menu for configuring AI settings, such as enabling AI, selecting a connection, setting the data refresh interval, and viewing the AI usage policy. The screen consists of the following components: 1. A basic toolbar. 2. A list of various settings menu items."
+  uiSemantics: "AI Settings screen with a toolbar including back and info actions, toggle for enabling AI, list of AI connections with editable settings, optional add-connection button, term-of-cache selection dialog with radio options, direct connection toggle, privacy policy link, handles loading, warning, and error states via snackbars, and navigates to AI connection details or external browser."
   excludeTranslated: true

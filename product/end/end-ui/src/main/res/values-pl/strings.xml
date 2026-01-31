@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    end_title_well = 973696e02f0d688fdcd18895a394b95a6505db34c9e87be96613aacf229e7eba
+    end_msg_new_record = c15a3bf140e989bfb3a8127686d27e484aa03bed654d22681b84cc049cc89caa
+    end_action_leave_rate = 7d2e37a0331f773ced599d3c81d8eef6b47fdf4cd17afafd3a9de909ec887610
+    end_action_skip = 675b0be0d37d699046d61a64f6b29f5ab52001858bdd5f1002633f4bae17fee8
+    end_action_show_error = 2b78eb8cbddb83c7b32af3c9f1c0cd4054cc76dd2d911e82cd79704fba2a71da
+    end_action_new_game = 92ff178175e464e7e298b724c6a09aafa144d2fffbcb3fa8fe5b2f6dd7e448c7
+    end_action_watch = 754283744681d0938f5b970f116b98e5c48857985c639e075ae3b38f2bc46e78
+    end_error_reward_not_loaded = d3362efa5280552b57a3211d2ed1883e15f823f4f8cde4bb033e8685a6444c7f
+    end_title_work_favorites = e0947be3ff56cb13e32bc6220db26e2e42ad37b833b52c2b366f85e68942833b
+    end_title_work_error = 5edacf16e412db84aecc2da261a48c5836b3d0ae3cc60e0fd5918ac506ffe397
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="end_title_well">Świetnie!</string>
-    <string name="end_msg_new_record">Ustanowiono nowy rekord! Podobała Ci się ta gra?</string>
+    <string name="end_msg_new_record">Ustanowiono nowy rekord! Podobało Ci się?</string>
     <string name="end_action_leave_rate">Zostaw opinię</string>
     <string name="end_action_skip">Pomiń</string>
     <string name="end_action_show_error">Zobacz błędy</string>
     <string name="end_action_new_game">Nowa gra</string>
-    <string name="end_action_watch">Obejrzyj</string>
-    <string name="end_error_reward_not_loaded">Nie udało się wczytać reklamy</string>
-    <string name="end_title_work_favorites">Praca z ulubionymi</string>
+    <string name="end_action_watch">Zobacz</string>
+    <string name="end_error_reward_not_loaded">Nie udało się załadować reklamy</string>
+    <string name="end_title_work_favorites">Praca nad ulubionymi</string>
     <string name="end_title_work_error">Praca nad błędami</string>
 </resources>

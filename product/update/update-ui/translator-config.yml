@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Force update screen. Stimulates the user to update the app. The screen consists of the following components: 1. Icon. 2. Title. 3. Subtitle. 4. 'Update' button."
+  uiSemantics: "This screen is an 'Update Required' modal that appears when a new app version is available and blocks further app usage until the user updates. Layout is a centered vertical column with a decorative icon at the top (96dp), followed by a title text (headlineSmall, short attention-grabbing), a message text (bodyLarge, explanatory, centered), and a primary action button at the bottom with the label from model.updateConfig.buttonTitle, triggering the update action. All texts are center-aligned and intended for mobile UI, with clear roles: title, message, button. Navigation can open Google Play or a browser link. The screen is visually simple, focused, and blocking, designed to guide the user to update the app immediately."
   excludeTranslated: true

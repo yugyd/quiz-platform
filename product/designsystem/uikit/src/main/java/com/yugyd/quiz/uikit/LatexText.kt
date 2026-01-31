@@ -35,6 +35,7 @@ import com.yugyd.quiz.uikit.theme.QuizApplicationTheme
 
 class NoTouchWebView(context: Context) : WebView(context) {
 
+    @SuppressLint("ClickableViewAccessibility")
     override fun onTouchEvent(event: MotionEvent?): Boolean {
         return false
     }
@@ -43,6 +44,7 @@ class NoTouchWebView(context: Context) : WebView(context) {
         return false
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     override fun performClick(): Boolean {
         return false
     }

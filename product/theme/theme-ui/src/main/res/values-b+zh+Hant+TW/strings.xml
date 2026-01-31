@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    theme_dialog_title_rewarded = 2543a557581f66ea468da4146e97574fef394be6e77ccfb0dd1f4ab756ef09d5
+    theme_dialog_msg_rewarded = 13cd962b2cd236ec628fc24808a8cba3325726fc35c8dc2b65170b2878475962
+    theme_dialog_action_rewarded = 754283744681d0938f5b970f116b98e5c48857985c639e075ae3b38f2bc46e78
+    theme_dialog_action_no_thanks = aa27cff766efd98bbac85f5e02e07a564120a422de950b7ff4a02d27fc33c500
+    theme_error_rewarded_ad = d3362efa5280552b57a3211d2ed1883e15f823f4f8cde4bb033e8685a6444c7f
+    theme_title_theme_completed = 15794c612fecc134c2cb193bb996f451b7770fa2aa170981b6e09a177f57b160
+    theme_dialog_action_info = 121984c47a92da9feffa35cd1337b1674e5ade8f5a09f848b79c3667c0161bd5
+    theme_action_close = 17b34b2654fa52df3e8d798c23447b8cdfb94c77c7c0e18ccf06ab64da72afc7
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="theme_dialog_title_rewarded">訓練模式</string>
+    <string name="theme_dialog_msg_rewarded">觀看廣告影片後即可使用</string>
+    <string name="theme_dialog_action_rewarded">觀看</string>
+    <string name="theme_dialog_action_no_thanks">不用，謝謝</string>
+    <string name="theme_error_rewarded_ad">無法載入廣告</string>
+    <string name="theme_title_theme_completed">類別已完成</string>
+    <string name="theme_dialog_action_info">資訊</string>
+    <string name="theme_action_close">關閉</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    enter_ai_quest_title_enter_answer = ee2523b379b541d5877c8af2dae80ac3011d079fa900fb1451fe10d4bcd799b6
+    enter_ai_quest_title_supporting = 0e49f6d0e60beab0b88d38c4ce07238b3bbec648af9ca6728a8415c174ede551
+    enter_ai_quest_title_true_answer_description_from_ai = cf33c317f07d8a4e0217f89df23fba2ffa55acdce2d64faf37c505e87f148631
+    enter_ai_quest_continue = acffdfbb13e65c41b3d507efbc7ff0573bfed5c94fefb06d9584fc77283f7658
+    enter_ai_quest_check_error = 5f3014ad242455a6e574aca3857f2dbf2f0efa21b18a6be4732da5ac3b1f8aa4
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="enter_ai_quest_title_enter_answer">Igisubizo cyawe</string>
+    <string name="enter_ai_quest_title_supporting">Ntarenga inyuguti 400</string>
+    <string name="enter_ai_quest_title_true_answer_description_from_ai">Igisubizo nyacyo gituruka kuri AI</string>
+    <string name="enter_ai_quest_continue">Komeza</string>
+    <string name="enter_ai_quest_check_error">Hari ibitagenze neza. Ongera ugerageze nyuma.</string>
+</resources>

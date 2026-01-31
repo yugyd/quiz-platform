@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    enter_quest_correct_answer = 8e18096b509f5fb197d963f456bb4798153ce96b54485e75e0583e579c4d219d
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="enter_quest_correct_answer">Doğru cevap</string>
 </resources>

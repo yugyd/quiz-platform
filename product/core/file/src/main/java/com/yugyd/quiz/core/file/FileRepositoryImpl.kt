@@ -2,8 +2,9 @@ package com.yugyd.quiz.core.file
 
 import android.content.Context
 import android.database.Cursor
-import android.net.Uri
+import android.net.Uri.parse
 import android.provider.OpenableColumns
+import androidx.core.net.toUri
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.io.BufferedReader
 import java.io.File
@@ -35,7 +36,7 @@ class FileRepositoryImpl @Inject constructor(
     override fun getFileName(uri: String): String? {
         val contentResolver = context.contentResolver
 
-        val androidUri = Uri.parse(uri)
+        val androidUri = uri.toUri()
         val cursor: Cursor? = contentResolver.query(androidUri, null, null, null, null, null)
         val fileName = cursor?.use {
             val nameIndex = cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME)
@@ -55,7 +56,7 @@ class FileRepositoryImpl @Inject constructor(
     override fun checkUri(uri: String): Boolean {
         val contentResolver = context.contentResolver
 
-        val androidUri = Uri.parse(uri)
+        val androidUri = uri.toUri()
         val cursor: Cursor? = contentResolver.query(androidUri, null, null, null, null, null)
         val result = cursor?.use {
             it.count > 1
@@ -68,7 +69,7 @@ class FileRepositoryImpl @Inject constructor(
 
         val stringBuilder = StringBuilder()
 
-        val androidUri = Uri.parse(uri)
+        val androidUri = uri.toUri()
         contentResolver.openInputStream(androidUri)?.use { inputStream ->
             val inputStreamReader = InputStreamReader(inputStream)
             BufferedReader(inputStreamReader).use { reader ->

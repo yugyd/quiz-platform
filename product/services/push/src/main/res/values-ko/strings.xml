@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    push_default_channel_name = f5fc418ef575eee2531ee32a976dd6f53e8b36a04894e39a74c2bcbc1f0e0ec8
+    push_default_channel_description = 591d0865187d68a82a7ebebc2d074ff4cfc1287b5abc6bb24e2af6d16135796f
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="push_default_channel_name">기본</string>
     <string name="push_default_channel_description">앱의 모든 알림</string>
 </resources>

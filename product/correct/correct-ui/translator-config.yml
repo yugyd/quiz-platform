@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Error Correction Onboarding screen. This screen serves as onboarding and provides access to the error correction mode. The screen consists of the following components: 1. A basic toolbar. 2. An information block with an icon, a title, and a subtitle. 3. A 'Play' button."
+  uiSemantics: "Correction screen (Start screen) with a top toolbar, centered success icon and instructional texts, conditional primary button to start a correction game or alternative pro-only informational message, loading and warning states, snackbar error feedback, and navigation to the game flow when the action is triggered."
   excludeTranslated: true

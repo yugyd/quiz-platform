@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    content_title = 7c166c7e36430b934c9046e809ebd34bf7a2ac745714f6687076ed63fe40e5c9
+    content_empty_state_new_file = 2051c65c61140af42558bf7fcc78afb460061199f8ad110941a2e8fcea6d798f
+    content_empty_state_title = 922980cca5d4d652351833b66eccdd525632bc4cd2441ca211b9dc90a1ce7757
+    content_empty_state_message = 6e16a0281572bfdd42cd0ff393013ef064d396db3377f3bfa27715e5f38e6658
+    content_empty_state_button = 8ed4f1eecd8f08874866d240a94040f055d26f71033b5f5d71c79354702f5c2b
+    content_empty_state_note = a8d32d0211eab5281e8787092165503f78e58c2f0f133c712925be130b87607f
+    content_error_not_added_content_is_exists = 833649b7e3c4b38a3a25b73ec0db0d4635f9789132476d8898495857fb09b8e5
+    content_error_invalid_uri = fba7c9810ad0c3c7a2b63095ad1cea7718df02928601358c49b378f649dd93b9
+    content_error_add_is_failed = d7ce4f155fac0e84def476e12a791db683cedf35e9088f730d6f54ed78fb1110
+    content_error_delete_is_failed = 1ea3384c942655cde8fe5ed3f08b80b58423ca3e3869f86b98f1a1f5dc08357c
+    content_error_not_select_and_delete = fa3b80b6b92847d1da7a03cfa9e028a427c1807a50577f4dca79d641728c32ef
+    content_error_select_is_failed = 6282b9a3e846dc541c1ccb7b389751d7dc6a7c2b3d32f3e66ed51607027aa6e3
+    content_error_one_item_not_delete = d9e811a2719759e1c534f3c68ec805863063d6bc1d53339456ac695277fce71b
+    content_error_selected_item_not_delete = 8b1091fb8f1b0c2e64e9b5f78aa088d376864665a1961e099b1d34559e9b908e
+    content_format_error_content_quest_duplicate_id = 60238584ff8b075425dd4611ee59e93e13aa45d452d10936b9c59fed8a54e64f
+    content_format_error_content_theme_duplicate_id = fc63974c5842b5c1eb5e37c583377d63ba10438653064a882e70605aca609da0
+    content_format_error_content_quest_not_valid = 1165e6571c587a56e0e9e0088450840b261b70cc3c81fae97b3746cdbf5458b3
+    content_format_error_content_theme_not_valid = fdd3bdafdce733299c792a43c1b0bbce2f8acd3826c2b5890a740985cade3554
+    content_error_content_format_url_not_loaded = 7b9cc605174e8c87062f5234ad68f8f797578e3c696efc4676362e815a82e9a1
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="content_title">Diteng</string>
+    <string name="content_empty_state_new_file">Faele e ntšha</string>
+    <string name="content_empty_state_title">Go simolola</string>
+    <string name="content_empty_state_message">Tlhopha faele e ntšha e e nang le diteng, mme morago o natefelwe ke app ka diteng tsa gago.</string>
+    <string name="content_empty_state_button">Tlhopha faele</string>
+    <string name="content_empty_state_note">Diteng di tshwanetse go tsamaisana le fomate ya data.</string>
+    <string name="content_error_not_added_content_is_exists">Diteng di setse di tsentswe</string>
+    <string name="content_error_invalid_uri">Ga go a kgonega go bona phitlhelelo ya faele ya diteng</string>
+    <string name="content_error_add_is_failed">Ga go a kgonega go tsenya diteng</string>
+    <string name="content_error_delete_is_failed">Ga go a kgonega go phimola diteng</string>
+    <string name="content_error_not_select_and_delete">Diteng tse di tlhophilweng ga di a siama mme di phimotswe</string>
+    <string name="content_error_select_is_failed">Ga go a kgonega go tlhopha diteng</string>
+    <string name="content_error_one_item_not_delete">Diteng e le nngwe fela ga e ka ke ya phimolwa</string>
+    <string name="content_error_selected_item_not_delete">Diteng tse di tlhophilweng ga di ka ke tsa phimolwa</string>
+    <string name="content_format_error_content_quest_duplicate_id">Go fitlhetswe di-ID tse di boeletsweng, tsenya di-ID tse di ikgethileng tsa dipotso: %s</string>
+    <string name="content_format_error_content_theme_duplicate_id">Go fitlhetswe di-ID tse di boeletsweng, tsenya di-ID tse di ikgethileng tsa ditlhogo: %s</string>
+    <string name="content_format_error_content_quest_not_valid">Go fitlhetswe dipotso tse di sa bopiwang sentle: %s</string>
+    <string name="content_format_error_content_theme_not_valid">Go fitlhetswe ditlhogo tse di sa bopiwang sentle: %s</string>
+    <string name="content_error_content_format_url_not_loaded">Sekgolagano sa URL ya fomate ya diteng ga se a laisiwa</string>
+</resources>

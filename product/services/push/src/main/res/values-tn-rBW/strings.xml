@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    push_default_channel_name = f5fc418ef575eee2531ee32a976dd6f53e8b36a04894e39a74c2bcbc1f0e0ec8
+    push_default_channel_description = 591d0865187d68a82a7ebebc2d074ff4cfc1287b5abc6bb24e2af6d16135796f
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="push_default_channel_name">Tlwaelegileng</string>
+    <string name="push_default_channel_description">Ditsiboso tsotlhe tsa app</string>
+</resources>

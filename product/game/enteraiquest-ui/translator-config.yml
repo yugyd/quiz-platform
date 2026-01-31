@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Task screen 'Enter the correct answer and check with AI.' The user enters an answer into the form, and the app displays the answer received from AI below. The screen consists of the following components: 1. Question. 2. Answer input form. 3. Correct answer component, which may also include an error state. 4. Continue button."
+  uiSemantics: "Composable UI for AI-assisted quiz answers displaying question text, multi-line editable text field with hint and supporting text, trailing status icon (success, error, none), read-only control based on field state, dynamic AI feedback below input when failed, continue button when answer pending, vertical layout with padding and divider, focus management, all wrapped in QuizBackground with theme support."
   excludeTranslated: true

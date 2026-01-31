@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    enter_ai_quest_title_enter_answer = ee2523b379b541d5877c8af2dae80ac3011d079fa900fb1451fe10d4bcd799b6
+    enter_ai_quest_title_supporting = 0e49f6d0e60beab0b88d38c4ce07238b3bbec648af9ca6728a8415c174ede551
+    enter_ai_quest_title_true_answer_description_from_ai = cf33c317f07d8a4e0217f89df23fba2ffa55acdce2d64faf37c505e87f148631
+    enter_ai_quest_continue = acffdfbb13e65c41b3d507efbc7ff0573bfed5c94fefb06d9584fc77283f7658
+    enter_ai_quest_check_error = 5f3014ad242455a6e574aca3857f2dbf2f0efa21b18a6be4732da5ac3b1f8aa4
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="enter_ai_quest_title_enter_answer">Tu respuesta</string>
-    <string name="enter_ai_quest_title_supporting">No más de 400 caracteres</string>
-    <string name="enter_ai_quest_title_true_answer_description_from_ai">Respuesta correcta de la IA</string>
+    <string name="enter_ai_quest_title_supporting">Máximo 400 caracteres</string>
+    <string name="enter_ai_quest_title_true_answer_description_from_ai">Respuesta correcta de IA</string>
     <string name="enter_ai_quest_continue">Continuar</string>
-    <string name="enter_ai_quest_check_error">Algo salió mal. Inténtalo de nuevo más tarde.</string>
+    <string name="enter_ai_quest_check_error">Algo salió mal. Inténtalo más tarde.</string>
 </resources>

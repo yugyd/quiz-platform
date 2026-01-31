@@ -17,9 +17,8 @@
 <resources>
     <string name="common_app_email" translatable="false">yugydyur@gmail.com</string>
 
-    <!--Generated Translator AI-->
-    <string name="common_title_select_messenger">Select a mail messenger</string>
-    <string name="common_title_message_error">Error message</string>
-    <string name="common_message_describe_error">Describe the error</string>
+    <string name="common_title_select_messenger">Выберите почтовый мессенджер</string>
+    <string name="common_title_message_error">Сообщение об ошибке</string>
+    <string name="common_message_describe_error">Опишите ошибку</string>
     <string name="common_format_message_subject">%1$s. %2$s</string>
 </resources>

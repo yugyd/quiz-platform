@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="course_details_start_test">Beginn des Tests</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    course_details_start_test = 8003b5a27f569f975fcd3d93c5482b413d92333ae2b7a6b805288b66466b4c39
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="course_details_start_test">Wissen überprüfen</string>
 </resources>

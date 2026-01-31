@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Common module for the Courses screens. Contains data for the 'Continue Started Course' banner, which is displayed on various screens. The module consists of the following components: 1. 'Continue Started Course' banner. 1.1. Action description text. 1.2. 'Continue Course' button. 1.3. 'Hide Banner' button."
+  uiSemantics: "Shared course UI components: a full-width clickable course list item showing the course name, and a padded elevated “continue course” banner card with title, subtitle, primary continue action and secondary hide/dismiss action."
   excludeTranslated: true

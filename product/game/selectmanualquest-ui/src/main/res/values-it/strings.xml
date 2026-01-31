@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    select_manual_quest_action_continue = acffdfbb13e65c41b3d507efbc7ff0573bfed5c94fefb06d9584fc77283f7658
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="select_manual_quest_action_continue">Continua</string>
 </resources>

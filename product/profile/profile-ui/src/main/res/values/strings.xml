@@ -15,39 +15,37 @@
   -->
 
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!--Generated Translator AI-->
-    <string name="profile_title_content">Content</string>
-    <string name="profile_title_content_not_selected">Content not selected</string>
-
-    <string name="profile_title_social">Social networks</string>
-    <string name="profile_title_settings">Settings</string>
-    <string name="profile_title_show_answer">Show answer</string>
-    <string name="profile_title_sorting_quest">Question sorting</string>
-    <string name="profile_title_vibration">Vibration</string>
-    <string name="profile_tasks">Tasks</string>
-    <string name="profile_title_game_profile">Game Profile</string>
-    <string name="profile_rating">Rating</string>
-    <string name="profile_rating_progress">Progress Rating</string>
+    <string name="profile_title_content">Контент</string>
+    <string name="profile_title_content_not_selected">Контент не выбран</string>
+    <string name="profile_title_social">Социальные сети</string>
+    <string name="profile_title_settings">Настройки</string>
+    <string name="profile_title_show_answer">Просмотр ответа</string>
+    <string name="profile_title_sorting_quest">Сортировка вопросов</string>
+    <string name="profile_title_vibration">Вибрация</string>
+    <string name="profile_tasks">Задания</string>
+    <string name="profile_title_game_profile">Игровой профиль</string>
+    <string name="profile_rating">Рейтинг</string>
+    <string name="profile_rating_progress">Рейтинг прогресса</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
-    <string name="profile_content_banner_subtitle">The app is based on the open-source Quiz-Platform solution. We would appreciate your feedback on the platform on GitHub.</string>
-    <string name="profile_content_banner_rate">Rate</string>
-    <string name="profile_content_banner_report_error">Report a problem</string>
-    <string name="profile_title_purchases">Purchases</string>
-    <string name="profile_title_pro_version">Pro version</string>
-    <string name="profile_title_please_us">Make us happy</string>
-    <string name="profile_title_rate_app">Rate the app</string>
-    <string name="profile_title_share_app">Share app</string>
-    <string name="profile_title_other_apps">Our apps</string>
-    <string name="profile_title_feedback">Feedback</string>
-    <string name="profile_title_report_error">Report an error</string>
-    <string name="profile_title_privacy_policy">Privacy policy</string>
-    <string name="profile_title_telegram">Telegram channel</string>
-    <string name="profile_title_telegram_promo">Daily questions and feedback</string>
-    <string name="profile_format_version">%1$s version</string>
-    <string name="profile_format_time_second">%1$.1f sec.</string>
-    <string name="profile_format_round_time_second" tools:ignore="PluralsCandidate">%1$d sec.</string>
-    <string name="profile_title_section_ai">AI</string>
-    <string name="profile_title_ai">AI Beta</string>
-    <string name="profile_title_ai_not_connected">None</string>
-    <string name="profile_title_ai_off">Off</string>
+    <string name="profile_content_banner_subtitle">Приложение основано на open-source решении Quiz-Platform. Будем рады вашей оценке платформы на GitHub.</string>
+    <string name="profile_content_banner_rate">Оценить</string>
+    <string name="profile_content_banner_report_error">Сообщить о проблеме</string>
+    <string name="profile_title_purchases">Покупки</string>
+    <string name="profile_title_pro_version">Про-версия</string>
+    <string name="profile_title_please_us">Порадовать нас</string>
+    <string name="profile_title_rate_app">Оцените приложение</string>
+    <string name="profile_title_share_app">Расскажите другу</string>
+    <string name="profile_title_other_apps">Наши приложения</string>
+    <string name="profile_title_feedback">Обратная связь</string>
+    <string name="profile_title_report_error">Сообщите об ошибке</string>
+    <string name="profile_title_privacy_policy">Политика конфиденциальности</string>
+    <string name="profile_title_telegram">Telegram-канал</string>
+    <string name="profile_title_telegram_promo">Ежедневные вопросы и обратная связь</string>
+    <string name="profile_format_version">%1$s версия</string>
+    <string name="profile_format_time_second">%1$.1f сек.</string>
+    <string name="profile_format_round_time_second" tools:ignore="PluralsCandidate">%1$d сек.</string>
+    <string name="profile_title_section_ai">Искусственный интеллект</string>
+    <string name="profile_title_ai">ИИ Бета</string>
+    <string name="profile_title_ai_not_connected">Доступные подключения</string>
+    <string name="profile_title_ai_off">Выключено</string>
 </resources>

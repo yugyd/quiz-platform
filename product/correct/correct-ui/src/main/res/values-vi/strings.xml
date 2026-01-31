@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="correct_title_remember_quest">Bây giờ các câu hỏi sẽ được ghi nhớ!</string>
-    <string name="correct_msg_correct_quest">Sửa lỗi để củng cố kiến thức. Ở đây tập hợp tất cả các lỗi của bạn.</string>
-    <string name="correct_msg_correct_pro_available">Chỉ khả dụng trong bản Pro.</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    correct_title_remember_quest = 6ae173ff428df0c4ecef436119630984aa0f872077edcb3f015920b3107d1983
+    correct_msg_correct_quest = df14415526bc3ab3ed80cc9d22530ae0902cf905c368d7b1672b5888d8850c40
+    correct_msg_correct_pro_available = 3399ca8629bb1c27c52347c3cda51b82b6cebb49a087b51da9d8b9cb4286471e
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="correct_title_remember_quest">Giờ đây bạn sẽ nhớ các câu hỏi!</string>
+    <string name="correct_msg_correct_quest">Sửa lỗi để củng cố kiến thức. Tại đây có tổng hợp tất cả các lỗi.</string>
+    <string name="correct_msg_correct_pro_available">Chỉ khả dụng trong Pro.</string>
 </resources>

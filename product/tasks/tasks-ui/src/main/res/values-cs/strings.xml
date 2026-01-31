@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    tasks_title_tasks_list = fb340fb62f2aed2094a281dc516a247631e2d88bc136b80d9982b81163d8d8f4
+    tasks_filters = 646ff1c277164efd6d77fcd68b3c67f2b4ef0eb3555f968647afff68e0471a9c
+    tasks_errors = 7fa008e8276af95c76dd4ff94abe332caf9703419661878ed41cb20a61c3c31a
+    tasks_favorites = 33b82ad2c759b6401d0802c0005e0570d898b908d1044954b793dbce0de5e20a
+    tasks_empty_state_title = f7a46774c3fe94d5aec35744d53f957598012041a86a225292e532621ed39e85
+    tasks_empty_state_message = 576e93766604ec0dac2faa5af3b1ad03f8a767aaf07390995e91f49c2a9e7914
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="tasks_title_tasks_list">Seznam úloh</string>
+    <string name="tasks_filters">Filtry</string>
+    <string name="tasks_errors">Chyby</string>
+    <string name="tasks_favorites">Oblíbené</string>
+    <string name="tasks_empty_state_title">Nic nebylo nalezeno</string>
+    <string name="tasks_empty_state_message">Zkuste změnit filtry</string>
+</resources>

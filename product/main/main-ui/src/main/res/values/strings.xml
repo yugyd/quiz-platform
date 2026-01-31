@@ -17,14 +17,6 @@
 <resources>
     <!-- Base -->
     <!-- Replace with your resource -->
-    <string name="main_app_site_host" translatable="false">sites.google.com</string>
-    <!-- Replace with your resource -->
-    <string name="main_app_site_patch_prefix" translatable="false">/view/yugyd/quiz/quiz-platform</string>
-    <!-- Replace with your resource -->
-    <string name="main_app_telegram_chat_name" translatable="false">quizplatformapp</string>
-    <!-- Replace with your resource -->
-    <string name="app_privacy_policy_link" translatable="false">https://sites.google.com/view/yugyd/privacy-policy/quiz-platform</string>
-    <!-- Replace with your resource -->
     <string name="main_link_quiz_platform_project" translatable="false">https://github.com/Yugyd/quiz-platform</string>
     <!-- Replace with your resource -->
     <string name="main_link_quiz_platform_issues" translatable="false">https://github.com/Yugyd/quiz-platform/issues</string>

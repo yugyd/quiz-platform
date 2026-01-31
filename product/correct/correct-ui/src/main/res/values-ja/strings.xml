@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
-    <string name="correct_title_remember_quest">これで問題が記憶されます！</string>
-    <string name="correct_msg_correct_quest">間違いを修正して内容を定着させましょう。ここにはあなたのすべてのミスが集められています。</string>
-    <string name="correct_msg_correct_pro_available">Pro版でのみ利用できます。</string>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    correct_title_remember_quest = 6ae173ff428df0c4ecef436119630984aa0f872077edcb3f015920b3107d1983
+    correct_msg_correct_quest = df14415526bc3ab3ed80cc9d22530ae0902cf905c368d7b1672b5888d8850c40
+    correct_msg_correct_pro_available = 3399ca8629bb1c27c52347c3cda51b82b6cebb49a087b51da9d8b9cb4286471e
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="correct_title_remember_quest">これで問題を覚えられます！</string>
+    <string name="correct_msg_correct_quest">間違いを修正して、内容を定着させましょう。ここにはすべての間違いがまとめられています。</string>
+    <string name="correct_msg_correct_pro_available">Proのみ利用できます。</string>
 </resources>

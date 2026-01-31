@@ -15,13 +15,12 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="theme_dialog_title_rewarded">Training Mode</string>
-    <string name="theme_dialog_msg_rewarded">Available after watching an ad</string>
-    <string name="theme_dialog_action_rewarded">Watch</string>
-    <string name="theme_dialog_action_no_thanks">No thanks</string>
-    <string name="theme_error_rewarded_ad">Failed to load ad</string>
-    <string name="theme_title_theme_completed">Category completed</string>
-    <string name="theme_dialog_action_info">Information</string>
-    <string name="theme_action_close">Close</string>
+    <string name="theme_dialog_title_rewarded">Режим тренировка</string>
+    <string name="theme_dialog_msg_rewarded">Доступен после просмотра рекламного ролика</string>
+    <string name="theme_dialog_action_rewarded">Посмотреть</string>
+    <string name="theme_dialog_action_no_thanks">Нет, спасибо</string>
+    <string name="theme_error_rewarded_ad">Не удалось загрузить рекламу</string>
+    <string name="theme_title_theme_completed">Категория пройдена</string>
+    <string name="theme_dialog_action_info">Информация</string>
+    <string name="theme_action_close">Закрыть</string>
 </resources>

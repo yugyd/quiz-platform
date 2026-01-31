@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Course screen. This screen displays course theory on a specific topic in MD5 format. The screen consists of the following components: 1. A basic toolbar. 2. Content in MD5 format. 3. A 'Start Testing' button."
+  uiSemantics: "Course details screen with top toolbar (course title, back button, report icon), scrollable markdown content describing the course, optional primary action button to start tasks/test, loading and warning states, snackbar error feedback for AI and general errors, and navigation to AI tasks flow, external report error screen, or back."
   excludeTranslated: true

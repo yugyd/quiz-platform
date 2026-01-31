@@ -15,6 +15,5 @@
   -->
 
 <resources>
-    <!--Generated Translator AI-->
-    <string name="course_list_title_search_theme">Courses</string>
+    <string name="course_list_title_search_theme">Курсы</string>
 </resources>

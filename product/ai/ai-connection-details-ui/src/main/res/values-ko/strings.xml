@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    ai_connection_details_title = aed724316a29881c0b6f4637e4d2e9bf680027f8b20715261fe398f066164fc7
+    ai_connection_details_description = eac3e5843f1351600d30e5908ba2e2f5d3e348c6fc65de70fefbe7c6714a0dea
+    ai_connection_details_open = 195ac2cab5a1a22acb75ef7e4d3a3105e2b08dab72830830743dd19c83e7b2ba
+    ai_connection_details_title_add = e022cd4f12878495de0cc5dd4612983c8852cc5ea8259fda734cbd91f6fd1d56
+    ai_connection_details_title_edit = b2e807509497306b114c179a042ab2fbc336db380c41675a82497987ea23731b
+    ai_connection_details_name = f9249a140eb45b2fbaadd6a8f2322581cb975d72394a355c0d19f042162c0c51
+    ai_connection_details_provider = 59fd532405fcc32d7ab7ea3e18eaa7799ab3ff9c1487bb8cb013df241edd026a
+    ai_connection_details_api_key = 78e66d9993a48d60633b89e5a66f0a9faa201051ef033d8590295c3d1932d56d
+    ai_connection_details_project_folder = 044579b6062f47342e96f9091c59cd7ab165c6885cd47c503898720b6e3e9cd9
+    ai_connection_details_api_model = 576357ce9af712ba7149b73dc252eacd1bdbf68581d84d7046590aede94fff7d
+    ai_connection_details_action_save = 58bdc123a71a4646d380f7f9fec6bc74a314938e9c45997ea0aa4bbf3a2c332f
+    ai_connection_details_action_delete = d2de0bfebd34e42c2f22d6b61262231f68768aacf202e00611e9322a317874e1
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="ai_connection_details_title">키 생성 안내</string>
-    <string name="ai_connection_details_description">AI 제공자의 공식 문서를 참고하여 키를 생성하세요</string>
+    <string name="ai_connection_details_description">AI 제공업체의 공식 문서를 참고하여 키를 생성하세요</string>
     <string name="ai_connection_details_open">생성</string>
     <string name="ai_connection_details_title_add">새 AI 연결</string>
-    <string name="ai_connection_details_title_edit">AI 연결 편집</string>
+    <string name="ai_connection_details_title_edit">AI 연결 수정</string>
     <string name="ai_connection_details_name">이름</string>
-    <string name="ai_connection_details_provider">AI 제공자</string>
+    <string name="ai_connection_details_provider">AI 제공업체</string>
     <string name="ai_connection_details_api_key">API 키</string>
     <string name="ai_connection_details_project_folder">프로젝트</string>
+    <string name="ai_connection_details_api_model">API 모델</string>
     <string name="ai_connection_details_action_save">저장</string>
     <string name="ai_connection_details_action_delete">삭제</string>
 </resources>

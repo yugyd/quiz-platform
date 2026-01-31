@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Domain module. Contains a parser for logical responses. The module consists of the following components: 1. Text strings for 'true' and 'false' responses."
+  uiSemantics: "Logic class providing a standard boolean quiz interface with two answer options (True/False), capable of generating the answer list and mapping raw integer input to localized True/False strings, used in constructing select-boolean questions in the quiz app."
   excludeTranslated: true

@@ -15,5 +15,5 @@
   -->
 
 <resources>
-    <string name="locale_code" translatable="false">ru</string>
+    <string name="locale_code">ru</string>
 </resources>

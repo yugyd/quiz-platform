@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="ai_settings_storage_term">
-        <item quantity="other">%1$d일</item>
-    </plurals>
-
-    <!--Generated Translator AI-->
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    ai_settings_title_ai = 5515558dafbf18d95b99722fcb5e6228e5afd899a2c06274bd6b69d4a9cd126b
+    ai_settings_title_enable_ai = cb7945342488781633013ca1add6d0baa6e903de9c3db5ae39b5b3e9cc8afbcb
+    ai_settings_title_ai_connected = 98594ccfc42964d13f9268878c5e1adf7308e795d1323d6f78bb131aa22827cd
+    ai_settings_add_ai_connection = 28dcdf13af6c2b0bfac3d47dc7a55cb0a043fca853d9b6d57c39cdcdcdb71b17
+    ai_settings_term_of_cache = ce1327725427c240629531cb75f0c9456f466792f34fd8e3f110299c65ac4324
+    ai_settings_direct_connection = ee1d16b9db2db484a99f6f27272f450ab3bd07982be34f2cc80e3ab5022c8439
+    ai_settings_privacy_policy = 927c58a5f91cf6a91f180c7ae602af607bddaba35315e66e976171399e40764d
+    ai_settings_ai_test_info = 6a1bdfbc909d5b66060ad852f4d04c06def85a009427a992c334e8ad6282d68f
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
     <string name="ai_settings_title_ai">AI 베타</string>
     <string name="ai_settings_title_enable_ai">AI 베타 사용</string>
     <string name="ai_settings_title_ai_connected">연결됨</string>
     <string name="ai_settings_add_ai_connection">AI 연결 추가</string>
-    <string name="ai_settings_term_of_cache">콘텐츠 갱신 주기</string>
+    <string name="ai_settings_term_of_cache">콘텐츠 업데이트 주기</string>
     <string name="ai_settings_direct_connection">직접 연결</string>
     <string name="ai_settings_privacy_policy">AI 사용 정책</string>
-    <string name="ai_settings_ai_test_info">이 기능은 테스트 모드에 있습니다</string>
+    <string name="ai_settings_ai_test_info">이 기능은 테스트 모드입니다</string>
 </resources>

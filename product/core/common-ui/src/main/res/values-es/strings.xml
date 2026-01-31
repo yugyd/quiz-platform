@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!--Generated Translator AI-->
-    <string name="common_title_select_messenger">Elegir un mensajero</string>
-    <string name="common_title_message_error">Mensaje de error</string>
-    <string name="common_message_describe_error">Describa el error</string>
-    <string name="common_format_message_subject">%1$s. %2$s</string>
-</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    profile_title_content = 7c166c7e36430b934c9046e809ebd34bf7a2ac745714f6687076ed63fe40e5c9
+    profile_title_content_not_selected = dbf0fa26acaf36e253b5222acff8f42a13d76b0f8fb51f4e2a3995bf53669125
+    profile_title_social = db051b5e6051d2d989be4ff0bcef9037f21f0cd72721ca774e15e125d715f569
+    profile_title_settings = fbd5e3d6e103149cb2dfdeabeede16ecb4afac44e486c96de652c36a5d4951fc
+    profile_title_show_answer = 7091fa0710b7f260174924a9969cd4906f34c5915ece69063174e21d13b8384a
+    profile_title_sorting_quest = 4f8abda1e3c961f4103ec99607182e9db4ced20f3079c65da074f5c7de778c31
+    profile_title_vibration = 60da3d39da2ed59afdde69a5731597045f6330b09fa13c661689a8da770ed272
+    profile_tasks = 71d39f547f5304e9adf7ea5256483956b1528ff5307aa199ddd695141ce25127
+    profile_title_game_profile = fbe991975ba16bef1b3f6bfd4fc9560593850a2f5da2086f972e2b282df3f351
+    profile_rating = d43505896a4c49f8c6ec3f98537cd7ff0a01fa5b60f7cb1f5b94eaf55e983260
+    profile_rating_progress = dff3c344b7aa7fda91049f744323935a2b53c2c176b7e81dbf90a5f902afb9c7
+    profile_content_banner_title = 2e284616e76a56dfe46b2d9a03b3ac32cc28f7371908ffa51b9136ced253921c
+    profile_content_banner_subtitle = 0127ae70c2032e85ce0674b5fc3172c084d7898889ccac71dcf96157cc796be3
+    profile_content_banner_rate = c5fb6b6f2947e88a8c5bbfa813899218fa4234cb313a4ace5142de8a13e0bcce
+    profile_content_banner_report_error = 3be71a68652d245fd9996969522abb55297c97009cafb2a16770c6a3bd9f9912
+    profile_title_purchases = 3379e9712c5102be312ba5dceaa429c622a4015150f562bbdc188e5eb2df672b
+    profile_title_pro_version = 14ba3a636d781f7557b0459399c0e4f7fc4ff205d149c0a3b3d520adfbecf22e
+    profile_title_please_us = 846afab9480f918f4329ae670397bc38c284d007c35682d10660e1cf5704ec32
+    profile_title_rate_app = a66b0d867f892c27bd41d2a8d7378996b643e87bf34b00345d2b1aa52fe53ae5
+    profile_title_share_app = a92aff05f369d766d49e9e9914cae4075e4778695ad15c8256af0f3245b75463
+    profile_title_other_apps = 3c0cedb26e33882227c835064afd9f518515167e2a7b7d7768a92ea956884bb1
+    profile_title_feedback = 146e93fc824d1cea0e97436b342a04b7d1dd5afd03c400d7e62ad2a556744567
+    profile_title_report_error = 38a20d96db96e947f973f256d722b1e3b2c9f496a7f3a540cd17f00446193130
+    profile_title_privacy_policy = 8c646957f0713eb76555f5d7e1c418db43cf5c0da90e02ddc790c559698ba4a1
+    profile_title_telegram = a5874add7b2d97f9dfc73f72e7b4fb4cbe6e0b591bdaa771b3a636ccff47236c
+    profile_title_telegram_promo = d6c3b198940ad3db6354bd9b6cd47a6e46364b10bc93e66acaa459e43adcede1
+    profile_format_version = dce755bdf189c70a44eb33c2439099ccebeff2af1dc4e605b0149531e3d2c2a8
+    profile_format_time_second = 432098b065eade6d9ab55fe43e42795fd5ed5a0a5e983867e78ed74f4fd08911
+    profile_format_round_time_second = f9588b033a5196c5dc3c914b84c7c0dc64c0bedc3b70b2e29d90d5cb97df14a6
+    profile_title_section_ai = ddcddd6444208b25eceb9e005e0cd2e795dfdd9a039565336a4a9d1d91e42b13
+    profile_title_ai = 5515558dafbf18d95b99722fcb5e6228e5afd899a2c06274bd6b69d4a9cd126b
+    profile_title_ai_not_connected = a4bc176c97178c2200d66eb8ae21ce8a8b6efbfab390b3d80ee1f3e12450947e
+    profile_title_ai_off = d6dc2a5f37f0ac15fa343001a4d804877ba54f1bdfeeac7e6fe0b87eb31abc98
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="profile_title_content">ནང་དོན་</string>
+    <string name="profile_title_content_not_selected">ནང་དོན་མ་བདམས་</string>
+    <string name="profile_title_social">སྤྱི་ཚོགས་དྲ་རྒྱ་</string>
+    <string name="profile_title_settings">སྒྲིག་སྟངས་</string>
+    <string name="profile_title_show_answer">ལན་ལ་ལྟ་བ་</string>
+    <string name="profile_title_sorting_quest">དྲི་བ་རིམ་སྒྲིག་</string>
+    <string name="profile_title_vibration">བརྡར་འགུལ་</string>
+    <string name="profile_tasks">ལས་འགན་</string>
+    <string name="profile_title_game_profile">རྩེད་མོའི་གསལ་གནས་</string>
+    <string name="profile_rating">གྲངས་རིམ་</string>
+    <string name="profile_rating_progress">ཡར་རྒྱས་གྲངས་རིམ་</string>
+    <string name="profile_content_banner_title">Quiz-Platform</string>
+    <string name="profile_content_banner_subtitle">ཉེར་སྤྱོད་འདི་ open-source ཐབས་ལམ་ Quiz-Platform ལ་གཞི་བཞག་ཡོད། GitHub ནས་སྟེགས་བུ་ལ་ཚད་བཀོད་བྱེད་པར་དགའ་བསུ་ཞུ།</string>
+    <string name="profile_content_banner_rate">ཚད་བཀོད་</string>
+    <string name="profile_content_banner_report_error">དཀའ་ངལ་སྙན་སེང་</string>
+    <string name="profile_title_purchases">ཉོ་ཚོང་</string>
+    <string name="profile_title_pro_version">Pro ཐོན་རིམ་</string>
+    <string name="profile_title_please_us">ང་ཚོར་དགའ་བསྐྱེད་</string>
+    <string name="profile_title_rate_app">ཉེར་སྤྱོད་ལ་ཚད་བཀོད་</string>
+    <string name="profile_title_share_app">གྲོགས་པོ་ལ་བཤད་རོགས་</string>
+    <string name="profile_title_other_apps">ང་ཚོའི་ཉེར་སྤྱོད་ཁག་</string>
+    <string name="profile_title_feedback">ཕྱིར་ལན་</string>
+    <string name="profile_title_report_error">ནོར་འཁྲུལ་སྙན་སེང་</string>
+    <string name="profile_title_privacy_policy">སྒེར་གསང་སྲིད་ཇུས་</string>
+    <string name="profile_title_telegram">Telegram རྒྱུ་ལམ་</string>
+    <string name="profile_title_telegram_promo">ཉིན་རེར་དྲི་བ་དང་ཕྱིར་ལན་</string>
+    <string name="profile_format_version">%1$s ཐོན་རིམ་</string>
+    <string name="profile_format_time_second">%1$.1f སྐར་ཆ་</string>
+    <string name="profile_format_round_time_second">%1$d སྐར་ཆ་</string>
+    <string name="profile_title_section_ai">མིས་བཟོས་རྣམ་རིག་</string>
+    <string name="profile_title_ai">AI བེ་ཊ་</string>
+    <string name="profile_title_ai_not_connected">མཐུད་སྦྱོར་ཡོད་པ་</string>
+    <string name="profile_title_ai_off">བཀག་ཟིན་</string>
+</resources>

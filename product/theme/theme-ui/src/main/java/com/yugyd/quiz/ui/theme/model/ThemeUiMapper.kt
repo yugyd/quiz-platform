@@ -21,6 +21,7 @@ import com.yugyd.quiz.commonui.utils.ProgressColorUtils
 import com.yugyd.quiz.core.percent
 import com.yugyd.quiz.domain.api.model.Theme
 import javax.inject.Inject
+import androidx.core.net.toUri
 
 internal class ThemeUiMapper @Inject constructor(
     private val progressColorUtils: ProgressColorUtils
@@ -31,9 +32,9 @@ internal class ThemeUiMapper @Inject constructor(
 
         val imageUri = if (model.image != null) {
             if (model.image!!.isHttpUrl()) {
-                Uri.parse(model.image)
+                model.image!!.toUri()
             } else {
-                Uri.parse("file:///android_asset/${model.image}")
+                "file:///android_asset/${model.image}".toUri()
             }
         } else {
             null

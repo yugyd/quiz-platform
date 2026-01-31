@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2025 Roman Likhachev
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Generated Translator AI
+    [config]
+    version_meta=1
+    source_lang=ru-RU
+    [strings]
+    game_title_add_life = 606192ec88f25748d418ebfe29e0b5ff10c752bc4df2d187850aab7d5e5c3209
+    game_msg_add_life = 0c4d2358a188a0c9e45308e6e82ccf6bfd9b9b6b264f601d6c2f7e1c49088aa0
+    game_action_watch = 754283744681d0938f5b970f116b98e5c48857985c639e075ae3b38f2bc46e78
+    game_action_next = 99fec4f5dd78b1dbf751c90e440e4b8aca7f0bbe68130395e7933ea659bc5f62
+    game_error_reward_not_loaded = d3362efa5280552b57a3211d2ed1883e15f823f4f8cde4bb033e8685a6444c7f
+    [engine]
+    name = gpt-5.2
+    vendor = openai-->
+    <string name="game_title_add_life">Extra liv</string>
+    <string name="game_msg_add_life">Få ett extra liv genom att titta på en annons</string>
+    <string name="game_action_watch">Titta</string>
+    <string name="game_action_next">Nästa</string>
+    <string name="game_error_reward_not_loaded">Det gick inte att ladda annonsen</string>
+</resources>

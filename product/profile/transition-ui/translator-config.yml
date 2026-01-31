@@ -1,3 +1,4 @@
 config:
   moduleDescription: "Transition time settings screen. Select the transition time. The screen consists of the following components: 1. A basic toolbar. 2. A list of time intervals."
+  uiSemantics: "This screen is a 'Transition / Show Answer' module displaying a vertical scrollable list of items, each item shows a title and an optional check icon indicating selection; the screen has a toolbar with the title 'Show Answer' and a back button, supports loading state with placeholder content, and allows users to click items to navigate or select; all text elements include roles such as screen title and item title, intended for mobile UI, with concise, clear, and interactive text to guide users through reviewing or selecting answers."
   excludeTranslated: true
