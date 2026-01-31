@@ -9,6 +9,9 @@
     <string name="profile_title_sorting_quest">Sortowanie pytań</string>
     <string name="profile_title_vibration">Wibracje</string>
     <string name="profile_tasks">Zadania</string>
+    <string name="profile_title_game_profile">Profil gry</string>
+    <string name="profile_rating">Ocena</string>
+    <string name="profile_rating_progress">Ocena postępów</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">Aplikacja oparta jest na open‑source’owym rozwiązaniu Quiz-Platform. Będziemy wdzięczni za Twoją ocenę platformy na GitHubie.</string>
     <string name="profile_content_banner_rate">Oceń</string>

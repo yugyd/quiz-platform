@@ -29,6 +29,9 @@ interface TrainDao {
     @Query("SELECT * FROM train")
     suspend fun getAll(): List<TrainEntity>
 
+    @Query("SELECT _id FROM train")
+    suspend fun getAllIds(): List<Int>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(sections: List<TrainEntity>)
 

@@ -2,17 +2,17 @@
 # Gradle
 android-gradle-plugin = "8.10.1"
 # Kotlin
-kotlin = '2.0.21'
+kotlin = '2.2.21'
 # UI
 appcompat = '1.7.1'
 material = '1.13.0'
-compose-bom = '2024.12.01'
+compose-bom = '2025.12.00'
 # DI
 hilt = '2.57.2'
 # Network
-retrofit = '2.11.0'
+retrofit = '3.0.0'
 # Annotation processor
-ksp = '2.0.21-1.0.27'
+ksp = "2.2.21-2.0.4"
 # Test
 jacoco = "0.8.7"
 # Other
@@ -21,13 +21,13 @@ coroutinesVersion = '1.10.2'
 lifecycleVersion = '2.10.0'
 androidxTest = '1.6.1'
 core-ktx = '1.17.0'
-roomVersion = '2.7.2'
+roomVersion = '2.8.4'
 workManagerVersion = '2.11.0'
 firebaseVersion = '34.6.0'
 accompanistVersion = '0.36.0'
 versionsUpdates = '0.51.0'
 # Third-Party
-markdown-compose = '0.35.0'
+markdown-compose = '0.38.1'
 # Build logic
 compile-sdk = '36'
 target-sdk = '36'
@@ -45,7 +45,7 @@ update-versions-gradle-plugin = { group = "com.github.ben-manes", name = "gradle
 ksp-gradle-plugin = { group = "com.google.devtools.ksp", name = "symbol-processing-gradle-plugin", version.ref = 'ksp' }
 # Kotlin
 kotlin-stdlib-core = { module = 'org.jetbrains.kotlin:kotlin-stdlib', version.ref = 'kotlin' }
-kotlinx-serialization = { module = 'org.jetbrains.kotlinx:kotlinx-serialization-json', version = '1.8.0' }
+kotlinx-serialization = { module = 'org.jetbrains.kotlinx:kotlinx-serialization-json', version = '1.9.0' }
 # Coroutines
 kotlinx-coroutines-core = { module = 'org.jetbrains.kotlinx:kotlinx-coroutines-core', version.ref = 'coroutinesVersion' }
 kotlinx-coroutines-android = { module = 'org.jetbrains.kotlinx:kotlinx-coroutines-android', version.ref = 'coroutinesVersion' }
@@ -73,7 +73,7 @@ compose-material-icons = { module = 'androidx.compose.material:material-icons-ex
 # UI Foundation
 compose-ui-graphics = { module = 'androidx.compose.ui:ui-graphics' }
 # Optional - Integration with activities and ViewModels
-compose-activity = { module = 'androidx.activity:activity-compose', version = '1.12.0' }
+compose-activity = { module = 'androidx.activity:activity-compose', version = '1.12.1' }
 compose-viewmodel = { module = 'androidx.lifecycle:lifecycle-viewmodel-compose', version = '2.10.0' }
 compose-lifecycle = { module = 'androidx.lifecycle:lifecycle-runtime-compose', version = '2.10.0' }
 # Navigation
@@ -91,7 +91,7 @@ material = { module = 'com.google.android.material:material', version.ref = 'mat
 retrofit = { module = 'com.squareup.retrofit2:retrofit', version.ref = 'retrofit' }
 retrofit-mock = { module = 'com.squareup.retrofit2:retrofit-mock', version.ref = 'retrofit' }
 retrofit-converter-kotlinx-serialization = { module = 'com.squareup.retrofit2:converter-kotlinx-serialization', version.ref = 'retrofit' }
-okhttp3-bom = { module = 'com.squareup.okhttp3:okhttp-bom', version = '4.12.0' }
+okhttp3-bom = { module = 'com.squareup.okhttp3:okhttp-bom', version = '5.3.2' }
 okhttp3 = { module = 'com.squareup.okhttp3:okhttp' }
 okhttp3-logging-interceptor = { module = 'com.squareup.okhttp3:logging-interceptor' }
 # DI
@@ -108,9 +108,11 @@ room-testing = { module = 'androidx.room:room-testing', version.ref = 'roomVersi
 # WorkManager
 work-manager-ktx = { module = 'androidx.work:work-runtime-ktx', version.ref = 'workManagerVersion' }
 # Ad
-yandex-ads = { module = 'com.yandex.android:mobileads', version = '7.17.0' }
+yandex-ads = { module = 'com.yandex.android:mobileads', version = '7.18.0' }
 # Google
 play-ads = { module = 'com.google.android.gms:play-services-ads', version = '24.8.0' }
+# Game services
+gms-games = { module = "com.google.android.gms:play-services-games-v2", version = "21.0.0" }
 # Firebase
 firebase-bom = { module = 'com.google.firebase:firebase-bom', version.ref = 'firebaseVersion' }
 firebase-analytics = { module = 'com.google.firebase:firebase-analytics' }

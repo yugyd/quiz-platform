@@ -9,6 +9,9 @@
     <string name="profile_title_sorting_quest">Sắp xếp câu hỏi</string>
     <string name="profile_title_vibration">Rung</string>
     <string name="profile_tasks">Nhiệm vụ</string>
+    <string name="profile_title_game_profile">Hồ sơ trò chơi</string>
+    <string name="profile_rating">Xếp hạng</string>
+    <string name="profile_rating_progress">Xếp hạng tiến độ</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">Ứng dụng được xây dựng dựa trên giải pháp mã nguồn mở Quiz-Platform. Rất mong bạn đánh giá nền tảng này trên GitHub.</string>
     <string name="profile_content_banner_rate">Đánh giá</string>

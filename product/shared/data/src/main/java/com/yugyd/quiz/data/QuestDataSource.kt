@@ -50,6 +50,8 @@ internal class QuestDataSource @Inject constructor(
         .getAll()
         .map(questEntityMapper::mapQuestToDomain)
 
+    override suspend fun getQuestIds(): List<Int> = questDao.getIds()
+
     override suspend fun getQuestIdsByErrors(errorIds: IntArray) = questDao
         .loadAllByIds(errorIds)
         .map(questEntityMapper::mapQuestToDomain)

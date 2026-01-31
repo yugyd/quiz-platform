@@ -9,6 +9,9 @@
     <string name="profile_title_sorting_quest">문제 정렬</string>
     <string name="profile_title_vibration">진동</string>
     <string name="profile_tasks">과제</string>
+    <string name="profile_title_game_profile">게임 프로필</string>
+    <string name="profile_rating">평점</string>
+    <string name="profile_rating_progress">진행도 평점</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">이 앱은 오픈 소스 솔루션 Quiz-Platform을 기반으로 합니다. GitHub에서 플랫폼을 평가해 주시면 감사하겠습니다.</string>
     <string name="profile_content_banner_rate">평가하기</string>

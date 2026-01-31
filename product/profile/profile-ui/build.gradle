@@ -25,6 +25,7 @@ dependencies {
     implementation project(':product:shared:domain-api')
     implementation project(':product:shared:domain-controller')
     implementation project(':product:ai:ai-connection-quiz')
+    implementation project(':product:services:gameservices-api')
 
     // UI - Compose
     implementation libs.compose.material3

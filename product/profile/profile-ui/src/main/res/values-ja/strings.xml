@@ -9,6 +9,9 @@
     <string name="profile_title_sorting_quest">問題の並び替え</string>
     <string name="profile_title_vibration">バイブレーション</string>
     <string name="profile_tasks">タスク</string>
+    <string name="profile_title_game_profile">ゲームプロフィール</string>
+    <string name="profile_rating">評価</string>
+    <string name="profile_rating_progress">進捗評価</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">このアプリは、オープンソースの Quiz-Platform を基に作成されています。GitHub でプラットフォームの評価をしていただけると嬉しいです。</string>
     <string name="profile_content_banner_rate">評価する</string>

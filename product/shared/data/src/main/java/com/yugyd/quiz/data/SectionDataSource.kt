@@ -31,6 +31,8 @@ internal class SectionDataSource @Inject constructor(
     private val sectionEntityMapper: SectionEntityMapper
 ) : SectionSource {
 
+    override suspend fun getAll(): List<Int> = sectionDao.getAllIds()
+
     override suspend fun getSectionCountByTheme(themeId: Int): SectionRange {
         return SectionRange(
             startSectionId = questDao.getMinSectionByTheme(themeId),

@@ -17,6 +17,7 @@
 package com.yugyd.quiz.di
 
 import com.yugyd.quiz.ContentProviderImpl
+import com.yugyd.quiz.GameServicesIdProviderImpl
 import com.yugyd.quiz.GoogleAdIdProviderImpl
 import com.yugyd.quiz.ResIdProviderImpl
 import com.yugyd.quiz.YandexAdProviderImpl
@@ -24,6 +25,7 @@ import com.yugyd.quiz.core.AdIdJvmProvider
 import com.yugyd.quiz.core.AdIdProvider
 import com.yugyd.quiz.core.AdProviderType
 import com.yugyd.quiz.core.ContentProvider
+import com.yugyd.quiz.core.GameServicesIdProvider
 import com.yugyd.quiz.core.GlobalConfig
 import com.yugyd.quiz.core.ResIdJvmProvider
 import com.yugyd.quiz.core.ResIdProvider
@@ -45,6 +47,11 @@ abstract class ResourcesModule {
 
     @Binds
     internal abstract fun bindContentProvider(impl: ContentProviderImpl): ContentProvider
+
+    @Binds
+    internal abstract fun bindGameServicesIdProvider(
+        impl: GameServicesIdProviderImpl,
+    ): GameServicesIdProvider
 
     companion object {
 

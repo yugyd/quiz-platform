@@ -17,7 +17,7 @@
 package com.yugyd.quiz.ui.profile.model
 
 internal data class SectionProfileUiModel(
-    override val id: Int = 0,
     override val type: TypeProfile = TypeProfile.NONE,
+    override val id: String = type.toString(),
     val title: String = ""
 ) : ProfileUiModel

@@ -41,4 +41,10 @@ interface ResIdProvider : ResIdJvmProvider {
 
     @StringRes
     fun appPrivacyPolicyLink(): Int
+
+    @StringRes
+    fun gameExperienceLeaderboard(): Int
+
+    @StringRes
+    fun gameWalkthroughLeaderboard(): Int
 }

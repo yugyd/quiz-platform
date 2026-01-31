@@ -51,9 +51,25 @@ internal class ProfileUiMapper @Inject constructor(
         isBasedOnPlatformApp: Boolean,
         isAiEnabled: Boolean,
         isAiFeatureEnabled: Boolean,
+        isGamesServicesEnabled: Boolean,
     ) = listOfNotNull(
         header(content, isProFeatureEnabled),
         item(TypeProfile.TASKS, R.string.profile_tasks),
+        section(
+            type = TypeProfile.GAME_PROFILE_SECTION,
+            titleRes = R.string.profile_title_game_profile,
+            isSectionEnabled = isGamesServicesEnabled,
+        ),
+        item(
+            type = TypeProfile.EXPERIENCE_RATING,
+            titleRes = R.string.profile_rating,
+            isItemEnabled = isGamesServicesEnabled
+        ),
+        item(
+            type = TypeProfile.PROGRESS_RATING,
+            titleRes = R.string.profile_rating_progress,
+            isItemEnabled = isGamesServicesEnabled
+        ),
         mapContentToValueItem(
             contentTitle = contentTitle,
             isContentEnabled = isContentFeatureEnabled,
@@ -150,7 +166,7 @@ internal class ProfileUiMapper @Inject constructor(
     ): SectionProfileUiModel? {
         return if (isSectionEnabled) {
             SectionProfileUiModel(
-                id = type.id,
+                id = type.toString(),
                 title = context.getString(titleRes)
             )
         } else {
@@ -160,7 +176,7 @@ internal class ProfileUiMapper @Inject constructor(
 
     private fun value(type: TypeProfile, @StringRes titleRes: Int, value: Double) =
         ValueItemProfileUiModel(
-            id = type.id,
+            id = type.toString(),
             type = type,
             title = context.getString(titleRes),
             value = context.getString(R.string.profile_format_time_second, value)
@@ -168,7 +184,7 @@ internal class ProfileUiMapper @Inject constructor(
 
     private fun value(type: TypeProfile, @StringRes titleRes: Int, value: String) =
         ValueItemProfileUiModel(
-            id = type.id,
+            id = type.toString(),
             type = type,
             title = context.getString(titleRes),
             value = value,
@@ -176,17 +192,25 @@ internal class ProfileUiMapper @Inject constructor(
 
     private fun switch(type: TypeProfile, @StringRes titleRes: Int, isChecked: Boolean) =
         SwitchItemProfileUiModel(
-            id = type.id,
+            id = type.toString(),
             type = type,
             title = context.getString(titleRes),
             isChecked = isChecked
         )
 
-    private fun item(type: TypeProfile, @StringRes titleRes: Int) = SelectItemProfileUiModel(
-        id = type.id,
-        type = type,
-        title = context.getString(titleRes)
-    )
+    private fun item(
+        type: TypeProfile,
+        @StringRes titleRes: Int,
+        isItemEnabled: Boolean = true,
+    ) = if (isItemEnabled) {
+        SelectItemProfileUiModel(
+            id = type.toString(),
+            type = type,
+            title = context.getString(titleRes)
+        )
+    } else {
+        null
+    }
 
     private fun social(
         type: TypeProfile,
@@ -203,7 +227,7 @@ internal class ProfileUiMapper @Inject constructor(
                 context.getString(R.string.profile_title_telegram_promo)
             }
             SocialItemProfileUiModel(
-                id = type.id,
+                id = type.toString(),
                 type = type,
                 title = telegramTitle,
                 message = telegramMsg,
@@ -237,7 +261,7 @@ internal class ProfileUiMapper @Inject constructor(
 
     private fun getOpenSourceItem(isBasedOnPlatformApp: Boolean) = if (isBasedOnPlatformApp) {
         OpenSourceProfileUiModel(
-            id = TypeProfile.OPEN_SOURCE.id,
+            id = TypeProfile.OPEN_SOURCE.toString(),
             type = TypeProfile.OPEN_SOURCE,
         )
     } else {

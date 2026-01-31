@@ -9,6 +9,9 @@
     <string name="profile_title_sorting_quest">Ordina domande</string>
     <string name="profile_title_vibration">Vibrazione</string>
     <string name="profile_tasks">Compiti</string>
+    <string name="profile_title_game_profile">Profilo di gioco</string>
+    <string name="profile_rating">Valutazione</string>
+    <string name="profile_rating_progress">Valutazione dei progressi</string>
     <string name="profile_content_banner_title">Quiz Platform</string>
     <string name="profile_content_banner_subtitle">Questo applicativo è basato sulla soluzione open-source Quiz Platform. Segui il progresso del tuo account su GitHub.</string>
     <string name="profile_content_banner_rate">Valuta</string>

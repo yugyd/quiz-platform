@@ -9,6 +9,9 @@
     <string name="profile_title_sorting_quest">Soruları sıralama</string>
     <string name="profile_title_vibration">Titreşim</string>
     <string name="profile_tasks">Görevler</string>
+    <string name="profile_title_game_profile">Oyun Profili</string>
+    <string name="profile_rating">Puan</string>
+    <string name="profile_rating_progress">İlerleme puanı</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">Uygulama, açık kaynaklı Quiz-Platform çözümü temel alınarak oluşturulmuştur. Platformu GitHub’da değerlendirmeniz bizi mutlu eder.</string>
     <string name="profile_content_banner_rate">Puanla</string>

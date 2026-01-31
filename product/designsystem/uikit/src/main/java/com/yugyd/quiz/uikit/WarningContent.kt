@@ -45,6 +45,7 @@ import com.yugyd.quiz.uikit.theme.QuizApplicationTheme
 @Composable
 fun WarningContent(
     modifier: Modifier = Modifier,
+    retryTitle: String? = null,
     isRetryButtonEnabled: Boolean = false,
     onRetryClicked: (() -> Unit)? = null,
 ) {
@@ -53,6 +54,7 @@ fun WarningContent(
         title = stringResource(id = R.string.ds_empty_state_title),
         message = stringResource(id = R.string.ds_empty_state_description),
         modifier = modifier,
+        retryTitle = retryTitle,
         isRetryButtonEnabled = isRetryButtonEnabled,
         onRetryClicked = onRetryClicked,
     )
@@ -64,6 +66,7 @@ fun WarningContent(
     message: String,
     modifier: Modifier = Modifier,
     title: String = stringResource(id = R.string.ds_empty_state_title),
+    retryTitle: String? = null,
     isRetryButtonEnabled: Boolean = false,
     onRetryClicked: (() -> Unit)? = null,
 ) {
@@ -110,7 +113,7 @@ fun WarningContent(
                 enabled = isRetryButtonEnabled,
             ) {
                 Text(
-                    text = stringResource(id = R.string.ds_empty_state_retry),
+                    text = retryTitle ?: stringResource(id = R.string.ds_empty_state_retry),
                 )
             }
         }

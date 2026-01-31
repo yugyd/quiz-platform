@@ -22,6 +22,7 @@ data class SectionRange(
 )
 
 interface SectionSource {
+    suspend fun getAll(): List<Int>
     suspend fun getSectionCountByTheme(themeId: Int): SectionRange
     suspend fun updateSectionIds(questIds: List<Int>)
     suspend fun deleteSectionIds(questIds: List<Int>): Int

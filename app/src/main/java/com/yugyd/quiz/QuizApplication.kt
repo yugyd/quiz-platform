@@ -21,9 +21,14 @@ import com.yugyd.quiz.ad.api.AdClient
 import com.yugyd.quiz.core.AdProviderType
 import com.yugyd.quiz.core.GlobalConfig
 import com.yugyd.quiz.core.Logger
+import com.yugyd.quiz.core.coroutinesutils.AppScopeProvider
 import com.yugyd.quiz.ext.isMainProcess
+import com.yugyd.quiz.featuretoggle.domain.FeatureManager
+import com.yugyd.quiz.featuretoggle.domain.model.FeatureToggle
+import com.yugyd.quiz.game.api.GameServicesInitializer
 import com.yugyd.quiz.push.PushManager
 import dagger.hilt.android.HiltAndroidApp
+import kotlinx.coroutines.launch
 import timber.log.Timber
 import timber.log.Timber.DebugTree
 import javax.inject.Inject
@@ -38,7 +43,16 @@ class QuizApplication : Application() {
     lateinit var pushManager: PushManager
 
     @Inject
+    lateinit var featureManager: FeatureManager
+
+    @Inject
     lateinit var adClient: AdClient
+
+    @Inject
+    lateinit var gameServicesInitializer: GameServicesInitializer
+
+    @Inject
+    lateinit var appScopeProvider: AppScopeProvider
 
     override fun onCreate() {
         super.onCreate()
@@ -62,6 +76,12 @@ class QuizApplication : Application() {
 
         if (isMainProcess()) {
             adClient.initialize()
+
+            appScopeProvider.mainScope.launch {
+                if (featureManager.isFeatureEnabled(FeatureToggle.GAME_SERVICES)) {
+                    gameServicesInitializer.initialize()
+                }
+            }
         }
 
         pushManager.createChannels()

@@ -26,4 +26,5 @@ interface AiTasksInteractor {
     suspend fun getQuests(aiThemeId: Int): List<Quest>
     suspend fun fetchAiTasks(aiThemeId: Int)
     fun subscribeToAiTasks(aiThemeId: Int): Flow<List<AiTaskModel>>
+    fun generateAiPromptForErrorTask(quest: String, trueAnswer: String): String
 }

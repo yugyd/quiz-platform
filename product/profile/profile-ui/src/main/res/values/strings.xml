@@ -25,6 +25,9 @@
     <string name="profile_title_sorting_quest">Question sorting</string>
     <string name="profile_title_vibration">Vibration</string>
     <string name="profile_tasks">Tasks</string>
+    <string name="profile_title_game_profile">Game Profile</string>
+    <string name="profile_rating">Rating</string>
+    <string name="profile_rating_progress">Progress Rating</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">The app is based on the open-source Quiz-Platform solution. We would appreciate your feedback on the platform on GitHub.</string>
     <string name="profile_content_banner_rate">Rate</string>

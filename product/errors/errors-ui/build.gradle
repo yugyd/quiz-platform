@@ -18,12 +18,14 @@ dependencies {
     implementation project(':product:core:coroutines-utils')
     implementation project(':product:core:common-ui')
     implementation project(':product:core:navigation')
+    implementation project(':product:core:featuretoggle')
     implementation project(':product:designsystem:uikit')
     implementation project(':product:errors:errors-bl')
     implementation project(':product:shared:domain-api')
     implementation project(':product:favorites:favorites-bl')
     implementation project(':product:favorites:favorites-ui')
     implementation project(':product:ai:ai-tasks-bl')
+    implementation project(':product:ai:ai-connection-quiz')
 
     // UI - Compose
     implementation libs.compose.material3

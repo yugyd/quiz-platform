@@ -26,6 +26,7 @@ import com.yugyd.quiz.commonui.providers.LocalResIdProvider
 import com.yugyd.quiz.correctui.correctScreen
 import com.yugyd.quiz.domain.api.model.Mode
 import com.yugyd.quiz.domain.api.model.payload.GamePayload
+import com.yugyd.quiz.game.api.LeaderboardType
 import com.yugyd.quiz.gameui.game.gameScreen
 import com.yugyd.quiz.gameui.game.navigateToGame
 import com.yugyd.quiz.navigation.getTelegramIntent
@@ -47,7 +48,9 @@ import com.yugyd.quiz.ui.end.gameend.gameEndScreen
 import com.yugyd.quiz.ui.end.gameend.navigateToGameEnd
 import com.yugyd.quiz.ui.end.progressend.navigateToProgressEnd
 import com.yugyd.quiz.ui.end.progressend.progressEndScreen
+import com.yugyd.quiz.ui.errors.aiClientScreen
 import com.yugyd.quiz.ui.errors.errorListScreen
+import com.yugyd.quiz.ui.errors.navigateToAiClient
 import com.yugyd.quiz.ui.errors.navigateToErrorList
 import com.yugyd.quiz.ui.profile.profileScreen
 import com.yugyd.quiz.ui.searchcourses.navigateToSearchCourse
@@ -69,6 +72,7 @@ internal fun QuizNavHost(
     navController: NavHostController,
     snackbarHostState: SnackbarHostState,
     navigateToExternalScreen: (Intent) -> Unit,
+    onNavigateToRating: (LeaderboardType) -> Unit,
 ) {
     val context = LocalContext.current
     val resIdProvider = LocalResIdProvider.current
@@ -155,6 +159,7 @@ internal fun QuizNavHost(
                 navigateToExternalScreen(GlobalScreens.platformGitHubIssues(context))
             },
             onNavigateToTasks = navController::navigateToTasks,
+            onNavigateToRating = onNavigateToRating,
             onNavigateToAiSettings = navController::navigateToAiSettings,
         )
 
@@ -170,7 +175,8 @@ internal fun QuizNavHost(
             onBack = navController::popBackStack,
             onNavigateToBrowser = {
                 navigateToExternalScreen(GlobalScreens.externalBrowser(it))
-            }
+            },
+            onNavigateToAi = navController::navigateToAiClient,
         )
 
         gameScreen(
@@ -277,6 +283,14 @@ internal fun QuizNavHost(
         )
 
         aiConnectionDetailsScreen(
+            snackbarHostState = snackbarHostState,
+            onBack = navController::popBackStack,
+            onNavigateToBrowser = {
+                navigateToExternalScreen(GlobalScreens.externalBrowser(it))
+            },
+        )
+
+        aiClientScreen(
             snackbarHostState = snackbarHostState,
             onBack = navController::popBackStack,
             onNavigateToBrowser = {

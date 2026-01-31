@@ -24,6 +24,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.yugyd.quiz.domain.api.model.Mode
+import com.yugyd.quiz.domain.api.payload.AiClientPayload
 import com.yugyd.quiz.domain.api.payload.ErrorListPayload
 import com.yugyd.quiz.navigation.IntListDecoder
 import com.yugyd.quiz.navigation.hideBottomBarArgument
@@ -65,6 +66,7 @@ fun NavGraphBuilder.errorListScreen(
     snackbarHostState: SnackbarHostState,
     onBack: () -> Unit,
     onNavigateToBrowser: (String) -> Unit,
+    onNavigateToAi: (AiClientPayload) -> Unit,
 ) {
     val route = buildString {
         append(ERROR_LIST_ROUTE)
@@ -89,6 +91,7 @@ fun NavGraphBuilder.errorListScreen(
             snackbarHostState = snackbarHostState,
             onBack = onBack,
             onNavigateToBrowser = onNavigateToBrowser,
+            onNavigateToAi = onNavigateToAi,
         )
     }
 }

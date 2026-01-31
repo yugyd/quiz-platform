@@ -29,6 +29,9 @@ interface QuestDao {
     @Query("SELECT * FROM quest")
     suspend fun getAll(): List<QuestEntity>
 
+    @Query("SELECT _id FROM quest")
+    suspend fun getIds(): List<Int>
+
     @Query("SELECT _id FROM quest WHERE category = :themeId")
     suspend fun getIdsByTheme(themeId: Int): List<Int>
 

@@ -32,8 +32,10 @@ internal fun Project.configureKotlin() {
 
 internal fun Project.configureKotlinCompile() {
     tasks.withType(KotlinCompile::class.java).configureEach {
-        kotlinOptions {
-            jvmTarget = JAVA_VERSION.toString()
+        compilerOptions {
+            jvmTarget.set(
+                JvmTarget.fromTarget(JAVA_VERSION.toString())
+            )
         }
     }
 }

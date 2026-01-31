@@ -19,6 +19,7 @@ package com.yugyd.quiz.ui.profile
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
+import com.yugyd.quiz.game.api.LeaderboardType
 import com.yugyd.quiz.navigation.topLevelNavOptions
 
 private const val PROFILE_ROUTE = "profile"
@@ -40,6 +41,7 @@ fun NavGraphBuilder.profileScreen(
     onNavigateToExternalPlatformRate: () -> Unit,
     onNavigateToExternalPlatformReportError: () -> Unit,
     onNavigateToTasks: () -> Unit,
+    onNavigateToRating: (LeaderboardType) -> Unit,
     onNavigateToAiSettings: () -> Unit,
 ) {
     composable(route = PROFILE_ROUTE) {
@@ -56,6 +58,7 @@ fun NavGraphBuilder.profileScreen(
             onNavigateToExternalPlatformRate = onNavigateToExternalPlatformRate,
             onNavigateToExternalPlatformReportError = onNavigateToExternalPlatformReportError,
             onNavigateToTasks = onNavigateToTasks,
+            onNavigateToRating = onNavigateToRating,
             onNavigateToAiSettings = onNavigateToAiSettings,
         )
     }

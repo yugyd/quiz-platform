@@ -8,7 +8,6 @@
     <string name="end_action_show_error">Fehler ansehen</string>
     <string name="end_action_new_game">Neu spielen</string>
     <string name="end_action_watch">Zuschauen</string>
-    <string name="end_action_next">Weiter</string>
     <string name="end_error_reward_not_loaded">Anzeige konnte nicht geladen werden</string>
     <string name="end_title_work_favorites">Arbeiten an Favoriten</string>
     <string name="end_title_work_error">Fehlersuche</string>

@@ -25,6 +25,8 @@ enum class FeatureToggle(val key: String, val isLocal: Boolean, val localValue: 
     CORRECT(key = "feature_correct", isLocal = false),
     TELEGRAM(key = "feature_telegram", isLocal = false),
     AI(key = "feature_ai", isLocal = true, localValue = true),
+    AI_ASSISTANT(key = "feature_ai_assistant", isLocal = true, localValue = true),
     AI_COURSES(key = "feature_ai_courses", isLocal = true, localValue = true),
     AI_TASKS(key = "feature_ai_tasks", isLocal = true, localValue = true),
+    GAME_SERVICES(key = "feature_game_services", isLocal = true, localValue = true),
 }

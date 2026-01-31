@@ -42,6 +42,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.yugyd.quiz.domain.api.model.tasks.TaskModel
+import com.yugyd.quiz.domain.api.payload.AiClientPayload
 import com.yugyd.quiz.ui.errors.ErrorListView.Action
 import com.yugyd.quiz.ui.errors.ErrorListView.State.NavigationState
 import com.yugyd.quiz.ui.favorites.FavoriteIcon
@@ -58,7 +59,8 @@ internal fun ErrorListRoute(
     viewModel: ErrorListViewModel = hiltViewModel(),
     snackbarHostState: SnackbarHostState,
     onBack: () -> Unit,
-    onNavigateToBrowser: (String) -> Unit
+    onNavigateToBrowser: (String) -> Unit,
+    onNavigateToAi: (AiClientPayload) -> Unit,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
@@ -79,6 +81,7 @@ internal fun ErrorListRoute(
         },
         onBack = onBack,
         onNavigateToBrowser = onNavigateToBrowser,
+        onNavigateToAi = onNavigateToAi,
         onNavigationHandled = {
             viewModel.onAction(Action.OnNavigationHandled)
         },
@@ -95,6 +98,7 @@ internal fun ErrorListScreen(
     onErrorDismissState: () -> Unit,
     onBack: () -> Unit,
     onNavigateToBrowser: (String) -> Unit,
+    onNavigateToAi: (AiClientPayload) -> Unit,
     onNavigationHandled: () -> Unit,
 ) {
     val errorMessage = stringResource(id = UiKitR.string.ds_error_base)
@@ -135,6 +139,7 @@ internal fun ErrorListScreen(
         navigationState = uiState.navigationState,
         onBack = onBack,
         onNavigateToBrowser = onNavigateToBrowser,
+        onNavigateToAi = onNavigateToAi,
         onNavigationHandled = onNavigationHandled,
     )
 }
@@ -230,12 +235,22 @@ internal fun NavigationHandler(
     navigationState: NavigationState?,
     onBack: () -> Unit,
     onNavigateToBrowser: (String) -> Unit,
+    onNavigateToAi: (AiClientPayload) -> Unit,
     onNavigationHandled: () -> Unit,
 ) {
     LaunchedEffect(key1 = navigationState) {
         when (navigationState) {
             NavigationState.Back -> onBack()
             is NavigationState.NavigateToExternalBrowser -> onNavigateToBrowser(navigationState.url)
+            is NavigationState.NavigateToAiScreen -> {
+                val payload = AiClientPayload(
+                    prompt = navigationState.prompt,
+                    fallbackWebLink = navigationState.fallbackWebLink,
+                    title = navigationState.title,
+                )
+                onNavigateToAi(payload)
+            }
+
             null -> Unit
         }
 

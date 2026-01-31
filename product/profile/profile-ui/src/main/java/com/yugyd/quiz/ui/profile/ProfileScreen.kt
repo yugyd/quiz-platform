@@ -26,6 +26,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.yugyd.quiz.game.api.LeaderboardType
 import com.yugyd.quiz.ui.profile.ProfileView.Action
 import com.yugyd.quiz.ui.profile.ProfileView.State
 import com.yugyd.quiz.ui.profile.ProfileView.State.NavigationState
@@ -54,6 +55,7 @@ internal fun ProfileRoute(
     onNavigateToExternalPlatformRate: () -> Unit,
     onNavigateToExternalPlatformReportError: () -> Unit,
     onNavigateToTasks: () -> Unit,
+    onNavigateToRating: (LeaderboardType) -> Unit,
     onNavigateToAiSettings: () -> Unit,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -90,6 +92,7 @@ internal fun ProfileRoute(
             viewModel.onAction(Action.OnNavigationHandled)
         },
         onNavigateToTasks = onNavigateToTasks,
+        onNavigateToRating = onNavigateToRating,
         onNavigateToAiSettings = onNavigateToAiSettings,
     )
 }
@@ -115,6 +118,7 @@ internal fun ProfileScreen(
     onTelegramHandled: () -> Unit,
     onNavigationHandled: () -> Unit,
     onNavigateToTasks: () -> Unit,
+    onNavigateToRating: (LeaderboardType) -> Unit,
     onNavigateToAiSettings: () -> Unit,
 ) {
     LaunchedEffect(key1 = uiState.showTelegram) {
@@ -164,6 +168,7 @@ internal fun ProfileScreen(
         onNavigateToExternalPlatformRate = onNavigateToExternalPlatformRate,
         onNavigateToExternalPlatformReportError = onNavigateToExternalPlatformReportError,
         onNavigateToTasks = onNavigateToTasks,
+        onNavigateToRating = onNavigateToRating,
         onNavigateToAiSettings = onNavigateToAiSettings,
         onNavigationHandled = onNavigationHandled,
     )
@@ -208,6 +213,7 @@ internal fun NavigationHandler(
     onNavigateToExternalPlatformReportError: () -> Unit,
     onNavigateToTasks: () -> Unit,
     onNavigateToAiSettings: () -> Unit,
+    onNavigateToRating: (LeaderboardType) -> Unit,
     onNavigationHandled: () -> Unit,
 ) {
     LaunchedEffect(key1 = navigationState) {
@@ -224,6 +230,14 @@ internal fun NavigationHandler(
             NavigationState.NavigateToExternalPlatformReportError -> onNavigateToExternalPlatformReportError()
             NavigationState.NavigateToTasks -> onNavigateToTasks()
             NavigationState.NavigateToAiSettings -> onNavigateToAiSettings()
+            NavigationState.NavigateToTotalRating -> {
+                onNavigateToRating(LeaderboardType.WALKTHROUGH)
+            }
+
+            NavigationState.NavigateToExperienceRating -> {
+                onNavigateToRating(LeaderboardType.EXPERIENCE)
+            }
+
             null -> Unit
         }
 

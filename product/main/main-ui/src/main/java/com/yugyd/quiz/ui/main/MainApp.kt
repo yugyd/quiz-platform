@@ -52,6 +52,7 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
 import com.yugyd.quiz.correctui.navigateToCorrect
+import com.yugyd.quiz.game.api.LeaderboardType
 import com.yugyd.quiz.navigation.SHOW_BOTTOM_BAR_ARG
 import com.yugyd.quiz.navigation.getTelegramIntent
 import com.yugyd.quiz.newversiononboarding.OnboardingBottomSheet
@@ -70,7 +71,10 @@ import com.yugyd.quiz.update.navigateToUpdate
 import timber.log.Timber
 
 @Composable
-internal fun MainApp(viewModel: MainViewModel) {
+internal fun MainApp(
+    viewModel: MainViewModel,
+    onNavigateToRating: (LeaderboardType) -> Unit,
+) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
     MainScreen(
@@ -87,6 +91,7 @@ internal fun MainApp(viewModel: MainViewModel) {
         onOnboardingDismissState = {
             viewModel.onAction(Action.OnboardingBottomSheetDismissed)
         },
+        onNavigateToRating = onNavigateToRating,
     )
 }
 
@@ -97,6 +102,7 @@ internal fun MainScreen(
     onNavigationHandled: () -> Unit,
     onOnboardingClicked: () -> Unit,
     onOnboardingDismissState: () -> Unit,
+    onNavigateToRating: (LeaderboardType) -> Unit,
 ) {
     val navController = rememberNavController()
 
@@ -164,6 +170,7 @@ internal fun MainScreen(
                     navigateToExternalScreen = {
                         startActivityOrLogError(context, it)
                     },
+                    onNavigateToRating = onNavigateToRating,
                 )
             }
         }

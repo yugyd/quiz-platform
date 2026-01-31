@@ -8,7 +8,6 @@
     <string name="end_action_show_error">Ver errores</string>
     <string name="end_action_new_game">Nuevo juego</string>
     <string name="end_action_watch">Mirar</string>
-    <string name="end_action_next">Siguiente</string>
     <string name="end_error_reward_not_loaded">Falló la carga de la publicidad</string>
     <string name="end_title_work_favorites">Trabajo en favoritos</string>
     <string name="end_title_work_error">Trabajo sobre errores</string>

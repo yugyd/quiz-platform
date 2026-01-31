@@ -23,6 +23,9 @@
     <string name="profile_title_sorting_quest">Сортировка вопросов</string>
     <string name="profile_title_vibration">Вибрация</string>
     <string name="profile_tasks">Задания</string>
+    <string name="profile_title_game_profile">Игровой профиль</string>
+    <string name="profile_rating">Рейтинг</string>
+    <string name="profile_rating_progress">Рейтинг прогресса</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">Приложение основано на open-source решении Quiz-Platform. Будем рады вашей оценке платформы на GitHub.</string>
     <string name="profile_content_banner_rate">Оценить</string>

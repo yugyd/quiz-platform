@@ -33,34 +33,14 @@ import com.yugyd.quiz.featuretoggle.domain.FeatureManager
 import com.yugyd.quiz.featuretoggle.domain.RemoteConfigRepository
 import com.yugyd.quiz.featuretoggle.domain.model.FeatureToggle
 import com.yugyd.quiz.featuretoggle.domain.model.telegram.TelegramConfig
+import com.yugyd.quiz.game.api.GameClient
 import com.yugyd.quiz.ui.profile.ProfileView.Action
 import com.yugyd.quiz.ui.profile.ProfileView.State
 import com.yugyd.quiz.ui.profile.ProfileView.State.NavigationState
 import com.yugyd.quiz.ui.profile.model.ProfileUiMapper
 import com.yugyd.quiz.ui.profile.model.ProfileUiModel
 import com.yugyd.quiz.ui.profile.model.SwitchItemProfileUiModel
-import com.yugyd.quiz.ui.profile.model.TypeProfile.AI_CONNECTION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.AI_SECTION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.FEEDBACK_SECTION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.NONE
-import com.yugyd.quiz.ui.profile.model.TypeProfile.OPEN_SOURCE
-import com.yugyd.quiz.ui.profile.model.TypeProfile.OTHER_APPS
-import com.yugyd.quiz.ui.profile.model.TypeProfile.PLEASE_US_SECTION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.PRIVACY_POLICY
-import com.yugyd.quiz.ui.profile.model.TypeProfile.PRO
-import com.yugyd.quiz.ui.profile.model.TypeProfile.PURCHASES_SECTION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.RATE_APP
-import com.yugyd.quiz.ui.profile.model.TypeProfile.REPORT_ERROR
-import com.yugyd.quiz.ui.profile.model.TypeProfile.RESTORE_PURCHASE
-import com.yugyd.quiz.ui.profile.model.TypeProfile.SELECT_CONTENT
-import com.yugyd.quiz.ui.profile.model.TypeProfile.SETTINGS_SECTION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.SHARE
-import com.yugyd.quiz.ui.profile.model.TypeProfile.SOCIAL_SECTION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.SORT_QUEST
-import com.yugyd.quiz.ui.profile.model.TypeProfile.TASKS
-import com.yugyd.quiz.ui.profile.model.TypeProfile.TELEGRAM_SOCIAL
-import com.yugyd.quiz.ui.profile.model.TypeProfile.TRANSITION
-import com.yugyd.quiz.ui.profile.model.TypeProfile.VIBRATION
+import com.yugyd.quiz.ui.profile.model.TypeProfile
 import com.yugyd.quiz.ui.profile.model.ValueItemProfileUiModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
@@ -83,6 +63,7 @@ internal class ProfileViewModel @Inject constructor(
     private val aiConnectionInteractor: AiConnectionInteractor,
     logger: Logger,
     dispatchersProvider: DispatchersProvider,
+    private val gameClient: GameClient,
 ) :
     BaseViewModel<State, Action>(
         logger = logger,
@@ -120,7 +101,7 @@ internal class ProfileViewModel @Inject constructor(
     private fun processContent(newContent: ContentModel?) {
         val newItems = screenState.items.mapNotNull {
             if (
-                it.type == SELECT_CONTENT &&
+                it.type == TypeProfile.SELECT_CONTENT &&
                 it is ValueItemProfileUiModel
             ) {
                 profileUiMapper.mapContentToValueItem(
@@ -156,7 +137,7 @@ internal class ProfileViewModel @Inject constructor(
     private fun processAiConnection(loadAiConnectionResult: LoadAiConnectionResult) {
         val newItems = screenState.items.mapNotNull {
             if (
-                it.type == AI_CONNECTION &&
+                it.type == TypeProfile.AI_CONNECTION &&
                 it is ValueItemProfileUiModel
             ) {
                 profileUiMapper.mapAiToValueItem(
@@ -212,70 +193,80 @@ internal class ProfileViewModel @Inject constructor(
     }
 
     private fun onProfileClicked(item: ProfileUiModel) = when (item.type) {
-        TRANSITION -> {
+        TypeProfile.TRANSITION -> {
             navigateToScreen(NavigationState.NavigateToTransition)
         }
 
-        PRO -> {
+        TypeProfile.PRO -> {
             navigateToProOnboarding()
         }
 
-        RESTORE_PURCHASE -> {
+        TypeProfile.RESTORE_PURCHASE -> {
             restorePurchases()
         }
 
-        RATE_APP -> {
+        TypeProfile.RATE_APP -> {
             navigateToScreen(NavigationState.NavigateToGooglePlay)
         }
 
-        SHARE -> {
+        TypeProfile.SHARE -> {
             navigateToScreen(NavigationState.NavigateToShare)
         }
 
-        OTHER_APPS -> {
+        TypeProfile.OTHER_APPS -> {
             navigateToScreen(NavigationState.NavigateToOtherApps)
         }
 
-        REPORT_ERROR -> {
+        TypeProfile.REPORT_ERROR -> {
             navigateToScreen(NavigationState.NavigateToExternalReportError)
         }
 
-        PRIVACY_POLICY -> {
+        TypeProfile.PRIVACY_POLICY -> {
             navigateToScreen(NavigationState.NavigateToPrivacyPolicy)
         }
 
-        TELEGRAM_SOCIAL -> openTelegram()
+        TypeProfile.TELEGRAM_SOCIAL -> openTelegram()
 
-        SELECT_CONTENT -> {
+        TypeProfile.SELECT_CONTENT -> {
             navigateToScreen(NavigationState.NavigateToContents)
         }
 
-        SORT_QUEST, VIBRATION, OPEN_SOURCE -> Unit
+        TypeProfile.SORT_QUEST, TypeProfile.VIBRATION, TypeProfile.OPEN_SOURCE -> Unit
 
-        SETTINGS_SECTION,
-        PURCHASES_SECTION,
-        PLEASE_US_SECTION,
-        FEEDBACK_SECTION,
-        SOCIAL_SECTION,
-        AI_SECTION,
-        NONE -> Unit
+        TypeProfile.SETTINGS_SECTION,
+        TypeProfile.PURCHASES_SECTION,
+        TypeProfile.PLEASE_US_SECTION,
+        TypeProfile.FEEDBACK_SECTION,
+        TypeProfile.SOCIAL_SECTION,
+        TypeProfile.AI_SECTION,
+        TypeProfile.PROFILE_HEADER,
+        TypeProfile.GAME_PROFILE_SECTION,
+        TypeProfile.NONE -> Unit
 
-        TASKS -> {
+        TypeProfile.TASKS -> {
             navigateToScreen(NavigationState.NavigateToTasks)
         }
 
-        AI_CONNECTION -> {
+        TypeProfile.PROGRESS_RATING -> {
+            navigateToScreen(NavigationState.NavigateToTotalRating)
+        }
+
+        TypeProfile.EXPERIENCE_RATING -> {
+            navigateToScreen(NavigationState.NavigateToExperienceRating)
+        }
+
+        TypeProfile.AI_CONNECTION -> {
             navigateToScreen(NavigationState.NavigateToAiSettings)
         }
     }
 
     private fun onProfileItemChecked(item: SwitchItemProfileUiModel, isChecked: Boolean) =
         when (item.type) {
-            SORT_QUEST -> {
+            TypeProfile.SORT_QUEST -> {
                 changeSwitch(item, isChecked) { optionsInteractor.isSortingQuest = isChecked }
             }
 
-            VIBRATION -> {
+            TypeProfile.VIBRATION -> {
                 changeSwitch(item, isChecked) { optionsInteractor.isVibration = isChecked }
             }
 
@@ -295,6 +286,10 @@ internal class ProfileViewModel @Inject constructor(
                     val isAiFeatureEnabled = featureManager.isFeatureEnabled(FeatureToggle.AI)
                     val isProEnabled = featureManager.isFeatureEnabled(FeatureToggle.PRO)
                     val isTelegramEnabled = featureManager.isFeatureEnabled(FeatureToggle.TELEGRAM)
+                    val isGameServicesEnabled = featureManager.isFeatureEnabled(
+                        FeatureToggle.GAME_SERVICES,
+                    ) && gameClient.isAvailable()
+
                     val telegramConfig = remoteConfigRepository.fetchTelegramConfig()
                     val contentTitle = contentInteractor.getSelectedContent()?.name
                     val isBasedOnPlatformApp = GlobalConfig.IS_BASED_ON_PLATFORM_APP
@@ -317,6 +312,7 @@ internal class ProfileViewModel @Inject constructor(
                         contentTitle = contentTitle,
                         isBasedOnPlatformApp = isBasedOnPlatformApp,
                         aiConnectionResult = aiConnectionResult,
+                        isGameServicesEnabled = isGameServicesEnabled,
                     )
                 },
                 catch = ::processDataError
@@ -332,6 +328,7 @@ internal class ProfileViewModel @Inject constructor(
         contentTitle: String?,
         isBasedOnPlatformApp: Boolean,
         aiConnectionResult: LoadAiConnectionResult,
+        isGameServicesEnabled: Boolean,
     ) {
         screenState = screenState.copy(
             isProFeatureEnabled = isProEnabled,
@@ -350,6 +347,7 @@ internal class ProfileViewModel @Inject constructor(
                 isAiFeatureEnabled = isAiFeatureEnabled,
                 currentAiTitle = aiConnectionResult.currentAiConnection?.name,
                 isAiEnabled = aiConnectionResult.isAiEnabled,
+                isGamesServicesEnabled = isGameServicesEnabled,
             ),
             isWarning = false,
             isLoading = false

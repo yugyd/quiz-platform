@@ -16,6 +16,8 @@
 
 package com.yugyd.quiz.domain.game
 
+import com.yugyd.quiz.core.GameServicesIdProvider
+import com.yugyd.quiz.core.coroutinesutils.AppScopeProvider
 import com.yugyd.quiz.core.coroutinesutils.DispatchersProvider
 import com.yugyd.quiz.domain.aitasks.AiTasksInteractor
 import com.yugyd.quiz.domain.api.model.Mode
@@ -43,6 +45,10 @@ import com.yugyd.quiz.domain.game.exception.RewardedGameException
 import com.yugyd.quiz.domain.game.model.GameState
 import com.yugyd.quiz.domain.game.quest.QuestInteractorHolder
 import com.yugyd.quiz.domain.utils.SeparatorParser
+import com.yugyd.quiz.featuretoggle.domain.FeatureManager
+import com.yugyd.quiz.featuretoggle.domain.model.FeatureToggle
+import com.yugyd.quiz.game.api.GameClient
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
@@ -61,6 +67,10 @@ internal class GameInteractorImpl @Inject constructor(
     private val dispatcherProvider: DispatchersProvider,
     private val favoritesSource: FavoritesSource,
     private val aiTasksInteractor: AiTasksInteractor,
+    private val gameClient: GameClient,
+    private val gameServicesIdProvider: GameServicesIdProvider,
+    private val featureManager: FeatureManager,
+    private val appScopeProvider: AppScopeProvider,
 ) : GameInteractor {
 
     private lateinit var payload: GamePayload
@@ -178,6 +188,12 @@ internal class GameInteractorImpl @Inject constructor(
         )
 
         saveData(gameMode)
+
+        if (featureManager.isFeatureEnabled(FeatureToggle.GAME_SERVICES)) {
+            appScopeProvider.ioScope.launch {
+                saveScoreInGameServices(gameMode)
+            }
+        }
 
         updateController()
 
@@ -441,6 +457,30 @@ internal class GameInteractorImpl @Inject constructor(
     private fun isSavedRecordMode(mode: Mode) = when (mode) {
         Mode.ARCADE, Mode.TRAIN -> true
         Mode.ERROR, Mode.FAVORITE, Mode.AI_TASKS, Mode.NONE -> false
+    }
+
+    private suspend fun saveScoreInGameServices(mode: Mode) {
+        gameClient.getAndSubmitScore(
+            leaderboardId = gameServicesIdProvider.gameExperienceLeaderboard(),
+            score = point.toLong(),
+        )
+
+        when (mode) {
+            Mode.ARCADE, Mode.TRAIN -> {
+                val allQuestIds = questSource.getQuestIds().toIntArray()
+
+                val sections = sectionSource.getAll().count(allQuestIds::contains)
+                val train = trainSource.getAll().count(allQuestIds::contains)
+
+                val newRecord = sections + train
+                gameClient.submitTotalScore(
+                    leaderboardId = gameServicesIdProvider.gameWalkthroughLeaderboard(),
+                    score = newRecord.toLong(),
+                )
+            }
+
+            Mode.ERROR, Mode.FAVORITE, Mode.AI_TASKS, Mode.NONE -> Unit
+        }
     }
 
     private suspend fun updateController() = withContext(dispatcherProvider.main) {

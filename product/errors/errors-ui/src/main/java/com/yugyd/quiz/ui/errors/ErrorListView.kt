@@ -33,6 +33,11 @@ internal interface ErrorListView {
         sealed interface NavigationState {
             object Back : NavigationState
             data class NavigateToExternalBrowser(val url: String) : NavigationState
+            data class NavigateToAiScreen(
+                val prompt: String,
+                val fallbackWebLink: String,
+                val title: String,
+            ) : NavigationState
         }
     }
 

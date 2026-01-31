@@ -35,8 +35,8 @@ def isReleaseKeystoreExists = rootProject.file("upload.jks").exists()
 android {
     defaultConfig {
         applicationId "com.yugyd.quiz"
-        versionCode 45
-        versionName "1.1.0"
+        versionCode 52
+        versionName "2.4.1"
         buildToolsVersion "36.1.0"
 
         // Replace with your resource
@@ -44,6 +44,10 @@ android {
         buildConfigField 'String', 'STORE_PACKAGE', "\"com.android.vending\""
 
         buildConfigField 'String', 'AD_PROVIDER', "\"yandex\""
+
+        buildConfigField 'String', 'PRO_APP_PACKAGE', "\"DEPRECATED\""
+        // App use predefined database from assets
+        buildConfigField 'boolean', 'IS_BASED_ON_PLATFORM_APP', "false"
     }
 
     signingConfigs {
@@ -91,10 +95,6 @@ android {
             dimension "version"
             applicationId "com.yugyd.quiz"
 
-            buildConfigField 'String', 'PRO_APP_PACKAGE', "\"DEPRECATED\""
-            // App use predefined database from assets
-            buildConfigField 'boolean', 'IS_BASED_ON_PLATFORM_APP', "false"
-
             if (isGoogleServicesExists) {
                 firebaseAppDistribution {
                     appId = providers.environmentVariable('FIREBASE_APP_ID').getOrNull()
@@ -108,6 +108,12 @@ android {
     }
 
     namespace 'com.yugyd.quiz'
+
+    packaging {
+        resources {
+            excludes += "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
+        }
+    }
 }
 
 dependencies {
@@ -119,6 +125,7 @@ dependencies {
     implementation project(':product:core:featuretoggle')
     implementation project(':product:core')
     implementation project(':product:services:push')
+    implementation project(':product:services:gameservices-impl')
     implementation project(':product:shared:domain-api')
     implementation project(':product:options:options-bl')
     implementation project(':product:update:update-bl')

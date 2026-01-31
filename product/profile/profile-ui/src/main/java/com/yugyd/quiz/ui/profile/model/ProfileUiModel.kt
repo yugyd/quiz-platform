@@ -16,8 +16,7 @@
 
 package com.yugyd.quiz.ui.profile.model
 
-import com.yugyd.quiz.commonui.list.DiffItem
-
-internal sealed interface ProfileUiModel : DiffItem {
+internal sealed interface ProfileUiModel {
+    val id: String
     val type: TypeProfile
 }

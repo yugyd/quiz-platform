@@ -45,6 +45,10 @@
             android:name="com.yandex.mobile.ads.AUTOMATIC_SDK_INITIALIZATION"
             android:value="false" />
 
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/id_game_app" />
+
     </application>
 
 </manifest>

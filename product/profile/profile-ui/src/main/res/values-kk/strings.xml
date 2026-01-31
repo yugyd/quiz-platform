@@ -9,6 +9,9 @@
     <string name="profile_title_sorting_quest">Сұрақтарды сұрыптау</string>
     <string name="profile_title_vibration">Діріл</string>
     <string name="profile_tasks">Тапсырмалар</string>
+    <string name="profile_title_game_profile">Ойын профилі</string>
+    <string name="profile_rating">Рейтинг</string>
+    <string name="profile_rating_progress">Прогресс рейтингі</string>
     <string name="profile_content_banner_title">Quiz-Platform</string>
     <string name="profile_content_banner_subtitle">Қосымша Quiz-Platform атты ашық бастапқы кодты шешім негізінде жасалған. Платформаны GitHub-та бағаласаңыз қуанышты боламыз.</string>
     <string name="profile_content_banner_rate">Бағалау</string>

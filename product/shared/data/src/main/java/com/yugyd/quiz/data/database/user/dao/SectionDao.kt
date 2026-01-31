@@ -29,6 +29,9 @@ interface SectionDao {
     @Query("SELECT * FROM section")
     suspend fun getAll(): List<SectionEntity>
 
+    @Query("SELECT _id FROM section")
+    suspend fun getAllIds(): List<Int>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(sections: List<SectionEntity>)
 

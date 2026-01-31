@@ -41,21 +41,25 @@ internal fun CommonExtension<*, *, *, *, *, *>.configureCompose(target: Project)
 
 private fun configureComposeReports(target: Project) {
     target.tasks.withType(KotlinCompile::class.java).configureEach {
-        kotlinOptions {
+        compilerOptions {
             val buildDir = target.layout.buildDirectory.get().asFile
             val composeReportsFolder = buildDir.resolve("compose_compiler")
 
-            if (project.findProperty("composeCompilerReports") == "true") {
-                freeCompilerArgs = freeCompilerArgs + getComposeCompilerProperty(
-                    arg = "reportsDestination",
-                    path = composeReportsFolder.absolutePath
+            if (target.findProperty("composeCompilerReports") == "true") {
+                freeCompilerArgs.addAll(
+                    getComposeCompilerProperty(
+                        arg = "reportsDestination",
+                        path = composeReportsFolder.absolutePath
+                    )
                 )
             }
 
-            if (project.findProperty("composeCompilerMetrics") == "true") {
-                freeCompilerArgs = freeCompilerArgs + getComposeCompilerProperty(
-                    arg = "metricsDestination",
-                    path = composeReportsFolder.absolutePath
+            if (target.findProperty("composeCompilerMetrics") == "true") {
+                freeCompilerArgs.addAll(
+                    getComposeCompilerProperty(
+                        arg = "metricsDestination",
+                        path = composeReportsFolder.absolutePath
+                    )
                 )
             }
         }

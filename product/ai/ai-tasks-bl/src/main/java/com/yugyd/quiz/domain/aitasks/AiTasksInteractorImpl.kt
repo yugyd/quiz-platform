@@ -16,6 +16,7 @@
 
 package com.yugyd.quiz.domain.aitasks
 
+import com.yugyd.quiz.core.GlobalConfig
 import com.yugyd.quiz.core.coroutinesutils.DispatchersProvider
 import com.yugyd.quiz.domain.aitasks.data.AiTasksModel
 import com.yugyd.quiz.domain.game.api.model.Quest
@@ -70,6 +71,13 @@ internal class AiTasksInteractorImpl @Inject constructor(
 
     override fun subscribeToAiTasks(aiThemeId: Int): Flow<List<AiTaskModel>> {
         return getAiTasks(aiThemeId = aiThemeId)
+    }
+
+    override fun generateAiPromptForErrorTask(quest: String, trueAnswer: String): String {
+        return "Explain why the answer '$trueAnswer' is correct for the question: $quest." +
+                "Translate the explanation into ${GlobalConfig.LOCALE_CODE}." +
+                "There should always be a question and a complete correct answer at the beginning." +
+                "Use markdown formatting."
     }
 
     private fun getAiTasks(aiThemeId: Int) = aiTasksInMemorySource

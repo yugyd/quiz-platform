@@ -21,11 +21,14 @@ import com.yugyd.quiz.commonui.base.BaseViewModel
 import com.yugyd.quiz.core.Logger
 import com.yugyd.quiz.core.coroutinesutils.DispatchersProvider
 import com.yugyd.quiz.core.runCatch
+import com.yugyd.quiz.domain.aiconnection.AiConnectionInteractor
 import com.yugyd.quiz.domain.aitasks.AiTasksInteractor
 import com.yugyd.quiz.domain.api.model.Mode
 import com.yugyd.quiz.domain.api.model.tasks.TaskModel
 import com.yugyd.quiz.domain.errors.ErrorInteractor
 import com.yugyd.quiz.domain.favorites.FavoritesInteractor
+import com.yugyd.quiz.featuretoggle.domain.FeatureManager
+import com.yugyd.quiz.featuretoggle.domain.model.FeatureToggle
 import com.yugyd.quiz.ui.errors.ErrorListView.Action
 import com.yugyd.quiz.ui.errors.ErrorListView.State
 import com.yugyd.quiz.ui.errors.ErrorListView.State.NavigationState
@@ -39,6 +42,8 @@ internal class ErrorListViewModel @Inject constructor(
     private val errorInteractor: ErrorInteractor,
     private val favoritesInteractor: FavoritesInteractor,
     private val aiTasksInteractor: AiTasksInteractor,
+    private val aiConnectionInteractor: AiConnectionInteractor,
+    private val featureManager: FeatureManager,
     logger: Logger,
     dispatchersProvider: DispatchersProvider,
 ) :
@@ -75,9 +80,29 @@ internal class ErrorListViewModel @Inject constructor(
     }
 
     private fun onErrorClicked(item: TaskModel) {
-        screenState = screenState.copy(
-            navigationState = NavigationState.NavigateToExternalBrowser(item.queryLink),
-        )
+        vmScopeErrorHandled.launch {
+            if (
+                featureManager.isFeatureEnabled(FeatureToggle.AI_ASSISTANT) &&
+                aiConnectionInteractor.isActiveAiConnection()
+            ) {
+                val prompt = aiTasksInteractor.generateAiPromptForErrorTask(
+                    quest = item.quest,
+                    trueAnswer = item.trueAnswer,
+                )
+
+                screenState = screenState.copy(
+                    navigationState = NavigationState.NavigateToAiScreen(
+                        prompt = prompt,
+                        fallbackWebLink = item.queryLink,
+                        title = item.quest,
+                    )
+                )
+            } else {
+                screenState = screenState.copy(
+                    navigationState = NavigationState.NavigateToExternalBrowser(item.queryLink),
+                )
+            }
+        }
     }
 
     private fun loadData() {

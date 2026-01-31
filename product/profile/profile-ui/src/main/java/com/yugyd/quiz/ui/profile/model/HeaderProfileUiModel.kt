@@ -21,8 +21,8 @@ import androidx.compose.ui.graphics.Color
 import com.yugyd.quiz.uikit.theme.app_color_neutral
 
 internal data class HeaderProfileUiModel(
-    override val id: Int = 0,
     override val type: TypeProfile = TypeProfile.NONE,
+    override val id: String = type.toString(),
     val appName: String = "",
     @DrawableRes val appIcon: Int = 0,
     val versionTitle: String = "",

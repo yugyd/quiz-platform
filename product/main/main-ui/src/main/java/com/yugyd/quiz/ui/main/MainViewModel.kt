@@ -20,6 +20,7 @@ import com.yugyd.quiz.commonui.base.BaseViewModel
 import com.yugyd.quiz.core.ContentProvider
 import com.yugyd.quiz.core.GlobalConfig
 import com.yugyd.quiz.core.Logger
+import com.yugyd.quiz.core.coroutinesutils.AppScopeProvider
 import com.yugyd.quiz.core.coroutinesutils.DispatchersProvider
 import com.yugyd.quiz.domain.api.payload.OnboardingPayload
 import com.yugyd.quiz.domain.content.ContentInteractor
@@ -28,6 +29,7 @@ import com.yugyd.quiz.domain.update.UpdateInteractor
 import com.yugyd.quiz.featuretoggle.domain.FeatureManager
 import com.yugyd.quiz.featuretoggle.domain.RemoteConfigRepository
 import com.yugyd.quiz.featuretoggle.domain.model.FeatureToggle
+import com.yugyd.quiz.game.api.GameClient
 import com.yugyd.quiz.ui.main.MainView.Action
 import com.yugyd.quiz.ui.main.MainView.State
 import com.yugyd.quiz.ui.main.MainView.State.NavigationState
@@ -45,6 +47,8 @@ internal class MainViewModel @Inject constructor(
     private val updateInteractor: UpdateInteractor,
     private val contentInteractor: ContentInteractor,
     logger: Logger,
+    private val appScopeProvider: AppScopeProvider,
+    private val gameClient: GameClient,
     dispatchersProvider: DispatchersProvider,
 ) :
     BaseViewModel<State, Action>(
@@ -55,6 +59,7 @@ internal class MainViewModel @Inject constructor(
 
     init {
         loadData()
+        authGameServices()
     }
 
     override fun handleAction(action: Action) {
@@ -203,6 +208,16 @@ internal class MainViewModel @Inject constructor(
                 showOnboarding = true,
                 onboardingPayload = payload,
             )
+        }
+    }
+
+    private fun authGameServices() {
+        appScopeProvider.ioScope.launch {
+            if (featureManager.isFeatureEnabled(FeatureToggle.GAME_SERVICES)) {
+                if (!gameClient.isAuthenticated()) {
+                    gameClient.signIn()
+                }
+            }
         }
     }
 }

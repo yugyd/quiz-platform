@@ -35,7 +35,8 @@ internal class ProfilePreviewParameterProvider : PreviewParameterProvider<List<P
             buildList {
                 add(
                     HeaderProfileUiModel(
-                        id = -1,
+                        id = TypeProfile.PROFILE_HEADER.toString(),
+                        type = TypeProfile.PROFILE_HEADER,
                         appName = "App name",
                         appIcon = UiKitR.drawable.ic_account_circle,
                         versionTitle = "Version title",
@@ -44,20 +45,20 @@ internal class ProfilePreviewParameterProvider : PreviewParameterProvider<List<P
                 )
                 add(
                     SectionProfileUiModel(
-                        id = TypeProfile.FEEDBACK_SECTION.id,
+                        id = TypeProfile.FEEDBACK_SECTION.toString(),
                         title = "Section title",
                     )
                 )
                 add(
                     SelectItemProfileUiModel(
-                        id = TypeProfile.RATE_APP.id,
+                        id = TypeProfile.RATE_APP.toString(),
                         type = TypeProfile.RATE_APP,
                         title = "Select item",
                     )
                 )
                 add(
                     ValueItemProfileUiModel(
-                        id = TypeProfile.TRANSITION.id,
+                        id = TypeProfile.TRANSITION.toString(),
                         type = TypeProfile.TRANSITION,
                         title = "Value item",
                         value = "Value",
@@ -65,7 +66,7 @@ internal class ProfilePreviewParameterProvider : PreviewParameterProvider<List<P
                 )
                 add(
                     SwitchItemProfileUiModel(
-                        id = TypeProfile.VIBRATION.id,
+                        id = TypeProfile.VIBRATION.toString(),
                         type = TypeProfile.VIBRATION,
                         title = "Switch item",
                         isChecked = true
@@ -73,7 +74,7 @@ internal class ProfilePreviewParameterProvider : PreviewParameterProvider<List<P
                 )
                 add(
                     SocialItemProfileUiModel(
-                        id = TypeProfile.TELEGRAM_SOCIAL.id,
+                        id = TypeProfile.TELEGRAM_SOCIAL.toString(),
                         type = TypeProfile.TELEGRAM_SOCIAL,
                         title = "Telegram title",
                         message = "Telegram message",

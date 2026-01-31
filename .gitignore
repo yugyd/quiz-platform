@@ -111,3 +111,4 @@ lint/tmp/
 /.idea/detekt.xml
 /.idea/deviceManager.xml
 /.idea/runConfigurations.xml
+/.idea/markdown.xml

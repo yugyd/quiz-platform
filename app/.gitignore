@@ -3,3 +3,7 @@
 /src/**/res/values/ad-ids.xml
 !src/main/res/values/ad-ids.xml
 !src/dev/res/values/ad-ids.xml
+
+/src/**/res/values/game-ids.xml
+!src/main/res/values/game-ids.xml
+!src/dev/res/values/game-ids.xml

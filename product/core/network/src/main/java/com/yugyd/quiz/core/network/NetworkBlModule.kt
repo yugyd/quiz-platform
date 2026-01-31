@@ -27,6 +27,23 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.kotlinx.serialization.asConverterFactory
 import java.util.concurrent.TimeUnit
+import javax.inject.Qualifier
+
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class OpenAiOkHttpClient
+
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class YandexOkHttpClient
+
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class OpenAiRetrofit
+
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class YandexRetrofit
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -34,6 +51,10 @@ object NetworkBlModule {
 
     private const val URL = "https://www.replaceme.com/api/"
     private const val TIMEOUT = 45L
+
+    private const val OPENAI_BASE_URL = "https://api.openai.com/v1/"
+    private const val YANDEX_BASE_URL =
+        "https://llm.api.cloud.yandex.net/foundationModels/v1/"
 
     @Provides
     internal fun provideRetrofit(
@@ -60,6 +81,64 @@ object NetworkBlModule {
             .connectTimeout(TIMEOUT, TimeUnit.SECONDS)
             .readTimeout(TIMEOUT, TimeUnit.SECONDS)
             .writeTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .build()
+    }
+
+    @Provides
+    @OpenAiOkHttpClient
+    internal fun provideOpenAiOkHttpClient(): OkHttpClient {
+        return OkHttpClient.Builder()
+            .addInterceptor(
+                HttpLoggingInterceptor().apply {
+                    level = HttpLoggingInterceptor.Level.BODY
+                }
+            )
+            .callTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .connectTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .readTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .writeTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .build()
+    }
+
+    @Provides
+    @YandexOkHttpClient
+    internal fun provideYandexOkHttpClient(): OkHttpClient {
+        return OkHttpClient.Builder()
+            .addInterceptor(
+                HttpLoggingInterceptor().apply {
+                    level = HttpLoggingInterceptor.Level.BODY
+                }
+            )
+            .callTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .connectTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .readTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .writeTimeout(TIMEOUT, TimeUnit.SECONDS)
+            .build()
+    }
+
+    @Provides
+    @OpenAiRetrofit
+    internal fun provideOpenAiRetrofit(
+        json: Json,
+        @OpenAiOkHttpClient client: OkHttpClient,
+    ): Retrofit {
+        return Retrofit.Builder()
+            .baseUrl(OPENAI_BASE_URL)
+            .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
+            .client(client)
+            .build()
+    }
+
+    @Provides
+    @YandexRetrofit
+    internal fun provideYandexRetrofit(
+        json: Json,
+        @YandexOkHttpClient client: OkHttpClient,
+    ): Retrofit {
+        return Retrofit.Builder()
+            .baseUrl(YANDEX_BASE_URL)
+            .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
+            .client(client)
             .build()
     }
 }

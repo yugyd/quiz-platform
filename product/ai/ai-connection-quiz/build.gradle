@@ -18,6 +18,7 @@ dependencies {
     implementation project(":product:core:coroutines-utils")
     implementation project(':product:services:remoteconfig-api')
     implementation project(':product:core')
+    implementation project(':product:core:featuretoggle')
 
     // Kotlin
     implementation libs.kotlinx.coroutines.android

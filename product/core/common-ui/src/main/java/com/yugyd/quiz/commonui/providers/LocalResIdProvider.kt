@@ -40,4 +40,12 @@ private class DefaultResIdProvider : ResIdProvider {
     override fun msgProAdBannerString(): TextModel {
         throw IllegalStateException("Res not created in default factory")
     }
+
+    override fun gameExperienceLeaderboard(): Int {
+        throw IllegalStateException("Res not created in default factory")
+    }
+
+    override fun gameWalkthroughLeaderboard(): Int {
+        throw IllegalStateException("Res not created in default factory")
+    }
 }

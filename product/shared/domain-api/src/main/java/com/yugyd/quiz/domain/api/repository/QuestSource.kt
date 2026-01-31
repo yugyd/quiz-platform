@@ -24,6 +24,8 @@ interface QuestSource {
 
     suspend fun getQuests(): List<Quest>
 
+    suspend fun getQuestIds(): List<Int>
+
     suspend fun getQuestIds(themeId: Int, isSort: Boolean = false): List<Int>
 
     suspend fun getQuestIdsBySection(

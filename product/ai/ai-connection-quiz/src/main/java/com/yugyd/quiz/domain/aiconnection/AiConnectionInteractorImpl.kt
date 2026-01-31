@@ -23,7 +23,10 @@ import com.yugyd.quiz.ai.connection.api.model.NewAiConnectionModel
 import com.yugyd.quiz.ai.connection.api.model.UpdateAiConnectionModel
 import com.yugyd.quiz.core.coroutinesutils.DispatchersProvider
 import com.yugyd.quiz.domain.aiconnection.model.AiTermCache
+import com.yugyd.quiz.featuretoggle.domain.FeatureManager
+import com.yugyd.quiz.featuretoggle.domain.model.FeatureToggle
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.withContext
@@ -36,10 +39,13 @@ internal class AiConnectionInteractorImpl @Inject constructor(
     private val dispatcherProvider: DispatchersProvider,
     private val aiRemoteConfigSource: AiRemoteConfigSource,
     private val aiSettingsLocalSource: AiSettingsLocalSource,
+    private val featureManager: FeatureManager,
 ) : AiConnectionInteractor {
 
     override suspend fun isActiveAiConnection() = withContext(dispatcherProvider.io) {
-        aiConnectionClient.isActiveAiConnection()
+        featureManager.isFeatureEnabled(FeatureToggle.AI) &&
+                aiSettingsLocalSource.subscribeToAiEnabled().first() &&
+                aiConnectionClient.isActiveAiConnection()
     }
 
     override suspend fun subscribeCurrentAiConnection(): Flow<AiConnectionModel?> {

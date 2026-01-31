@@ -1,0 +1,56 @@
+/*
+ * Copyright 2025 Roman Likhachev
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+plugins {
+    alias(libs.plugins.convention.library)
+    alias(libs.plugins.convention.library.buildtype)
+    alias(libs.plugins.convention.library.compose)
+    alias(libs.plugins.convention.library.jacoco)
+    alias(libs.plugins.convention.library.lint)
+    alias(libs.plugins.convention.library.test)
+    alias(libs.plugins.convention.hilt)
+}
+
+android {
+    namespace 'com.yugyd.quiz.ui.errors'
+}
+
+dependencies {
+    // Module
+    implementation project(':product:core')
+    implementation project(':product:core:coroutines-utils')
+    implementation project(':product:core:common-ui')
+    implementation project(':product:core:navigation')
+    implementation project(':product:designsystem:uikit')
+    implementation project(':product:errors:errors-bl')
+    implementation project(':product:shared:domain-api')
+    implementation project(':product:favorites:favorites-bl')
+    implementation project(':product:favorites:favorites-ui')
+    implementation project(':product:ai:aiclient-bl')
+    implementation project(':product:ai:ai-connection-quiz')
+
+    // UI - Compose
+    implementation libs.compose.material3
+    implementation libs.compose.material.icons
+    implementation libs.compose.viewmodel
+    implementation libs.compose.lifecycle
+    // Navigation
+    implementation libs.compose.hilt.navigation
+
+    // Third-Party
+    implementation libs.markdown.compose.android
+    implementation libs.markdown.compose.m3
+}

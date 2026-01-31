@@ -30,4 +30,6 @@ internal class ResIdProviderImpl @Inject constructor() : ResIdProvider {
     override fun appTelegramChat() = R.string.main_app_telegram_chat_name
     override fun msgProAdBannerString() = TextModel.ResTextModel(res = msgProAdBanner())
     override fun appPrivacyPolicyLink() = R.string.app_privacy_policy_link
+    override fun gameExperienceLeaderboard() = R.string.id_game_experience_league_leaderboard
+    override fun gameWalkthroughLeaderboard() = R.string.id_game_walkthrough_league_leaderboard
 }

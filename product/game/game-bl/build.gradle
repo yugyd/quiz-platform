@@ -27,6 +27,9 @@ dependencies {
     implementation project(':product:game:selectquest-bl')
     implementation project(':product:game:enteraiquest-bl')
     implementation project(':product:ai:ai-tasks-bl')
+    implementation project(':product:services:gameservices-api')
+    implementation project(':product:core')
+    implementation project(':product:core:featuretoggle')
 
     // Kotlin
     implementation libs.kotlinx.coroutines.android

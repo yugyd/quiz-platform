@@ -1,0 +1,3 @@
+config:
+  moduleDescription: "Error List screen. Displays the mistakes made by the user during the game. The screen consists of the following components: 1. A basic toolbar. 2. A list of errors, each item containing the question, correct answer, and a favorite icon."
+  excludeTranslated: true

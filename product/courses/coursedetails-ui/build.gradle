@@ -23,6 +23,7 @@ dependencies {
     implementation project(':product:shared:domain-api')
     implementation project(':product:core:featuretoggle')
     implementation project(':product:ai:ai-tasks-bl')
+    implementation project(':product:ai:ai-quiz-bl')
 
     // UI - Compose
     implementation libs.compose.material3
